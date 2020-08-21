@@ -1,0 +1,30 @@
+<div id="mySimpleTemplate" class="myTemplate" data-type="text/x-handlebars-template">
+    <div>
+        <header>
+            <span style="font-weight: bold; font-size: 24px; float: left; display: inline; padding:16px">
+                Sales Order Items Details
+            </span>
+        </header>
+    </div>
+    <div style="clear:both;">
+    </div>
+    <hr>
+
+    <table width="100%" style="padding: 1rem;">
+      <tr>
+        <th>ID</th>
+        <th align="center">Net Amount</th>
+        <th align="right" >Quantity</th>
+      </tr>
+        {{#each dataSets.[1].data.d.results}}
+      <tr>
+        <td>{{ProductId}}</td>
+        <td align="center">{{NetAmount}} {{CurrencyCode}}</td>
+        <td align="right">{{Quantity}} {{QuantityUnit}}</td>
+       </tr>
+      <tr>
+
+    {{/each}}
+    </table>
+
+</div>

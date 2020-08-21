@@ -1,0 +1,90 @@
+<div id="mySimpleTemplate" data-type="text/x-handlebars-template">
+    <div class="myTemplate" style="padding:16px;">
+    <h1> Card Details </h1>
+        <div style="display: inline-block;">
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    Base Unit
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{d.results.[0].DimensionUnit}}
+                </span>
+            </div>
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    Width
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{d.results.[0].DimensionWidth}}
+                        {{d.results.[0].DimensionUnit}}
+                </span>
+            </div>
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px;">
+                    Weight
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{d.results.[0].Weight}}
+                        {{d.results.[0].WeightUnit}}
+                </span>
+            </div>
+        </div>
+        <div style="display: inline-block; position: absolute ; left: 200px;">
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    Height
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{d.results.[0].DimensionHeight}}
+                        {{d.results.[0].DimensionUnit}}
+                </span>
+            </div>
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    Depth
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{d.results.[0].DimensionDepth}}
+                        {{d.results.[0].DimensionUnit}}
+                </span>
+            </div>
+            <div class="listitem">
+                <span style="font-weight:normal;float:left;font-size:12px">
+                    Supplier Country
+                </span>
+                <br>
+                <span class="listitem-value">
+                    {{d.results.[0].SupplierDetails.Country}}
+                </span>
+            </div>
+        </div>
+        <br>
+        <div class="listitem" style="padding-top: 28px;">
+            <span style="font-weight:normal;float:left;font-size:12px">
+                Supplier Email
+            </span>
+            <br>
+            <span class="listitem-value">
+                {{d.results.[0].SupplierDetails.EmailAddress}}
+            </span>
+        </div>
+        <div class="listitem">
+            <span style="font-weight:normal;float:left;font-size:12px">
+                Supplier Address
+            </span>
+            <br>
+            <span class="listitem-value">
+                {{d.results.[0].SupplierDetails.Street}}
+                    {{d.results.[0].SupplierDetails.HouseNumber}}
+                <br>
+                    {{d.results.[0].SupplierDetails.PostalCode}}
+                        {{d.results.[0].SupplierDetails.City}}, {{d.results.[0].SupplierDetails.Country}}
+            </span>
+        </div>
+    </div>
+</div>

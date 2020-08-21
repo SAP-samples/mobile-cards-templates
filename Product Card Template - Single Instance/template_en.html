@@ -1,0 +1,91 @@
+
+<body>
+    <div id="mySimpleTemplate" class="myTemplate" data-type="text/x-handlebars-template">
+        <div class="header" style="height: 30px">
+            <div style="text-align: left;">
+                <span style="font-weight: bold; font-size: 24px; float: left; color: #5f799b; display: inline; padding-top: 8px">
+                    {{d.results.[0].Name}}
+                </span>
+                <div style="float: right;">
+                <span style="display: block; padding-top: 10px; padding-right:10px;">
+                    <img src="{{d.results.[0].PictureUrl}}" alt="" style=" width: 90px; height: 90px;">
+                </span>
+                <span style="clear: right; display: block; font-size: 16px; color: #5f711b; padding-top: 4px;">
+                    {{d.results.[0].Price}} {{d.results.[0].CurrencyCode}}
+                </span>
+            </div>
+            </div>
+        </div>
+        <br>
+        <div class="card-content">
+            <div class="listitem">
+                <div class="listitem-label">
+                    <span>
+                        Category <br>
+                    </span>
+                </div>
+                <br>
+                <div class="listitem-availability">
+                    <span>
+                        {{d.results.[0].Category}} <br>
+                    </span>
+                </div>
+            </div>
+
+            <div class="listitem">
+                <div class="listitem-label">
+                    <span>
+                        Supplier
+                    </span>
+                </div>
+                <br>
+                <div class="listitem-value">
+                    <span>
+                        {{d.results.[0].SupplierDetails.SupplierName}}
+                    </span>
+                </div>
+            </div>
+            <div class="listitem">
+                <div class="listitem-label">
+                    <span>
+                        Availability
+                    </span>
+                </div>
+                <br>
+                <div class="listitem-availability">
+                    <span>
+                        {{d.results.[0].StockDetails.Quantity}}
+                    </span>
+                </div>
+            </div>
+            <div class="listitem">
+                <div class="listitem-label">
+                    <span>
+                        Product Description
+                    </span>
+                </div>
+                <br>
+                <div class="listitem-value">
+                    <span id="description">
+                        {{d.results.[0].LongDescription}}
+                    </span>
+                </div>
+            </div>
+            <br>
+            <br>
+            <div class="listitem">
+                <div class="listitem-label">
+                    <span>
+                        ProductID               
+                    </span>
+                </div>
+            <br>
+                <div class="listitem-value">
+                    <span id="description">
+                        {{d.results.[0].ProductId}}
+                    </span>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>

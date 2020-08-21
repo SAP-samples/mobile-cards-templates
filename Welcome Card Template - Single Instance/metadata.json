@@ -1,0 +1,67 @@
+{
+	"Name": "WelcomeCard",
+	"GroupName": "None",
+	"SortCardsWith": null,
+	"GatekeeperConfiguration": null,
+	"Connection": null,
+	"RefreshType": "upToDate",
+	"CustomType": "Welcome",
+	"AppLaunchUrl": null,
+	"UrlMatch": null,
+	"Descriptions": [
+		{
+			"language": "EN",
+			"text": ""
+		}
+	],
+	"QueryURL": null,
+	"CollectionType": null,
+	"QueryReturnsEntityCollection": false,
+	"NewsEnabled": false,
+	"AutoSubscribe": true,
+	"HiddenSubscription": false,
+	"SubscriptionParameters": [],
+	"ResourceIdentifiers": [
+		{
+			"ImagePaths": "",
+			"Uri": "",
+			"Order": 0,
+			"Shared": true
+		}
+	],
+	"Parameters": {
+		"Parameters": []
+	},
+	"APNSEnabled": true,
+	"NotificationMessages": {
+		"Messages": []
+	},
+	"NotificationRules": [],
+	"ActionConfiguration": {
+		"Category": "14358CEB-1202-4F42-89EB-C63E7ACD4E03",
+		"BehaviorAfterAction": "INACTIVE",
+		"XCSRFTokenUrl": "",
+		"Actions": []
+	},
+	"CustomRequestProperties": {
+		"RequestHttpMethod": "GET",
+		"RequestBody": "",
+		"RequestHeaders": []
+	},
+	"CardClass": "HtmlTemplate",
+	"SubscribableTo": {
+		"Users": []
+	},
+	"//TemplateName:": "('HTML Template')",
+	"TemplateName": "User defined template",
+	"Locked": false,
+	"@odata.context": "https://hcpmscards.hanatrial.ondemand.com/v2/admin/odata/$metadata#CardTypeSet/$entity",
+	"@odata.type": "#com.sap.mobile.platform.server.content2go.admin.v2.CardType",
+	"DevelopmentStatus": "Development",
+	"HighAvailability": false,
+	"LastModifiedBy": "sfadmin",
+	"changedNotification": "",
+	"newNotification": "",
+	"templateName": "User defined template",
+	"showDataPanel": false
+}

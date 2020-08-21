@@ -1,0 +1,294 @@
+{
+	"dataSets": [
+		{
+			"resourceIdentifier": "SalesOrderHeaders('9AD82F55-DE96-4777-AFAE-3A02EBABB245')",
+			"data": {
+				"d": {
+					"CreatedAt": "/Date(1528994068446)/",
+					"CurrencyCode": "EUR",
+					"CustomerDetails": {
+						"Address": null,
+						"City": "Berlin",
+						"Country": "DE",
+						"CustomerId": "79F57743-A752-4C12-B491-817CD500AC8F",
+						"DateOfBirth": "/Date(946684800000)/",
+						"EmailAddress": "dagmar.schulze@beckerberlin.de",
+						"FirstName": "Ursula",
+						"HouseNumber": "127",
+						"LastName": "Wexler",
+						"PhoneNumber": "3088530",
+						"PostalCode": "13467",
+						"SalesOrders": {
+							"__deferred": {
+								"uri": "Customers('79F57743-A752-4C12-B491-817CD500AC8F')/SalesOrders"
+							}
+						},
+						"Street": "Zabel-Krüger-Damm",
+						"UpdatedTimestamp": null,
+						"__metadata": {
+							"id": "Customers('79F57743-A752-4C12-B491-817CD500AC8F')",
+							"uri": "Customers('79F57743-A752-4C12-B491-817CD500AC8F')"
+						}
+					},
+					"CustomerId": "79F57743-A752-4C12-B491-817CD500AC8F",
+					"GrossAmount": "3185.630",
+					"Items": {
+						"__deferred": {
+							"uri": "SalesOrderHeaders('9AD82F55-DE96-4777-AFAE-3A02EBABB245')/Items"
+						}
+					},
+					"LifeCycleStatus": "N",
+					"LifeCycleStatusName": "New",
+					"NetAmount": "2677.000",
+					"SalesOrderId": "9AD82F55-DE96-4777-AFAE-3A02EBABB245",
+					"TaxAmount": "508.630",
+					"__metadata": {
+						"id": "SalesOrderHeaders('9AD82F55-DE96-4777-AFAE-3A02EBABB245')",
+						"uri": "SalesOrderHeaders('9AD82F55-DE96-4777-AFAE-3A02EBABB245')"
+					}
+				}
+			}
+		},
+		{
+			"resourceIdentifier": "/SalesOrderItems?$filter=SalesOrderId%20eq%20%279AD82F55-DE96-4777-AFAE-3A02EBABB245%27&$expand=ProductDetails",
+			"data": {
+				"d": {
+					"results": [
+						{
+							"CurrencyCode": "EUR",
+							"DeliveryDate": null,
+							"GrossAmount": "34.510",
+							"Header": {
+								"__deferred": {
+									"uri": "SalesOrderItems(ItemNumber=10,SalesOrderId='9AD82F55-DE96-4777-AFAE-3A02EBABB245')/Header"
+								}
+							},
+							"ItemNumber": 10,
+							"NetAmount": "29.000",
+							"ProductDetails": {
+								"Category": "Software",
+								"CategoryName": "Software",
+								"CurrencyCode": null,
+								"DimensionDepth": "4.0000",
+								"DimensionHeight": "21.0000",
+								"DimensionUnit": "cm",
+								"DimensionWidth": "16.0000",
+								"LongDescription": "Complete package, 1 User, highly recommended for internet users as anti-virus protection",
+								"Name": "Smart Internet Antivirus",
+								"PictureUrl": "/imgs/HT-1105.jpg",
+								"Price": "29.000",
+								"ProductId": "D9FF36F8-98A6-48EB-AF70-F36985D2A487",
+								"QuantityUnit": "EA",
+								"ShortDescription": "Complete package, 1 User, highly recommended for internet users as anti-virus protection",
+								"StockDetails": {
+									"__deferred": {
+										"uri": "Products('D9FF36F8-98A6-48EB-AF70-F36985D2A487')/StockDetails"
+									}
+								},
+								"SupplierDetails": {
+									"__deferred": {
+										"uri": "Products('D9FF36F8-98A6-48EB-AF70-F36985D2A487')/SupplierDetails"
+									}
+								},
+								"SupplierId": "30882A4B-7CA8-44F8-A60A-E33D1CD80EC0",
+								"UpdatedTimestamp": null,
+								"Weight": "0.700",
+								"WeightUnit": "KG",
+								"__metadata": {
+									"content_type": "application/binary",
+									"edit_media": "Products('D9FF36F8-98A6-48EB-AF70-F36985D2A487')/$value",
+									"id": "Products('D9FF36F8-98A6-48EB-AF70-F36985D2A487')",
+									"media_src": "Products('D9FF36F8-98A6-48EB-AF70-F36985D2A487')/$value",
+									"uri": "Products('D9FF36F8-98A6-48EB-AF70-F36985D2A487')"
+								}
+							},
+							"ProductId": "D9FF36F8-98A6-48EB-AF70-F36985D2A487",
+							"Quantity": "1.000",
+							"QuantityUnit": "EA",
+							"SalesOrderId": "9AD82F55-DE96-4777-AFAE-3A02EBABB245",
+							"TaxAmount": "5.510",
+							"__metadata": {
+								"id": "SalesOrderItems(ItemNumber=10,SalesOrderId='9AD82F55-DE96-4777-AFAE-3A02EBABB245')",
+								"uri": "SalesOrderItems(ItemNumber=10,SalesOrderId='9AD82F55-DE96-4777-AFAE-3A02EBABB245')"
+							}
+						},
+						{
+							"CurrencyCode": "EUR",
+							"DeliveryDate": null,
+							"GrossAmount": "1069.810",
+							"Header": {
+								"__deferred": {
+									"uri": "SalesOrderItems(ItemNumber=20,SalesOrderId='9AD82F55-DE96-4777-AFAE-3A02EBABB245')/Header"
+								}
+							},
+							"ItemNumber": 20,
+							"NetAmount": "899.000",
+							"ProductDetails": {
+								"Category": "Flat Screen TVs",
+								"CategoryName": "Flat Screen TVs",
+								"CurrencyCode": null,
+								"DimensionDepth": "23.0000",
+								"DimensionHeight": "79.1000",
+								"DimensionUnit": "cm",
+								"DimensionWidth": "128.0000",
+								"LongDescription": "41-inch, 1366x768 Pixel, 16:9, HDTV ready",
+								"Name": "Flat Watch HD41",
+								"PictureUrl": "/imgs/HT-6132.jpg",
+								"Price": "899.000",
+								"ProductId": "1D845107-7D79-49F8-A3A0-F23C34A9BC1A",
+								"QuantityUnit": "EA",
+								"ShortDescription": "41-inch, 1366x768 Pixel, 16:9, HDTV ready",
+								"StockDetails": {
+									"__deferred": {
+										"uri": "Products('1D845107-7D79-49F8-A3A0-F23C34A9BC1A')/StockDetails"
+									}
+								},
+								"SupplierDetails": {
+									"__deferred": {
+										"uri": "Products('1D845107-7D79-49F8-A3A0-F23C34A9BC1A')/SupplierDetails"
+									}
+								},
+								"SupplierId": "1B250EE3-03D0-4649-A4D0-1375A7C9AA57",
+								"UpdatedTimestamp": null,
+								"Weight": "1.800",
+								"WeightUnit": "KG",
+								"__metadata": {
+									"content_type": "application/binary",
+									"edit_media": "Products('1D845107-7D79-49F8-A3A0-F23C34A9BC1A')/$value",
+									"id": "Products('1D845107-7D79-49F8-A3A0-F23C34A9BC1A')",
+									"media_src": "Products('1D845107-7D79-49F8-A3A0-F23C34A9BC1A')/$value",
+									"uri": "Products('1D845107-7D79-49F8-A3A0-F23C34A9BC1A')"
+								}
+							},
+							"ProductId": "1D845107-7D79-49F8-A3A0-F23C34A9BC1A",
+							"Quantity": "1.000",
+							"QuantityUnit": "EA",
+							"SalesOrderId": "9AD82F55-DE96-4777-AFAE-3A02EBABB245",
+							"TaxAmount": "170.810",
+							"__metadata": {
+								"id": "SalesOrderItems(ItemNumber=20,SalesOrderId='9AD82F55-DE96-4777-AFAE-3A02EBABB245')",
+								"uri": "SalesOrderItems(ItemNumber=20,SalesOrderId='9AD82F55-DE96-4777-AFAE-3A02EBABB245')"
+							}
+						},
+						{
+							"CurrencyCode": "EUR",
+							"DeliveryDate": null,
+							"GrossAmount": "1783.810",
+							"Header": {
+								"__deferred": {
+									"uri": "SalesOrderItems(ItemNumber=30,SalesOrderId='9AD82F55-DE96-4777-AFAE-3A02EBABB245')/Header"
+								}
+							},
+							"ItemNumber": 30,
+							"NetAmount": "1499.000",
+							"ProductDetails": {
+								"Category": "Multifunction Printers",
+								"CategoryName": "Multifunction Printers",
+								"CurrencyCode": null,
+								"DimensionDepth": "42.0000",
+								"DimensionHeight": "22.0000",
+								"DimensionUnit": "cm",
+								"DimensionWidth": "45.0000",
+								"LongDescription": "Copymaster",
+								"Name": "Copymaster",
+								"PictureUrl": "/imgs/HT-1085.jpg",
+								"Price": "1499.000",
+								"ProductId": "22494862-FE3C-44D3-86E5-CB883A1E098E",
+								"QuantityUnit": "EA",
+								"ShortDescription": "Copymaster",
+								"StockDetails": {
+									"__deferred": {
+										"uri": "Products('22494862-FE3C-44D3-86E5-CB883A1E098E')/StockDetails"
+									}
+								},
+								"SupplierDetails": {
+									"__deferred": {
+										"uri": "Products('22494862-FE3C-44D3-86E5-CB883A1E098E')/SupplierDetails"
+									}
+								},
+								"SupplierId": "30882A4B-7CA8-44F8-A60A-E33D1CD80EC0",
+								"UpdatedTimestamp": null,
+								"Weight": "23.200",
+								"WeightUnit": "KG",
+								"__metadata": {
+									"content_type": "application/binary",
+									"edit_media": "Products('22494862-FE3C-44D3-86E5-CB883A1E098E')/$value",
+									"id": "Products('22494862-FE3C-44D3-86E5-CB883A1E098E')",
+									"media_src": "Products('22494862-FE3C-44D3-86E5-CB883A1E098E')/$value",
+									"uri": "Products('22494862-FE3C-44D3-86E5-CB883A1E098E')"
+								}
+							},
+							"ProductId": "22494862-FE3C-44D3-86E5-CB883A1E098E",
+							"Quantity": "1.000",
+							"QuantityUnit": "EA",
+							"SalesOrderId": "9AD82F55-DE96-4777-AFAE-3A02EBABB245",
+							"TaxAmount": "284.810",
+							"__metadata": {
+								"id": "SalesOrderItems(ItemNumber=30,SalesOrderId='9AD82F55-DE96-4777-AFAE-3A02EBABB245')",
+								"uri": "SalesOrderItems(ItemNumber=30,SalesOrderId='9AD82F55-DE96-4777-AFAE-3A02EBABB245')"
+							}
+						},
+						{
+							"CurrencyCode": "EUR",
+							"DeliveryDate": null,
+							"GrossAmount": "297.500",
+							"Header": {
+								"__deferred": {
+									"uri": "SalesOrderItems(ItemNumber=40,SalesOrderId='9AD82F55-DE96-4777-AFAE-3A02EBABB245')/Header"
+								}
+							},
+							"ItemNumber": 40,
+							"NetAmount": "250.000",
+							"ProductDetails": {
+								"Category": "Flat Screen Monitors",
+								"CategoryName": "Flat Screen Monitors",
+								"CurrencyCode": null,
+								"DimensionDepth": "12.0000",
+								"DimensionHeight": "36.0000",
+								"DimensionUnit": "cm",
+								"DimensionWidth": "37.0000",
+								"LongDescription": "Optimum Hi-Resolution Widescreen max. 1920 x 1080 @ 85Hz, Dot Pitch: 0.27mm, HDMI, D-Sub",
+								"Name": "Bending Screen 21HD",
+								"PictureUrl": "/imgs/HT-1254-TOP.jpg",
+								"Price": "250.000",
+								"ProductId": "AF1E7BB6-3577-4875-A582-D9DAD8692125",
+								"QuantityUnit": "EA",
+								"ShortDescription": "Optimum Hi-Resolution Widescreen max. 1920 x 1080 @ 85Hz, Dot Pitch: 0.27mm, HDMI, D-Sub",
+								"StockDetails": {
+									"__deferred": {
+										"uri": "Products('AF1E7BB6-3577-4875-A582-D9DAD8692125')/StockDetails"
+									}
+								},
+								"SupplierDetails": {
+									"__deferred": {
+										"uri": "Products('AF1E7BB6-3577-4875-A582-D9DAD8692125')/SupplierDetails"
+									}
+								},
+								"SupplierId": "1B250EE3-03D0-4649-A4D0-1375A7C9AA57",
+								"UpdatedTimestamp": null,
+								"Weight": "15.000",
+								"WeightUnit": "KG",
+								"__metadata": {
+									"content_type": "application/binary",
+									"edit_media": "Products('AF1E7BB6-3577-4875-A582-D9DAD8692125')/$value",
+									"id": "Products('AF1E7BB6-3577-4875-A582-D9DAD8692125')",
+									"media_src": "Products('AF1E7BB6-3577-4875-A582-D9DAD8692125')/$value",
+									"uri": "Products('AF1E7BB6-3577-4875-A582-D9DAD8692125')"
+								}
+							},
+							"ProductId": "AF1E7BB6-3577-4875-A582-D9DAD8692125",
+							"Quantity": "1.000",
+							"QuantityUnit": "EA",
+							"SalesOrderId": "9AD82F55-DE96-4777-AFAE-3A02EBABB245",
+							"TaxAmount": "47.500",
+							"__metadata": {
+								"id": "SalesOrderItems(ItemNumber=40,SalesOrderId='9AD82F55-DE96-4777-AFAE-3A02EBABB245')",
+								"uri": "SalesOrderItems(ItemNumber=40,SalesOrderId='9AD82F55-DE96-4777-AFAE-3A02EBABB245')"
+							}
+						}
+					]
+				}
+			}
+		}
+	]
+}

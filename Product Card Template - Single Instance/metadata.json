@@ -1,0 +1,75 @@
+{
+	"Name": "ProductCard",
+	"SortCardsWith": null,
+	"GatekeeperConfiguration": null,
+	"Connection": "com.sap.edm.sampleservice.v2",
+	"RefreshType": "upToDate",
+	"CustomType": "Welcome",
+	"AppLaunchUrl": null,
+	"UrlMatch": null,
+	"Descriptions": [
+		{
+			"language": "EN",
+			"text": "Show products"
+		}
+	],
+	"QueryInterval": "P1D",
+	"CollectionType": "useCollection",
+	"QueryConfiguration": {
+		"QueryURLCollectionRoot": "$.d.results",
+		"QueryEntityKeyPaths": [
+			"$.d.__metadata.uri"
+		],
+		"CacheQueryResult": false
+	},
+	"QueryReturnsEntityCollection": false,
+	"NewsEnabled": false,
+	"AutoSubscribe": false,
+	"HiddenSubscription": false,
+	"SubscriptionParameters": [],
+	"ResourceIdentifiers": [
+		{
+			"ImagePaths": "$.d.results.[0].PictureUrl",
+			"Order": 0,
+			"Shared": true,
+			"Uri": "/Products?$filter=Name%20eq%20%27Notebook%20Basic%2015%27&$expand=SupplierDetails,StockDetails&$format=json"
+		}
+	],
+	"Parameters": {
+		"Parameters": []
+	},
+	"APNSEnabled": true,
+	"NotificationMessages": {
+		"Messages": []
+	},
+	"NotificationRules": [],
+	"ActionConfiguration": {
+		"Category": "8E9F6626-06F2-49A0-A9C2-F44E616CBEDD",
+		"XCSRFTokenUrl": "",
+		"Actions": []
+	},
+	"CustomRequestProperties": {
+		"RequestHttpMethod": "GET",
+		"RequestBody": "",
+		"RequestHeaders": []
+	},
+	"CardClass": "HtmlTemplate",
+	"SubscribableTo": {
+		"Users": []
+	},
+	"TemplateName": "User defined template",
+	"Locked": false,
+	"DevelopmentStatus": "Development",
+	"LastModifiedBy": "D055066",
+	"changedNotification": "",
+	"newNotification": "",
+	"SubscribableToValidationEnabled": false,
+	"templateName": "Sample Template Product",
+	"imagePathFront": "$.d.PictureUrl",
+	"showDataButton": true,
+	"showDataBackButton": false,
+	"showData": "{\n    \"d\": {\n        \"results\": [\n            {\n                \"Category\": \"Notebooks\",\n                \"CategoryName\": \"Notebooks\",\n                \"CurrencyCode\": \"EUR\",\n                \"DimensionDepth\": \"18.0000\",\n                \"DimensionHeight\": \"3.0000\",\n                \"DimensionUnit\": \"cm\",\n                \"DimensionWidth\": \"30.0000\",\n                \"LongDescription\": \"Notebook Basic 15 with 2,80 GHz quad core, 15\\\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro\",\n                \"Name\": \"Notebook Basic 15\",\n                \"PictureUrl\": \"/images/3f0c9089-c63c-4df3-89be-d8efde093691.jpg\",\n                \"Price\": \"956.000\",\n                \"ProductId\": \"88bd6246-00f8-4604-9e45-67da79199a5e\",\n                \"QuantityUnit\": \"EA\",\n                \"ShortDescription\": \"Notebook Basic 15 with 2,80 GHz quad core, 15\\\" LCD, 4 GB DDR3 RAM, 500 GB Hard Disc, Windows 8 Pro\",\n                \"StockDetails\": {\n                    \"LotSize\": \"51.000\",\n                    \"MinStock\": \"17.000\",\n                    \"ProductDetails\": {\n                        \"__deferred\": {\n                            \"uri\": \"Stock('88bd6246-00f8-4604-9e45-67da79199a5e')/ProductDetails\"\n                        }\n                    },\n                    \"ProductId\": \"88bd6246-00f8-4604-9e45-67da79199a5e\",\n                    \"Quantity\": \"85.000\",\n                    \"QuantityLessMin\": true,\n                    \"UpdatedTimestamp\": null,\n                    \"__metadata\": {\n                        \"id\": \"Stock('88bd6246-00f8-4604-9e45-67da79199a5e')\",\n                        \"uri\": \"Stock('88bd6246-00f8-4604-9e45-67da79199a5e')\"\n                    }\n                },\n                \"SupplierDetails\": {\n                    \"Address\": {\n                        \"City\": \"Antioch, Illinois\",\n                        \"Country\": \"US\",\n                        \"HouseNumber\": \"143\",\n                        \"PostalCode\": \"60002\",\n                        \"Street\": \"Spring Garden Street\"\n                    },\n                    \"City\": \"Antioch, Illinois\",\n                    \"Country\": \"US\",\n                    \"EmailAddress\": \"viola.gains@itelo.info\",\n                    \"HouseNumber\": \"143\",\n                    \"PhoneNumber\": \"1029384756\",\n                    \"PostalCode\": \"60002\",\n                    \"Products\": {\n                        \"__deferred\": {\n                            \"uri\": \"Suppliers('a4c26486-f5e2-489a-9438-dfa3f1db6177')/Products\"\n                        }\n                    },\n                    \"PurchaseOrders\": {\n                        \"__deferred\": {\n                            \"uri\": \"Suppliers('a4c26486-f5e2-489a-9438-dfa3f1db6177')/PurchaseOrders\"\n                        }\n                    },\n                    \"Street\": \"Spring Garden Street\",\n                    \"SupplierId\": \"a4c26486-f5e2-489a-9438-dfa3f1db6177\",\n                    \"SupplierName\": \"ITelO\",\n                    \"UpdatedTimestamp\": null,\n                    \"__metadata\": {\n                        \"id\": \"Suppliers('a4c26486-f5e2-489a-9438-dfa3f1db6177')\",\n                        \"uri\": \"Suppliers('a4c26486-f5e2-489a-9438-dfa3f1db6177')\"\n                    }\n                },\n                \"SupplierId\": \"a4c26486-f5e2-489a-9438-dfa3f1db6177\",\n                \"UpdatedTimestamp\": null,\n                \"Weight\": \"4.200\",\n                \"WeightUnit\": \"KG\",\n                \"__metadata\": {\n                    \"content_type\": \"application/binary\",\n                    \"edit_media\": \"Products('88bd6246-00f8-4604-9e45-67da79199a5e')/$value\",\n                    \"id\": \"Products('88bd6246-00f8-4604-9e45-67da79199a5e')\",\n                    \"media_src\": \"Products('88bd6246-00f8-4604-9e45-67da79199a5e')/$value\",\n                    \"uri\": \"Products('88bd6246-00f8-4604-9e45-67da79199a5e')\"\n                }\n            }\n        ]\n    }\n}",
+	"showDataPanel": false,
+	"imagePathBack": "",
+	"DescriptionEnglish": "Show products"
+}

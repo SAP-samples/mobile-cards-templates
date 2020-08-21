@@ -1,0 +1,83 @@
+{
+	"d": {
+		"results": [
+			{
+				"Category": "Notebooks",
+				"CategoryName": "Notebooks",
+				"CurrencyCode": "EUR",
+				"DimensionDepth": "18.00",
+				"DimensionHeight": "3.00",
+				"DimensionUnit": "cm",
+				"DimensionWidth": "30.00",
+				"LongDescription": "Notebook Basic 15\" with 2,80 GHz Quad-Core and 16 GB DDR4 RAM",
+				"Name": "Notebook Basic 15",
+				"PictureUrl": "/images/0efd2f0e-a6bf-4eac-b456-3e2885f19097.jpg",
+				"Price": "949.99",
+				"ProductId": "88bd6246-00f8-4604-9e45-67da79199a5e",
+				"QuantityUnit": "EA",
+				"ShortDescription": "Notebook Basic 15\" with 2,80 GHz Quad-Core and 16 GB DDR4 RAM",
+				"StockDetails": {
+					"LotSize": "51.00",
+					"MinStock": "17.00",
+					"ProductDetails": {
+						"__deferred": {
+							"uri": "Stock('88bd6246-00f8-4604-9e45-67da79199a5e')/ProductDetails"
+						}
+					},
+					"ProductId": "88bd6246-00f8-4604-9e45-67da79199a5e",
+					"Quantity": "85",
+					"QuantityLessMin": true,
+					"UpdatedTimestamp": null,
+					"__metadata": {
+						"id": "Stock('88bd6246-00f8-4604-9e45-67da79199a5e')",
+						"uri": "Stock('88bd6246-00f8-4604-9e45-67da79199a5e')"
+					}
+				},
+				"SupplierDetails": {
+					"Address": {
+						"City": "Antioch, Illinois",
+						"Country": "US",
+						"HouseNumber": "143",
+						"PostalCode": "60002",
+						"Street": "Spring Garden Street"
+					},
+					"City": "Antioch, Illinois",
+					"Country": "US",
+					"EmailAddress": "viola.gains@itelo.info",
+					"HouseNumber": "143",
+					"PhoneNumber": "1029384756",
+					"PostalCode": "60002",
+					"Products": {
+						"__deferred": {
+							"uri": "Suppliers('a4c26486-f5e2-489a-9438-dfa3f1db6177')/Products"
+						}
+					},
+					"PurchaseOrders": {
+						"__deferred": {
+							"uri": "Suppliers('a4c26486-f5e2-489a-9438-dfa3f1db6177')/PurchaseOrders"
+						}
+					},
+					"Street": "Spring Garden Street",
+					"SupplierId": "a4c26486-f5e2-489a-9438-dfa3f1db6177",
+					"SupplierName": "ITelO",
+					"UpdatedTimestamp": null,
+					"__metadata": {
+						"id": "Suppliers('a4c26486-f5e2-489a-9438-dfa3f1db6177')",
+						"uri": "Suppliers('a4c26486-f5e2-489a-9438-dfa3f1db6177')"
+					}
+				},
+				"SupplierId": "a4c26486-f5e2-489a-9438-dfa3f1db6177",
+				"UpdatedTimestamp": null,
+				"Weight": "4.200",
+				"WeightUnit": "KG",
+				"__metadata": {
+					"content_type": "application/binary",
+					"edit_media": "Products('88bd6246-00f8-4604-9e45-67da79199a5e')/$value",
+					"id": "Products('88bd6246-00f8-4604-9e45-67da79199a5e')",
+					"media_src": "Products('88bd6246-00f8-4604-9e45-67da79199a5e')/$value",
+					"uri": "Products('88bd6246-00f8-4604-9e45-67da79199a5e')"
+				}
+			}
+		]
+	}
+}
