@@ -1,0 +1,13 @@
+{
+    "d": {
+        "__metadata": {
+            "uri": "https://hcpms.hanatrial.ondemand.com/SFPART044491/odata/v2/TodoEntryV2(171983M)",
+            "type": "SFOData.TodoEntryV2"
+        },
+        "createdDate": "/Date(1543273200000+0000)/",
+        "dueDate": "/Date(1575154800000+0000)/",
+        "todoEntryName": "Talent Review Calibration",
+        "completedDateTime": null,
+        "status": 2
+    }
+}

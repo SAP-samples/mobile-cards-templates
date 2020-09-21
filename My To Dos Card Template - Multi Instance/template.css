@@ -1,0 +1,94 @@
+.myTemplate { 
+background: linear-gradient(#8DCF62,#58AE33); 
+font-family: -apple-system, Helvetica;
+height: 100vh;
+color: #fff;
+/*The linear-gradient background provides a nice background with slight color transistion from upper-right to bottom left. We also recommend Helvetica or Arial for the broadest range of font-weight property support. Another example could be background: linear-gradient(to bottom right,#589CCE,#226596);*/
+} 
+
+.header { 
+display: flex;
+padding: 1rem; 
+height: 4rem;
+/*Padding the header's title area of the card with 1REM or 16px gives the header details room to breathe on all four sides. Helpful to accomodate many mobile screen sizes*/
+}
+
+.header img {
+    margin-right: 0.4rem;
+}
+
+.header h1{
+font-size: 24px;
+margin-top: 1rem;
+color: #fff;
+font-weight: bold;
+line-height: 2.5rem;
+flex: 1 1;
+white-space: nowrap;
+/*We recommend that the header title font size of 1.25rem or 20px and tends to fit on a single line around 24 characters. Single line titles display best when in the card deck view. If you are including an image in header than consider 20px*/
+}
+
+.header .name{
+font-weight: normal;
+margin-top: 1.25rem;
+font-size: 1rem;
+display: block;
+text-align: right;
+white-space: normal;
+}
+
+.header .additional {
+    position: absolute;  
+    right: 16px;    
+   color: #fafafa;
+   text-align: right;
+   margin-left: 1rem;
+}
+ 
+.header .additional1 {
+    font-size: 0.75rem;
+    display: block;
+    text-align: right;
+    line-height: 0.5rem;
+    padding-top:0.5rem;
+}
+
+.header .additional2 {
+    font-size: 0.875rem;
+    display: block;
+    text-align: right;
+    padding-top:0.5rem;
+}
+
+.card-content { 
+padding: 0rem 1rem;
+margin-bottom: 2rem;
+} 
+
+.card-content .label{
+font-size:0.75rem;
+color:#fafafa;
+}
+
+.footer{
+    background-color: #2F6497;
+    height: 3rem;
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    width:100%;
+}
+
+.footer .footer-content{
+    position: relative;  
+    left: 5%;    
+    display: flex;
+}
+
+.footer h4{
+    font-size: 0.75rem;
+    flex: 1 1;
+    color: #fafafa;
+    font-weight:  normal;
+   margin-right: 0.5rem;
+}
