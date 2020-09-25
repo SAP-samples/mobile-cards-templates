@@ -1,0 +1,54 @@
+
+<div id="mySimpleTemplate" data-type="text/x-handlebars-template">
+    <div class="lunch-menu">
+        {{#TodayHelper}}
+        <div class="header">
+            <img src="/assets/282685_Dining_line_blue.png" alt="" width="56px" height="56px">
+            <h1>
+                Lunch Menu
+            </h1>
+            <div class="day-and-place">
+                <span class="day">
+                   {{formatDate day}} 
+                </span>
+            </div>
+        </div>
+        <div class="menu">
+            
+                {{noLunchHelper categories}}
+        
+            {{#each categories}}
+            <div class="type">
+                <h2>                
+                    {{names.EN}} 
+                </h2>
+                
+            </div>
+            <div class="dish">
+                {{#each dishes}}
+                <div style="display:flex; word-wrap: break-word;margin-top:0.5rem;">          
+                <span style="margin-right:0.5rem">
+                    {{VegiMenuHelper vegetarian vegan fish meat names.EN}}
+                    
+                </span>
+                <span>
+                    <b>{{names.EN}}</b>
+ 
+                    <br>
+                    {{allergensHelperText allergens}}
+                   
+                    
+                </span>
+                </div> 
+                {{/each}}
+          </div>   
+        {{/each}}
+       
+        <div class="c2g_address" style="display:none">
+             Walldorf, 69190, Max-Planck-StraÃÂÃÂe 8, Germany
+        </div>
+        </div>
+        {{/TodayHelper}}
+        
+    </div>
+</div>

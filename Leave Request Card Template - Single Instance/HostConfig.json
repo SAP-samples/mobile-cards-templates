@@ -1,0 +1,81 @@
+{
+	"fontFamily": "Segoe UI, Helvetica Neue, sans-serif",
+	"fontSizes": {
+		"small": 17,
+		"default": 19,
+		"medium": 22,
+		"large": 25,
+		"extraLarge": 28
+	},
+	"actions": {
+		"iconSize": 60
+	},
+	"containerStyles": {
+		"default": {
+			"backgroundColor": "#FFFFFF",
+			"foregroundColors": {
+				"default": {
+					"default": "#333333",
+					"subtle": "#EE333333"
+				},
+				"dark": {
+					"default": "#000000",
+					"subtle": "#66000000"
+				},
+				"light": {
+					"default": "#FFFFFF",
+					"subtle": "#33000000"
+				},
+				"accent": {
+					"default": "#2E89FC",
+					"subtle": "#882E89FC"
+				},
+				"attention": {
+					"default": "#cc3300",
+					"subtle": "#DDcc3300"
+				},
+				"good": {
+					"default": "#54a254",
+					"subtle": "#DD54a254"
+				},
+				"warning": {
+					"default": "#e69500",
+					"subtle": "#DDe69500"
+				}
+			}
+		},
+		"emphasis": {
+			"backgroundColor": "#90A955",
+			"foregroundColors": {
+				"default": {
+					"default": "#333333",
+					"subtle": "#EE333333"
+				},
+				"dark": {
+					"default": "#000000",
+					"subtle": "#66000000"
+				},
+				"light": {
+					"default": "#FFFFFF",
+					"subtle": "#33000000"
+				},
+				"accent": {
+					"default": "#2E89FC",
+					"subtle": "#882E89FC"
+				},
+				"attention": {
+					"default": "#cc3300",
+					"subtle": "#DDcc3300"
+				},
+				"good": {
+					"default": "#54a254",
+					"subtle": "#DD54a254"
+				},
+				"warning": {
+					"default": "#e69500",
+					"subtle": "#DDe69500"
+				}
+			}
+		}
+	}
+}

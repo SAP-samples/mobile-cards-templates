@@ -1,0 +1,47 @@
+<div><div id="mySimpleTemplate" class="myTemplate" data-type="text/x-handlebars-template">
+         
+        <div class="header">
+            <img src="assets/BigIcon.png" alt="" width="36px" height="34px" style="margin-right:8px;" >
+            <h1>
+            Approve Leave Request 
+            </h1>
+        </div>  
+            <h2>       
+                <span id='handlebar-tag-0' handlebarid='handlebar-tag-0])' style='display:inline-block;min-width:15px;min-height:15px;'>{{d.RequesterName}}</span> has requested:
+            </h2>
+            <h3>
+                <span id='handlebar-tag-1' handlebarid='handlebar-tag-1])' style='display:inline-block;min-width:15px;min-height:15px;'>{{d.AbsenceDays}}</span> Days <span id='handlebar-tag-2' handlebarid='handlebar-tag-2])' style='display:inline-block;min-width:15px;min-height:15px;'>{{d.LeaveTypeDesc}}</span>
+            </h3>
+        <div class="card-content">
+            <div style="display:flex;justify-content:space-between;">
+                <div style="float:left;width:30%;text-align:left;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;"><span id='handlebar-tag-3' handlebarid='handlebar-tag-3])' style='display:inline-block;min-width:15px;min-height:15px;'>{{d.RequesterName}}</span></div>
+                <div style="float:left;width:75%;text-align:right;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;"><span id='handlebar-tag-4' handlebarid='handlebar-tag-4])' style='display:inline-block;min-width:15px;min-height:15px;'>{{d.AbsenceDays}}</span> Days <span id='handlebar-tag-5' handlebarid='handlebar-tag-5])' style='display:inline-block;min-width:15px;min-height:15px;'>{{d.LeaveTypeDesc}}</span></div>
+            </div>
+            <div style="display:flex;justify-content:space-between;">
+                <div style="text-align:left;">
+                    <div class="date">
+                        <span id='handlebar-tag--1' handlebarid='handlebar-tag--1])' style='display:inline-block;min-width:15px;min-height:15px;'>{{formatDateTime "MMM d" d.StartDate}}</span> 
+                    </div>
+                    <div>
+                        <span id='handlebar-tag--1' handlebarid='handlebar-tag--1])' style='display:inline-block;min-width:15px;min-height:15px;'>{{formatDateTime "yyyy" d.StartDate}}</span>
+                    </div>
+                </div>
+                <div class="arrow">
+                    <div class="date">
+                        <img src="assets/arrow.png" alt="">
+                    </div>
+                </div>
+                <div style="text-align:right">
+                    <div class="date">
+                        <span id='handlebar-tag--1' handlebarid='handlebar-tag--1])' style='display:inline-block;min-width:15px;min-height:15px;'>{{formatDateTime "MMM d" d.EndDate}}</span>
+                    </div>
+                    <div>
+                        <span id='handlebar-tag--1' handlebarid='handlebar-tag--1])' style='display:inline-block;min-width:15px;min-height:15px;'>{{formatDateTime "yyyy" d.EndDate}}</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content" align="right">
+            <img src="assets/BigIcon.png" alt="" >
+        </div>
+   </div></div>

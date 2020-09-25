@@ -1,0 +1,183 @@
+Handlebars.registerHelper("TodayHelper", function (options) {
+    var result = this[0];
+    var aCategories = [];
+    var fCategoryExists = function(category, categories){
+        for(var i in categories){
+            if(categories[i].id == category){
+                return categories[i];
+            }
+        }
+       
+    };
+    for(var i in result.menuitems){
+        var menuItem = result.menuitems[i];
+        var oCategory = fCategoryExists(menuItem.dish.dishCategory.id, aCategories);
+        
+        if(!oCategory){
+            oCategory = menuItem.dish.dishCategory;
+            oCategory.dishes = [];
+            aCategories.push(oCategory);
+        }
+        oCategory.dishes.push(menuItem.dish);
+        
+    }
+    result.categories = aCategories;
+    return new Handlebars.SafeString(
+        options.fn(result));
+});
+                   
+Handlebars.registerHelper("formatDate", function (date) {
+    var oDateFormat = sap.ui.core.format.DateFormat.getDateTimeInstance({
+                       pattern : "EEE, MMM d"
+                   });
+                   var oDateParseFormat = sap.ui.core.format.DateFormat.getDateTimeInstance({
+                       pattern : "yyyy-MM-dd"
+                   });
+                   return oDateFormat.format(oDateParseFormat.parse(date));
+});
+
+Handlebars.registerHelper("allergensHelper", function (passedString, name ) {
+
+    if (passedString.includes("WHEAT")) {
+        return new Handlebars.SafeString( '<img src="assets/Wheat.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("RYE")) {
+        return new Handlebars.SafeString( '<img src="assets/Rye.png"  style="height: 14px;padding-right: 3px;>');
+    }
+    if (passedString.includes("BERLEY")) {
+        return new Handlebars.SafeString( '<img src="assets/Barley.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("OATS")) {
+        return new Handlebars.SafeString( '<img src="assets/Oats.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("CRUSTACEANS")) {
+        return new Handlebars.SafeString( '<img src="assets/Crustaceans.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("EGGS")) {
+        return new Handlebars.SafeString( '<img src="assets/Eggs.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("FISH")) {
+        return new Handlebars.SafeString( '<img src="assets/fish.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("NUTS_PEANUTS")) {
+        return new Handlebars.SafeString( '<img src="assets/Peanuts.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("SOYBEANS")) {
+        return new Handlebars.SafeString( '<img src="assets/Soybeans.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("MILK")) {
+        return new Handlebars.SafeString( '<img src="assets/Milk.png""  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("NUTS_ALMONDS")) {
+        return new Handlebars.SafeString( '<img src="assets/Almond.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("NUTS_WALNUTS")) {
+        return new Handlebars.SafeString( '<img src="assets/Walnuts.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("NUTS_CASHEWS")) {
+        return new Handlebars.SafeString( '<img src="assets/Cashews.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("CELERY")) {
+        return new Handlebars.SafeString( '<img src="assets/Celery.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("NUTS_HAZELNUTS")) {
+        return new Handlebars.SafeString( '<img src="assets/Hazelnuts.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("NUTS_WALNUTS")) {
+        return new Handlebars.SafeString( '<img src="assets/Walnuts.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("NUTS_CASHEWS")) {
+        return new Handlebars.SafeString( '<img src="assets/Cashews.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("NUTS_PECAN")) {
+        return new Handlebars.SafeString( '<img src="assets/Pecan.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("NUTS_BRAZIL")) {
+        return new Handlebars.SafeString( '<img src="assets/BrazilNuts.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("NUTS_PISTACHIO")) {
+        return new Handlebars.SafeString( '<img src="assets/Pistachio.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("NUTS_MACADAMIA")) {
+        return new Handlebars.SafeString( '<img src="assets/Macadamia.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("MUSTARD")) {
+        return new Handlebars.SafeString( '<img src="assets/Mustard.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("SESAME")) {
+        return new Handlebars.SafeString( '<img src="assets/Sesame.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("SULPHOR")) {
+        return new Handlebars.SafeString( '<img src="assets/Sulphur.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("LUPIN")) {
+        return new Handlebars.SafeString( '<img src="assets/Lupines.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+    if (passedString.includes("MOLLUSCS")) {
+        return new Handlebars.SafeString( '<img src="assets/Molluscs.png"  style="height: 14px;padding-right: 3px;" >');
+    }
+
+    return ;
+});
+
+
+Handlebars.registerHelper("additivesHelper", function (passedString, name ) {
+    if (passedString.includes("CAFFEINE")) {
+        return new Handlebars.SafeString( '<img src="assets/11.png"  style="height:14px;padding-right: 3px;" />');
+    }
+    if (passedString.includes("ALCOHOL")) {
+        return new Handlebars.SafeString( '<img src="assets/13.png"  style="height: 14px;padding-right: 3px;" /">');
+    }
+    if (passedString.includes("PHOSPHATE")) {
+        return new Handlebars.SafeString( '<img src="assets/5.png"  style="height: 14px;padding-right: 3px;" /">');
+    }
+    if (passedString.includes("PHENYLALANINE")) {
+        return new Handlebars.SafeString( '<img src="assets/7.png"  style="height: 14px;padding-right: 3px;" /">');
+    }
+    return ;
+});
+
+Handlebars.registerHelper("VegiMenuHelper", function (veggi, vegan, fish, meat, name) {
+    var ret = "";
+
+    if (veggi) {
+        ret = new Handlebars.SafeString( '<img src="assets/vegetarian.png" style="height:25px; margin: 0; padding-top: 0px" />');
+    }
+    if (vegan) {
+        ret = new Handlebars.SafeString( ret + '<img src="assets/vegan.png" style="height:25px; margin: 0; padding-top: 0px" />');
+    }
+     if (fish) {
+        ret = new Handlebars.SafeString( ret + '<img src="assets/fishy.png" style="height:25px; margin: 0; padding-top: 0px" />');
+    }
+     if (meat) {
+        ret = new Handlebars.SafeString( ret + '<img src="assets/meat.png" style="height:25px; margin: 0; padding-top: 0px" />');
+    }
+    if (name.includes("French Fries")) {
+        ret = new Handlebars.SafeString(ret + '<br><img src="assets/chips.png"  style="height:25px; margin: 0; padding-top: 0px" />');
+    }
+    return ret;
+});
+
+Handlebars.registerHelper("allergensHelperText", function (aAllergens) {
+    aAllergens = aAllergens.map(function(oAllergen){return oAllergen.names.EN;})
+   return aAllergens.join(", ");
+});
+
+Handlebars.registerHelper("noLunchHelper", function (aCategories) {
+   if(!aCategories || aCategories.length == 0){
+        return new Handlebars.SafeString('<div style="margin:1rem;width:100%" class="dish">There will be no lunch today!</div>');
+   }
+});
+Handlebars.registerHelper("LabelHelper", function (label) {
+    var ret = "";
+    if (label.includes("IS_SPICY")) {
+        ret = new Handlebars.SafeString(ret + '<img src="assets/spicy.png"  style="height:20px; margin: 0; padding-top: 0px" />');
+    }
+    if (label.includes("WELLNESS_FOOD")) {
+        ret = new Handlebars.SafeString(ret + '<img src="assets/wellness.png"  style="height:20px; margin: 0; padding-top: 0px" />');
+    }
+        if (label.includes("REGIONAL_MEAT")) {
+        ret = new Handlebars.SafeString(ret + '<img src="assets/regional.png"  style="height:20px; margin: 0; padding-top: 0px" />');
+    }
+    return ret;
+});

@@ -1,0 +1,33 @@
+.myTemplate {
+background: linear-gradient(to right bottom,#47A9D6,#1790CF);
+color: #fafafa;
+font-family: -apple-system, Helvetica;
+min-height: 100vh;
+}
+
+.header {
+display: flex;
+padding: 1rem;
+}
+
+.header h1{
+font-size: 22px;
+margin-top: 0.25rem;
+margin-left: 0.5rem;
+color: #fff;
+font-weight: bold;
+line-height: 2.5rem;
+white-space: nowrap;
+}
+
+.name{
+font-weight: normal;
+font-size:18px;
+white-space: normal;
+margin-bottom: 8px;
+}
+
+.card-content {
+padding: 1rem;
+margin-bottom: 2rem;
+}

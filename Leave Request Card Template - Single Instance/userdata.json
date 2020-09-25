@@ -1,0 +1,1566 @@
+{
+	"dataSets": [{
+		"resourceIdentifier": "/sap/fiori/hcmfabmyleavrequestext/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/ConfigurationSet?$select=EmployeeID",
+		"data": {
+			"d": {
+				"results": [{
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/ConfigurationSet('00048098')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/ConfigurationSet('00048098')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.Configuration"
+					},
+					"EmployeeID": "00048098"
+				}]
+			}
+		}
+	}, {
+		"resourceIdentifier": "/sap/fiori/hcmfabmyleavrequestext/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet?$select=ProcessingStartDate,ProcessingEndDate,TimeUnitName,BalanceEntitlementQuantity,BalanceAvailableQuantity,TimeAccountTypeName,TimeAccountTypeCode",
+		"data": {
+			"d": {
+				"results": [{
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2010-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2010-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.TimeAccount"
+					},
+					"ProcessingStartDate": "/Date(1262304000000)/",
+					"ProcessingEndDate": "/Date(1293753600000)/",
+					"TimeAccountTypeCode": "40",
+					"TimeAccountTypeName": "Annual leave",
+					"TimeUnitName": "Days",
+					"BalanceEntitlementQuantity": "30.00000",
+					"BalanceAvailableQuantity": "14.00000"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2012-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2012-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.TimeAccount"
+					},
+					"ProcessingStartDate": "/Date(1325376000000)/",
+					"ProcessingEndDate": "/Date(1356912000000)/",
+					"TimeAccountTypeCode": "40",
+					"TimeAccountTypeName": "Annual leave",
+					"TimeUnitName": "Days",
+					"BalanceEntitlementQuantity": "30.00000",
+					"BalanceAvailableQuantity": "5.00000"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2013-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2013-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.TimeAccount"
+					},
+					"ProcessingStartDate": "/Date(1356998400000)/",
+					"ProcessingEndDate": "/Date(1388448000000)/",
+					"TimeAccountTypeCode": "40",
+					"TimeAccountTypeName": "Annual leave",
+					"TimeUnitName": "Days",
+					"BalanceEntitlementQuantity": "25.00000",
+					"BalanceAvailableQuantity": "20.00000"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2016-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2016-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.TimeAccount"
+					},
+					"ProcessingStartDate": "/Date(1451606400000)/",
+					"ProcessingEndDate": "/Date(1483142400000)/",
+					"TimeAccountTypeCode": "40",
+					"TimeAccountTypeName": "Annual leave",
+					"TimeUnitName": "Days",
+					"BalanceEntitlementQuantity": "32.00000",
+					"BalanceAvailableQuantity": "10.00000"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2017-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2017-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.TimeAccount"
+					},
+					"ProcessingStartDate": "/Date(1483228800000)/",
+					"ProcessingEndDate": "/Date(1514678400000)/",
+					"TimeAccountTypeCode": "40",
+					"TimeAccountTypeName": "Annual leave",
+					"TimeUnitName": "Days",
+					"BalanceEntitlementQuantity": "32.00000",
+					"BalanceAvailableQuantity": "16.00000"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2018-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2018-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.TimeAccount"
+					},
+					"ProcessingStartDate": "/Date(1514764800000)/",
+					"ProcessingEndDate": "/Date(1546214400000)/",
+					"TimeAccountTypeCode": "40",
+					"TimeAccountTypeName": "Annual leave",
+					"TimeUnitName": "Days",
+					"BalanceEntitlementQuantity": "32.00000",
+					"BalanceAvailableQuantity": "5.00000"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2019-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2019-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.TimeAccount"
+					},
+					"ProcessingStartDate": "/Date(1546300800000)/",
+					"ProcessingEndDate": "/Date(1577750400000)/",
+					"TimeAccountTypeCode": "40",
+					"TimeAccountTypeName": "Annual leave",
+					"TimeUnitName": "Days",
+					"BalanceEntitlementQuantity": "32.00000",
+					"BalanceAvailableQuantity": "2.00000"
+				}]
+			}
+		}
+	}, {
+		"resourceIdentifier": "/sap/fiori/hcmfabmyleavrequestext/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet?$select=AbsenceTypeCode,StartDate,EndDate,StatusID,AbsenceTypeName",
+		"data": {
+			"d": {
+				"results": [{
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81ED9B7F58F2E37611DBC',ChangeStateID=1,LeaveKey='0004809820010361%20%20%202019100620191002000000000000000')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81ED9B7F58F2E37611DBC',ChangeStateID=1,LeaveKey='0004809820010361%20%20%202019100620191002000000000000000')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.LeaveRequest"
+					},
+					"StatusID": "SENT",
+					"AbsenceTypeCode": "0361",
+					"AbsenceTypeName": "Short Nurs.leave unpaid",
+					"StartDate": "/Date(1569974400000)/",
+					"EndDate": "/Date(1570320000000)/"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9B8931FE662B42D3D',ChangeStateID=1,LeaveKey='0004809820010358%20%20%202019092620190926000080000120000')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9B8931FE662B42D3D',ChangeStateID=1,LeaveKey='0004809820010358%20%20%202019092620190926000080000120000')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.LeaveRequest"
+					},
+					"StatusID": "SENT",
+					"AbsenceTypeCode": "0358",
+					"AbsenceTypeName": "Time Off OnCall Duty ½day",
+					"StartDate": "/Date(1569456000000)/",
+					"EndDate": "/Date(1569456000000)/"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9B7F7AE489458A801',ChangeStateID=1,LeaveKey='0004809820010350%20%20%202019092520190925000000000000000')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9B7F7AE489458A801',ChangeStateID=1,LeaveKey='0004809820010350%20%20%202019092520190925000000000000000')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.LeaveRequest"
+					},
+					"StatusID": "SENT",
+					"AbsenceTypeCode": "0350",
+					"AbsenceTypeName": "Time off in lieu",
+					"StartDate": "/Date(1569369600000)/",
+					"EndDate": "/Date(1569369600000)/"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81ED9B7DB401CCD275E5C',ChangeStateID=1,LeaveKey='0004809820010353%20%20%202019092420190924000080000120000')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81ED9B7DB401CCD275E5C',ChangeStateID=1,LeaveKey='0004809820010353%20%20%202019092420190924000080000120000')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.LeaveRequest"
+					},
+					"StatusID": "SENT",
+					"AbsenceTypeCode": "0353",
+					"AbsenceTypeName": "Time off in lieu ½ day",
+					"StartDate": "/Date(1569283200000)/",
+					"EndDate": "/Date(1569283200000)/"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9BA9FB8062BDA3CF3',ChangeStateID=0,LeaveKey='0004809820010110%20%20%202019083120190817000000000000000')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9BA9FB8062BDA3CF3',ChangeStateID=0,LeaveKey='0004809820010110%20%20%202019083120190817000000000000000')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.LeaveRequest"
+					},
+					"StatusID": "POSTED",
+					"AbsenceTypeCode": "0110",
+					"AbsenceTypeName": "Vacation",
+					"StartDate": "/Date(1566000000000)/",
+					"EndDate": "/Date(1567209600000)/"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9BA9FB8062BDA1CF3',ChangeStateID=0,LeaveKey='0004809820010110%20%20%202019061520190608000000000000000')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9BA9FB8062BDA1CF3',ChangeStateID=0,LeaveKey='0004809820010110%20%20%202019061520190608000000000000000')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.LeaveRequest"
+					},
+					"StatusID": "POSTED",
+					"AbsenceTypeCode": "0110",
+					"AbsenceTypeName": "Vacation",
+					"StartDate": "/Date(1559952000000)/",
+					"EndDate": "/Date(1560556800000)/"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9BA9FB8062BD9FCF3',ChangeStateID=0,LeaveKey='0004809820010110%20%20%202019051720190513000000000000000')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9BA9FB8062BD9FCF3',ChangeStateID=0,LeaveKey='0004809820010110%20%20%202019051720190513000000000000000')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.LeaveRequest"
+					},
+					"StatusID": "POSTED",
+					"AbsenceTypeCode": "0110",
+					"AbsenceTypeName": "Vacation",
+					"StartDate": "/Date(1557705600000)/",
+					"EndDate": "/Date(1558051200000)/"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9BA9FB8062BD9DCF3',ChangeStateID=0,LeaveKey='0004809820010110%20%20%202019030220190228000000000000000')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9BA9FB8062BD9DCF3',ChangeStateID=0,LeaveKey='0004809820010110%20%20%202019030220190228000000000000000')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.LeaveRequest"
+					},
+					"StatusID": "POSTED",
+					"AbsenceTypeCode": "0110",
+					"AbsenceTypeName": "Vacation",
+					"StartDate": "/Date(1551312000000)/",
+					"EndDate": "/Date(1551484800000)/"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9BA9FB8062BD9BCF3',ChangeStateID=0,LeaveKey='0004809820010110%20%20%202019022320190221000000000000000')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9BA9FB8062BD9BCF3',ChangeStateID=0,LeaveKey='0004809820010110%20%20%202019022320190221000000000000000')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.LeaveRequest"
+					},
+					"StatusID": "POSTED",
+					"AbsenceTypeCode": "0110",
+					"AbsenceTypeName": "Vacation",
+					"StartDate": "/Date(1550707200000)/",
+					"EndDate": "/Date(1550880000000)/"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9BA9FB8062BD99CF3',ChangeStateID=0,LeaveKey='0004809820010110%20%20%202019021620190214000000000000000')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9BA9FB8062BD99CF3',ChangeStateID=0,LeaveKey='0004809820010110%20%20%202019021620190214000000000000000')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.LeaveRequest"
+					},
+					"StatusID": "POSTED",
+					"AbsenceTypeCode": "0110",
+					"AbsenceTypeName": "Vacation",
+					"StartDate": "/Date(1550102400000)/",
+					"EndDate": "/Date(1550275200000)/"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9BA9FB8062BD97CF3',ChangeStateID=0,LeaveKey='0004809820010110%20%20%202019021020190207000000000000000')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9BA9FB8062BD97CF3',ChangeStateID=0,LeaveKey='0004809820010110%20%20%202019021020190207000000000000000')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.LeaveRequest"
+					},
+					"StatusID": "POSTED",
+					"AbsenceTypeCode": "0110",
+					"AbsenceTypeName": "Vacation",
+					"StartDate": "/Date(1549497600000)/",
+					"EndDate": "/Date(1549756800000)/"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9BA9FB8062BD95CF3',ChangeStateID=0,LeaveKey='0004809820010110%20%20%202019010520181224000000000000000')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/LeaveRequestSet(EmployeeID='00048098',RequestID='288023A329A81EE9BA9FB8062BD95CF3',ChangeStateID=0,LeaveKey='0004809820010110%20%20%202019010520181224000000000000000')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.LeaveRequest"
+					},
+					"StatusID": "POSTED",
+					"AbsenceTypeCode": "0110",
+					"AbsenceTypeName": "Vacation",
+					"StartDate": "/Date(1545609600000)/",
+					"EndDate": "/Date(1546646400000)/"
+				}]
+			}
+		}
+	}, {
+		"resourceIdentifier": "/sap/fiori/hcmfabmyleavrequestext/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet?$expand=toAdditionalFieldsDefinition,toApprover",
+		"data": {
+			"d": {
+				"results": [{
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0110')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0110')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceType"
+					},
+					"EmployeeID": "00048098",
+					"InfoType": "2001",
+					"AbsenceTypeCode": "0110",
+					"AbsenceTypeName": "Vacation",
+					"AbsenceDescription": " Any remaining entitlements from previous years will not be used until the vacation entitlement of the current year has been consumed completely.",
+					"ActionCreate": true,
+					"ActionDelete": true,
+					"ActionModify": true,
+					"IsApproverReadOnly": false,
+					"IsApproverVisible": true,
+					"AllowEmptyApprover": false,
+					"IsAllowedDurationPartialDay": false,
+					"IsAllowedDurationSingleDay": true,
+					"IsAllowedDurationMultipleDay": true,
+					"IsNoteVisible": true,
+					"DefaultType": true,
+					"AttachmentEnabled": false,
+					"AttachmentMandatory": false,
+					"AttachMaxSize": 0,
+					"AttachRestrictFileType": false,
+					"AttachSupportFileType": "",
+					"TimeUnitCode": "",
+					"TimeUnitName": "",
+					"ApproverLevel": 0,
+					"IsMultiLevelApproval": true,
+					"AddDelApprovers": false,
+					"ActionApprove": "W",
+					"DefaultStartDate": "/Date(1570492800000)/",
+					"DefaultEndDate": "/Date(1570492800000)/",
+					"IsRecordInClockHoursAllowed": true,
+					"IsRecordInClockTimesAllowed": false,
+					"IsQuotaUsed": true,
+					"toAdditionalFieldsDefinition": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0110',Fieldname='PayrDays')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0110',Fieldname='PayrDays')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeAdditionalFieldDefinition"
+							},
+							"EmployeeID": "00048098",
+							"InfoType": "2001",
+							"AbsenceTypeCode": "0110",
+							"Fieldname": "PayrDays",
+							"Required": false,
+							"Readonly": true,
+							"FieldLabel": "Days used by this absence",
+							"ShowInitValue": false,
+							"Length": "000006",
+							"Decimals": "000002",
+							"Type_Kind": "P",
+							"Name": "PayrDays",
+							"HasF4": false,
+							"F4EntityName": "",
+							"F4KeyProperty": "",
+							"F4TitleProperty": "",
+							"F4DescriptionProperty": "",
+							"F4SearchFilter": ""
+						}]
+					},
+					"toApprover": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeApproverDefault"
+							},
+							"EmployeeNumber": "00000000",
+							"Infotype": "",
+							"AbsenceTypeCode": "",
+							"Pernr": "00026972",
+							"Seqnr": "001",
+							"Status": "",
+							"Name": "Dr. Gerhard Henig",
+							"DefaultFlag": false
+						}]
+					}
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0111')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0111')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceType"
+					},
+					"EmployeeID": "00048098",
+					"InfoType": "2001",
+					"AbsenceTypeCode": "0111",
+					"AbsenceTypeName": "Vacation ½ day",
+					"AbsenceDescription": " Any remaining entitlements from previous years will not be used until the vacation entitlement of the current year has been consumed completely.",
+					"ActionCreate": true,
+					"ActionDelete": true,
+					"ActionModify": true,
+					"IsApproverReadOnly": false,
+					"IsApproverVisible": true,
+					"AllowEmptyApprover": false,
+					"IsAllowedDurationPartialDay": true,
+					"IsAllowedDurationSingleDay": false,
+					"IsAllowedDurationMultipleDay": false,
+					"IsNoteVisible": true,
+					"DefaultType": false,
+					"AttachmentEnabled": false,
+					"AttachmentMandatory": false,
+					"AttachMaxSize": 0,
+					"AttachRestrictFileType": false,
+					"AttachSupportFileType": "",
+					"TimeUnitCode": "",
+					"TimeUnitName": "",
+					"ApproverLevel": 0,
+					"IsMultiLevelApproval": true,
+					"AddDelApprovers": false,
+					"ActionApprove": "W",
+					"DefaultStartDate": "/Date(1570492800000)/",
+					"DefaultEndDate": "/Date(1570492800000)/",
+					"IsRecordInClockHoursAllowed": true,
+					"IsRecordInClockTimesAllowed": false,
+					"IsQuotaUsed": true,
+					"toAdditionalFieldsDefinition": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0111',Fieldname='PayrDays')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0111',Fieldname='PayrDays')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeAdditionalFieldDefinition"
+							},
+							"EmployeeID": "00048098",
+							"InfoType": "2001",
+							"AbsenceTypeCode": "0111",
+							"Fieldname": "PayrDays",
+							"Required": false,
+							"Readonly": true,
+							"FieldLabel": "Days used by this absence",
+							"ShowInitValue": false,
+							"Length": "000006",
+							"Decimals": "000002",
+							"Type_Kind": "P",
+							"Name": "PayrDays",
+							"HasF4": false,
+							"F4EntityName": "",
+							"F4KeyProperty": "",
+							"F4TitleProperty": "",
+							"F4DescriptionProperty": "",
+							"F4SearchFilter": ""
+						}]
+					},
+					"toApprover": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeApproverDefault"
+							},
+							"EmployeeNumber": "00000000",
+							"Infotype": "",
+							"AbsenceTypeCode": "",
+							"Pernr": "00026972",
+							"Seqnr": "001",
+							"Status": "",
+							"Name": "Dr. Gerhard Henig",
+							"DefaultFlag": false
+						}]
+					}
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0201')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0201')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceType"
+					},
+					"EmployeeID": "00048098",
+					"InfoType": "2001",
+					"AbsenceTypeCode": "0201",
+					"AbsenceTypeName": "Sickness w/o sick note",
+					"AbsenceDescription": " If you are sick up to 3 calendar days, a doctors sick note is not required*, but you need to maintain this leave request. In addition, please inform your team about your absence and the approximate duration. -------------------------- *Exception: Should you be taken ill during your vacation, according to § 9 of the German vacation law you must submit a doctor's sick note with effect from the first day that you are unable to work. Registering yourself as unable to work via the absence tool under \"sickness w/o sick note\" is not permitted.",
+					"ActionCreate": true,
+					"ActionDelete": true,
+					"ActionModify": true,
+					"IsApproverReadOnly": false,
+					"IsApproverVisible": true,
+					"AllowEmptyApprover": false,
+					"IsAllowedDurationPartialDay": false,
+					"IsAllowedDurationSingleDay": true,
+					"IsAllowedDurationMultipleDay": true,
+					"IsNoteVisible": true,
+					"DefaultType": false,
+					"AttachmentEnabled": false,
+					"AttachmentMandatory": false,
+					"AttachMaxSize": 0,
+					"AttachRestrictFileType": false,
+					"AttachSupportFileType": "",
+					"TimeUnitCode": "",
+					"TimeUnitName": "",
+					"ApproverLevel": 0,
+					"IsMultiLevelApproval": true,
+					"AddDelApprovers": false,
+					"ActionApprove": "N",
+					"DefaultStartDate": "/Date(1570492800000)/",
+					"DefaultEndDate": "/Date(1570492800000)/",
+					"IsRecordInClockHoursAllowed": true,
+					"IsRecordInClockTimesAllowed": false,
+					"IsQuotaUsed": false,
+					"toAdditionalFieldsDefinition": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0201',Fieldname='PayrDays')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0201',Fieldname='PayrDays')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeAdditionalFieldDefinition"
+							},
+							"EmployeeID": "00048098",
+							"InfoType": "2001",
+							"AbsenceTypeCode": "0201",
+							"Fieldname": "PayrDays",
+							"Required": false,
+							"Readonly": true,
+							"FieldLabel": "Absence days",
+							"ShowInitValue": false,
+							"Length": "000006",
+							"Decimals": "000002",
+							"Type_Kind": "P",
+							"Name": "PayrDays",
+							"HasF4": false,
+							"F4EntityName": "",
+							"F4KeyProperty": "",
+							"F4TitleProperty": "",
+							"F4DescriptionProperty": "",
+							"F4SearchFilter": ""
+						}]
+					},
+					"toApprover": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeApproverDefault"
+							},
+							"EmployeeNumber": "00000000",
+							"Infotype": "",
+							"AbsenceTypeCode": "",
+							"Pernr": "00026972",
+							"Seqnr": "001",
+							"Status": "",
+							"Name": "Dr. Gerhard Henig",
+							"DefaultFlag": false
+						}]
+					}
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0206')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0206')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceType"
+					},
+					"EmployeeID": "00048098",
+					"InfoType": "2001",
+					"AbsenceTypeCode": "0206",
+					"AbsenceTypeName": "Sickness ½ day",
+					"AbsenceDescription": " If you are sick up to 3 calendar days, a doctors sick note is not required*, but you need to maintain this leave request. In addition, please inform your team about your absence and the approximate duration. -------------------------- *Exception: Should you be taken ill during your vacation, according to § 9 of the German vacation law you must submit a doctor's sick note with effect from the first day that you are unable to work. Registering yourself as unable to work via the absence tool under \"sickness w/o sick note\" is not permitted.",
+					"ActionCreate": true,
+					"ActionDelete": true,
+					"ActionModify": true,
+					"IsApproverReadOnly": false,
+					"IsApproverVisible": true,
+					"AllowEmptyApprover": false,
+					"IsAllowedDurationPartialDay": true,
+					"IsAllowedDurationSingleDay": false,
+					"IsAllowedDurationMultipleDay": false,
+					"IsNoteVisible": true,
+					"DefaultType": false,
+					"AttachmentEnabled": false,
+					"AttachmentMandatory": false,
+					"AttachMaxSize": 0,
+					"AttachRestrictFileType": false,
+					"AttachSupportFileType": "",
+					"TimeUnitCode": "",
+					"TimeUnitName": "",
+					"ApproverLevel": 0,
+					"IsMultiLevelApproval": true,
+					"AddDelApprovers": false,
+					"ActionApprove": "N",
+					"DefaultStartDate": "/Date(1570492800000)/",
+					"DefaultEndDate": "/Date(1570492800000)/",
+					"IsRecordInClockHoursAllowed": true,
+					"IsRecordInClockTimesAllowed": false,
+					"IsQuotaUsed": false,
+					"toAdditionalFieldsDefinition": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0206',Fieldname='PayrDays')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0206',Fieldname='PayrDays')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeAdditionalFieldDefinition"
+							},
+							"EmployeeID": "00048098",
+							"InfoType": "2001",
+							"AbsenceTypeCode": "0206",
+							"Fieldname": "PayrDays",
+							"Required": false,
+							"Readonly": true,
+							"FieldLabel": "Days used by this absence",
+							"ShowInitValue": false,
+							"Length": "000006",
+							"Decimals": "000002",
+							"Type_Kind": "P",
+							"Name": "PayrDays",
+							"HasF4": false,
+							"F4EntityName": "",
+							"F4KeyProperty": "",
+							"F4TitleProperty": "",
+							"F4DescriptionProperty": "",
+							"F4SearchFilter": ""
+						}]
+					},
+					"toApprover": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeApproverDefault"
+							},
+							"EmployeeNumber": "00000000",
+							"Infotype": "",
+							"AbsenceTypeCode": "",
+							"Pernr": "00026972",
+							"Seqnr": "001",
+							"Status": "",
+							"Name": "Dr. Gerhard Henig",
+							"DefaultFlag": false
+						}]
+					}
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0350')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0350')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceType"
+					},
+					"EmployeeID": "00048098",
+					"InfoType": "2001",
+					"AbsenceTypeCode": "0350",
+					"AbsenceTypeName": "Time off in lieu",
+					"AbsenceDescription": " Time off in lieu if you work on a bank holiday either abroad or in a different state in Germany (Bundesland).",
+					"ActionCreate": true,
+					"ActionDelete": true,
+					"ActionModify": true,
+					"IsApproverReadOnly": false,
+					"IsApproverVisible": true,
+					"AllowEmptyApprover": false,
+					"IsAllowedDurationPartialDay": false,
+					"IsAllowedDurationSingleDay": true,
+					"IsAllowedDurationMultipleDay": true,
+					"IsNoteVisible": true,
+					"DefaultType": false,
+					"AttachmentEnabled": false,
+					"AttachmentMandatory": false,
+					"AttachMaxSize": 0,
+					"AttachRestrictFileType": false,
+					"AttachSupportFileType": "",
+					"TimeUnitCode": "",
+					"TimeUnitName": "",
+					"ApproverLevel": 0,
+					"IsMultiLevelApproval": true,
+					"AddDelApprovers": false,
+					"ActionApprove": "W",
+					"DefaultStartDate": "/Date(1570492800000)/",
+					"DefaultEndDate": "/Date(1570492800000)/",
+					"IsRecordInClockHoursAllowed": true,
+					"IsRecordInClockTimesAllowed": false,
+					"IsQuotaUsed": false,
+					"toAdditionalFieldsDefinition": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0350',Fieldname='PayrDays')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0350',Fieldname='PayrDays')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeAdditionalFieldDefinition"
+							},
+							"EmployeeID": "00048098",
+							"InfoType": "2001",
+							"AbsenceTypeCode": "0350",
+							"Fieldname": "PayrDays",
+							"Required": false,
+							"Readonly": true,
+							"FieldLabel": "Absence days",
+							"ShowInitValue": false,
+							"Length": "000006",
+							"Decimals": "000002",
+							"Type_Kind": "P",
+							"Name": "PayrDays",
+							"HasF4": false,
+							"F4EntityName": "",
+							"F4KeyProperty": "",
+							"F4TitleProperty": "",
+							"F4DescriptionProperty": "",
+							"F4SearchFilter": ""
+						}]
+					},
+					"toApprover": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeApproverDefault"
+							},
+							"EmployeeNumber": "00000000",
+							"Infotype": "",
+							"AbsenceTypeCode": "",
+							"Pernr": "00026972",
+							"Seqnr": "001",
+							"Status": "",
+							"Name": "Dr. Gerhard Henig",
+							"DefaultFlag": false
+						}]
+					}
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0353')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0353')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceType"
+					},
+					"EmployeeID": "00048098",
+					"InfoType": "2001",
+					"AbsenceTypeCode": "0353",
+					"AbsenceTypeName": "Time off in lieu ½ day",
+					"AbsenceDescription": " Time off in lieu if you work on a bank holiday either abroad or in a different state in Germany (Bundesland).",
+					"ActionCreate": true,
+					"ActionDelete": true,
+					"ActionModify": true,
+					"IsApproverReadOnly": false,
+					"IsApproverVisible": true,
+					"AllowEmptyApprover": false,
+					"IsAllowedDurationPartialDay": true,
+					"IsAllowedDurationSingleDay": false,
+					"IsAllowedDurationMultipleDay": false,
+					"IsNoteVisible": true,
+					"DefaultType": false,
+					"AttachmentEnabled": false,
+					"AttachmentMandatory": false,
+					"AttachMaxSize": 0,
+					"AttachRestrictFileType": false,
+					"AttachSupportFileType": "",
+					"TimeUnitCode": "",
+					"TimeUnitName": "",
+					"ApproverLevel": 0,
+					"IsMultiLevelApproval": true,
+					"AddDelApprovers": false,
+					"ActionApprove": "W",
+					"DefaultStartDate": "/Date(1570492800000)/",
+					"DefaultEndDate": "/Date(1570492800000)/",
+					"IsRecordInClockHoursAllowed": true,
+					"IsRecordInClockTimesAllowed": false,
+					"IsQuotaUsed": false,
+					"toAdditionalFieldsDefinition": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0353',Fieldname='PayrDays')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0353',Fieldname='PayrDays')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeAdditionalFieldDefinition"
+							},
+							"EmployeeID": "00048098",
+							"InfoType": "2001",
+							"AbsenceTypeCode": "0353",
+							"Fieldname": "PayrDays",
+							"Required": false,
+							"Readonly": true,
+							"FieldLabel": "Days used by this absence",
+							"ShowInitValue": false,
+							"Length": "000006",
+							"Decimals": "000002",
+							"Type_Kind": "P",
+							"Name": "PayrDays",
+							"HasF4": false,
+							"F4EntityName": "",
+							"F4KeyProperty": "",
+							"F4TitleProperty": "",
+							"F4DescriptionProperty": "",
+							"F4SearchFilter": ""
+						}]
+					},
+					"toApprover": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeApproverDefault"
+							},
+							"EmployeeNumber": "00000000",
+							"Infotype": "",
+							"AbsenceTypeCode": "",
+							"Pernr": "00026972",
+							"Seqnr": "001",
+							"Status": "",
+							"Name": "Dr. Gerhard Henig",
+							"DefaultFlag": false
+						}]
+					}
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0500')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0500')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceType"
+					},
+					"EmployeeID": "00048098",
+					"InfoType": "2001",
+					"AbsenceTypeCode": "0500",
+					"AbsenceTypeName": "AZK withdrawal",
+					"AbsenceDescription": " This leave type is to select, if you want to withdraw one or more complete working days. This leave type can be used for fixed weekdays  (e.g. decrease of level of employment down to 80%) or for a continuing  leave (e.g. one or more months). Concerning minimum and maximum volume of withdrawal please inform under Quicklink de-azk.",
+					"ActionCreate": true,
+					"ActionDelete": true,
+					"ActionModify": true,
+					"IsApproverReadOnly": false,
+					"IsApproverVisible": true,
+					"AllowEmptyApprover": false,
+					"IsAllowedDurationPartialDay": false,
+					"IsAllowedDurationSingleDay": true,
+					"IsAllowedDurationMultipleDay": true,
+					"IsNoteVisible": true,
+					"DefaultType": false,
+					"AttachmentEnabled": false,
+					"AttachmentMandatory": false,
+					"AttachMaxSize": 0,
+					"AttachRestrictFileType": false,
+					"AttachSupportFileType": "",
+					"TimeUnitCode": "",
+					"TimeUnitName": "",
+					"ApproverLevel": 0,
+					"IsMultiLevelApproval": true,
+					"AddDelApprovers": false,
+					"ActionApprove": "W",
+					"DefaultStartDate": "/Date(1570492800000)/",
+					"DefaultEndDate": "/Date(1570492800000)/",
+					"IsRecordInClockHoursAllowed": true,
+					"IsRecordInClockTimesAllowed": false,
+					"IsQuotaUsed": true,
+					"toAdditionalFieldsDefinition": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0500',Fieldname='PayrHrs')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0500',Fieldname='PayrHrs')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeAdditionalFieldDefinition"
+							},
+							"EmployeeID": "00048098",
+							"InfoType": "2001",
+							"AbsenceTypeCode": "0500",
+							"Fieldname": "PayrHrs",
+							"Required": false,
+							"Readonly": true,
+							"FieldLabel": "Used hours",
+							"ShowInitValue": false,
+							"Length": "000007",
+							"Decimals": "000002",
+							"Type_Kind": "P",
+							"Name": "PayrHrs",
+							"HasF4": false,
+							"F4EntityName": "",
+							"F4KeyProperty": "",
+							"F4TitleProperty": "",
+							"F4DescriptionProperty": "",
+							"F4SearchFilter": ""
+						}]
+					},
+					"toApprover": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeApproverDefault"
+							},
+							"EmployeeNumber": "00000000",
+							"Infotype": "",
+							"AbsenceTypeCode": "",
+							"Pernr": "00026972",
+							"Seqnr": "001",
+							"Status": "",
+							"Name": "Dr. Gerhard Henig",
+							"DefaultFlag": false
+						}]
+					}
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0502')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0502')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceType"
+					},
+					"EmployeeID": "00048098",
+					"InfoType": "2001",
+					"AbsenceTypeCode": "0502",
+					"AbsenceTypeName": "AZK withdrawal hourly",
+					"AbsenceDescription": " This leave type is to select, if you do not want to withdraw a complete working day but only one to some hours per day. Concerning minimum and maximum volume of withdrawal please inform under  Quicklink de-azk.",
+					"ActionCreate": true,
+					"ActionDelete": true,
+					"ActionModify": true,
+					"IsApproverReadOnly": false,
+					"IsApproverVisible": true,
+					"AllowEmptyApprover": false,
+					"IsAllowedDurationPartialDay": true,
+					"IsAllowedDurationSingleDay": false,
+					"IsAllowedDurationMultipleDay": false,
+					"IsNoteVisible": true,
+					"DefaultType": false,
+					"AttachmentEnabled": false,
+					"AttachmentMandatory": false,
+					"AttachMaxSize": 0,
+					"AttachRestrictFileType": false,
+					"AttachSupportFileType": "",
+					"TimeUnitCode": "",
+					"TimeUnitName": "",
+					"ApproverLevel": 0,
+					"IsMultiLevelApproval": true,
+					"AddDelApprovers": false,
+					"ActionApprove": "W",
+					"DefaultStartDate": "/Date(1570492800000)/",
+					"DefaultEndDate": "/Date(1570492800000)/",
+					"IsRecordInClockHoursAllowed": true,
+					"IsRecordInClockTimesAllowed": false,
+					"IsQuotaUsed": true,
+					"toAdditionalFieldsDefinition": {
+						"results": []
+					},
+					"toApprover": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeApproverDefault"
+							},
+							"EmployeeNumber": "00000000",
+							"Infotype": "",
+							"AbsenceTypeCode": "",
+							"Pernr": "00026972",
+							"Seqnr": "001",
+							"Status": "",
+							"Name": "Dr. Gerhard Henig",
+							"DefaultFlag": false
+						}]
+					}
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0357')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0357')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceType"
+					},
+					"EmployeeID": "00048098",
+					"InfoType": "2001",
+					"AbsenceTypeCode": "0357",
+					"AbsenceTypeName": "Time Off On-Call Duty",
+					"AbsenceDescription": " Time compensation for on call duty.",
+					"ActionCreate": true,
+					"ActionDelete": true,
+					"ActionModify": true,
+					"IsApproverReadOnly": false,
+					"IsApproverVisible": true,
+					"AllowEmptyApprover": false,
+					"IsAllowedDurationPartialDay": false,
+					"IsAllowedDurationSingleDay": true,
+					"IsAllowedDurationMultipleDay": true,
+					"IsNoteVisible": true,
+					"DefaultType": false,
+					"AttachmentEnabled": false,
+					"AttachmentMandatory": false,
+					"AttachMaxSize": 0,
+					"AttachRestrictFileType": false,
+					"AttachSupportFileType": "",
+					"TimeUnitCode": "",
+					"TimeUnitName": "",
+					"ApproverLevel": 0,
+					"IsMultiLevelApproval": true,
+					"AddDelApprovers": false,
+					"ActionApprove": "W",
+					"DefaultStartDate": "/Date(1570492800000)/",
+					"DefaultEndDate": "/Date(1570492800000)/",
+					"IsRecordInClockHoursAllowed": true,
+					"IsRecordInClockTimesAllowed": false,
+					"IsQuotaUsed": false,
+					"toAdditionalFieldsDefinition": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0357',Fieldname='PayrDays')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0357',Fieldname='PayrDays')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeAdditionalFieldDefinition"
+							},
+							"EmployeeID": "00048098",
+							"InfoType": "2001",
+							"AbsenceTypeCode": "0357",
+							"Fieldname": "PayrDays",
+							"Required": false,
+							"Readonly": true,
+							"FieldLabel": "Absence days",
+							"ShowInitValue": false,
+							"Length": "000006",
+							"Decimals": "000002",
+							"Type_Kind": "P",
+							"Name": "PayrDays",
+							"HasF4": false,
+							"F4EntityName": "",
+							"F4KeyProperty": "",
+							"F4TitleProperty": "",
+							"F4DescriptionProperty": "",
+							"F4SearchFilter": ""
+						}]
+					},
+					"toApprover": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeApproverDefault"
+							},
+							"EmployeeNumber": "00000000",
+							"Infotype": "",
+							"AbsenceTypeCode": "",
+							"Pernr": "00026972",
+							"Seqnr": "001",
+							"Status": "",
+							"Name": "Dr. Gerhard Henig",
+							"DefaultFlag": false
+						}]
+					}
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0358')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0358')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceType"
+					},
+					"EmployeeID": "00048098",
+					"InfoType": "2001",
+					"AbsenceTypeCode": "0358",
+					"AbsenceTypeName": "Time Off OnCall Duty ½day",
+					"AbsenceDescription": " Time compensation for on call duty 1/2 day.",
+					"ActionCreate": true,
+					"ActionDelete": true,
+					"ActionModify": true,
+					"IsApproverReadOnly": false,
+					"IsApproverVisible": true,
+					"AllowEmptyApprover": false,
+					"IsAllowedDurationPartialDay": true,
+					"IsAllowedDurationSingleDay": false,
+					"IsAllowedDurationMultipleDay": false,
+					"IsNoteVisible": true,
+					"DefaultType": false,
+					"AttachmentEnabled": false,
+					"AttachmentMandatory": false,
+					"AttachMaxSize": 0,
+					"AttachRestrictFileType": false,
+					"AttachSupportFileType": "",
+					"TimeUnitCode": "",
+					"TimeUnitName": "",
+					"ApproverLevel": 0,
+					"IsMultiLevelApproval": true,
+					"AddDelApprovers": false,
+					"ActionApprove": "W",
+					"DefaultStartDate": "/Date(1570492800000)/",
+					"DefaultEndDate": "/Date(1570492800000)/",
+					"IsRecordInClockHoursAllowed": true,
+					"IsRecordInClockTimesAllowed": false,
+					"IsQuotaUsed": false,
+					"toAdditionalFieldsDefinition": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0358',Fieldname='PayrDays')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0358',Fieldname='PayrDays')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeAdditionalFieldDefinition"
+							},
+							"EmployeeID": "00048098",
+							"InfoType": "2001",
+							"AbsenceTypeCode": "0358",
+							"Fieldname": "PayrDays",
+							"Required": false,
+							"Readonly": true,
+							"FieldLabel": "Days used by this absence",
+							"ShowInitValue": false,
+							"Length": "000006",
+							"Decimals": "000002",
+							"Type_Kind": "P",
+							"Name": "PayrDays",
+							"HasF4": false,
+							"F4EntityName": "",
+							"F4KeyProperty": "",
+							"F4TitleProperty": "",
+							"F4DescriptionProperty": "",
+							"F4SearchFilter": ""
+						}]
+					},
+					"toApprover": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeApproverDefault"
+							},
+							"EmployeeNumber": "00000000",
+							"Infotype": "",
+							"AbsenceTypeCode": "",
+							"Pernr": "00026972",
+							"Seqnr": "001",
+							"Status": "",
+							"Name": "Dr. Gerhard Henig",
+							"DefaultFlag": false
+						}]
+					}
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0180')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0180')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceType"
+					},
+					"EmployeeID": "00048098",
+					"InfoType": "2001",
+					"AbsenceTypeCode": "0180",
+					"AbsenceTypeName": "International Relocation",
+					"AbsenceDescription": " SAP may provide you with max 2 relocation days off for your move to the host country. Relocation Days have to be taken in the host country.",
+					"ActionCreate": true,
+					"ActionDelete": true,
+					"ActionModify": true,
+					"IsApproverReadOnly": false,
+					"IsApproverVisible": true,
+					"AllowEmptyApprover": false,
+					"IsAllowedDurationPartialDay": false,
+					"IsAllowedDurationSingleDay": true,
+					"IsAllowedDurationMultipleDay": true,
+					"IsNoteVisible": true,
+					"DefaultType": false,
+					"AttachmentEnabled": false,
+					"AttachmentMandatory": false,
+					"AttachMaxSize": 0,
+					"AttachRestrictFileType": false,
+					"AttachSupportFileType": "",
+					"TimeUnitCode": "",
+					"TimeUnitName": "",
+					"ApproverLevel": 0,
+					"IsMultiLevelApproval": true,
+					"AddDelApprovers": false,
+					"ActionApprove": "W",
+					"DefaultStartDate": "/Date(1570492800000)/",
+					"DefaultEndDate": "/Date(1570492800000)/",
+					"IsRecordInClockHoursAllowed": true,
+					"IsRecordInClockTimesAllowed": false,
+					"IsQuotaUsed": true,
+					"toAdditionalFieldsDefinition": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0180',Fieldname='PayrDays')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0180',Fieldname='PayrDays')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeAdditionalFieldDefinition"
+							},
+							"EmployeeID": "00048098",
+							"InfoType": "2001",
+							"AbsenceTypeCode": "0180",
+							"Fieldname": "PayrDays",
+							"Required": false,
+							"Readonly": true,
+							"FieldLabel": "Days used by this absence",
+							"ShowInitValue": false,
+							"Length": "000006",
+							"Decimals": "000002",
+							"Type_Kind": "P",
+							"Name": "PayrDays",
+							"HasF4": false,
+							"F4EntityName": "",
+							"F4KeyProperty": "",
+							"F4TitleProperty": "",
+							"F4DescriptionProperty": "",
+							"F4SearchFilter": ""
+						}]
+					},
+					"toApprover": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeApproverDefault"
+							},
+							"EmployeeNumber": "00000000",
+							"Infotype": "",
+							"AbsenceTypeCode": "",
+							"Pernr": "00026972",
+							"Seqnr": "001",
+							"Status": "",
+							"Name": "Dr. Gerhard Henig",
+							"DefaultFlag": false
+						}]
+					}
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0361')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0361')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceType"
+					},
+					"EmployeeID": "00048098",
+					"InfoType": "2001",
+					"AbsenceTypeCode": "0361",
+					"AbsenceTypeName": "Short Nurs.leave unpaid",
+					"AbsenceDescription": " REQUIREMENTS FOR SHORT-TERM NURSING CARE LEAVE (PFLEGEAUSZEIT): 1. The care-dependent person must be a close relative in accordance with the legal regulations (Pflegezeitgesetz). 2. The care situation must be urgent, that means the care situation arises suddenly and unexpectedly. 3. DOCTOR'S CONFIRMATION to PERS04 (care dependency* and the necessity of the release from work) 4. DO NOT USE IN CASE OF SICKNESS OF CHILD *ATTENTION: If the official confirmation of a care level is not in place yet, then it must be very likely that the criteria for at least care level I will be fulfilled. The legal definition of care dependency is NOT the same as a general need of care, which can occur e.g. because of a broken leg etc.",
+					"ActionCreate": true,
+					"ActionDelete": true,
+					"ActionModify": true,
+					"IsApproverReadOnly": false,
+					"IsApproverVisible": true,
+					"AllowEmptyApprover": false,
+					"IsAllowedDurationPartialDay": false,
+					"IsAllowedDurationSingleDay": true,
+					"IsAllowedDurationMultipleDay": true,
+					"IsNoteVisible": true,
+					"DefaultType": false,
+					"AttachmentEnabled": false,
+					"AttachmentMandatory": false,
+					"AttachMaxSize": 0,
+					"AttachRestrictFileType": false,
+					"AttachSupportFileType": "",
+					"TimeUnitCode": "",
+					"TimeUnitName": "",
+					"ApproverLevel": 0,
+					"IsMultiLevelApproval": true,
+					"AddDelApprovers": false,
+					"ActionApprove": "W",
+					"DefaultStartDate": "/Date(1570492800000)/",
+					"DefaultEndDate": "/Date(1570492800000)/",
+					"IsRecordInClockHoursAllowed": true,
+					"IsRecordInClockTimesAllowed": false,
+					"IsQuotaUsed": false,
+					"toAdditionalFieldsDefinition": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0361',Fieldname='PayrDays')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0361',Fieldname='PayrDays')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeAdditionalFieldDefinition"
+							},
+							"EmployeeID": "00048098",
+							"InfoType": "2001",
+							"AbsenceTypeCode": "0361",
+							"Fieldname": "PayrDays",
+							"Required": false,
+							"Readonly": true,
+							"FieldLabel": "Absence days",
+							"ShowInitValue": false,
+							"Length": "000006",
+							"Decimals": "000002",
+							"Type_Kind": "P",
+							"Name": "PayrDays",
+							"HasF4": false,
+							"F4EntityName": "",
+							"F4KeyProperty": "",
+							"F4TitleProperty": "",
+							"F4DescriptionProperty": "",
+							"F4SearchFilter": ""
+						}]
+					},
+					"toApprover": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeApproverDefault"
+							},
+							"EmployeeNumber": "00000000",
+							"Infotype": "",
+							"AbsenceTypeCode": "",
+							"Pernr": "00026972",
+							"Seqnr": "001",
+							"Status": "",
+							"Name": "Dr. Gerhard Henig",
+							"DefaultFlag": false
+						}]
+					}
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0303')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0303')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceType"
+					},
+					"EmployeeID": "00048098",
+					"InfoType": "2001",
+					"AbsenceTypeCode": "0303",
+					"AbsenceTypeName": "Special leave up to 3days",
+					"AbsenceDescription": " You are eligible for special leaves in the following cases. Please choose the entitlement of days according to the event: 3 days: death of husband, wife or recorded partner; 2 days: own marriage. Death of own child; 1 day: birth of child. Death of own parents or parents in law. Move with own household (limited for one case per year) if employment is not terminated. Participation at marriage of own child.",
+					"ActionCreate": true,
+					"ActionDelete": true,
+					"ActionModify": true,
+					"IsApproverReadOnly": false,
+					"IsApproverVisible": true,
+					"AllowEmptyApprover": false,
+					"IsAllowedDurationPartialDay": false,
+					"IsAllowedDurationSingleDay": true,
+					"IsAllowedDurationMultipleDay": true,
+					"IsNoteVisible": true,
+					"DefaultType": false,
+					"AttachmentEnabled": false,
+					"AttachmentMandatory": false,
+					"AttachMaxSize": 0,
+					"AttachRestrictFileType": false,
+					"AttachSupportFileType": "",
+					"TimeUnitCode": "",
+					"TimeUnitName": "",
+					"ApproverLevel": 0,
+					"IsMultiLevelApproval": true,
+					"AddDelApprovers": false,
+					"ActionApprove": "W",
+					"DefaultStartDate": "/Date(1570492800000)/",
+					"DefaultEndDate": "/Date(1570492800000)/",
+					"IsRecordInClockHoursAllowed": true,
+					"IsRecordInClockTimesAllowed": false,
+					"IsQuotaUsed": false,
+					"toAdditionalFieldsDefinition": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0303',Fieldname='PayrDays')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0303',Fieldname='PayrDays')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeAdditionalFieldDefinition"
+							},
+							"EmployeeID": "00048098",
+							"InfoType": "2001",
+							"AbsenceTypeCode": "0303",
+							"Fieldname": "PayrDays",
+							"Required": false,
+							"Readonly": true,
+							"FieldLabel": "Absence days",
+							"ShowInitValue": false,
+							"Length": "000006",
+							"Decimals": "000002",
+							"Type_Kind": "P",
+							"Name": "PayrDays",
+							"HasF4": false,
+							"F4EntityName": "",
+							"F4KeyProperty": "",
+							"F4TitleProperty": "",
+							"F4DescriptionProperty": "",
+							"F4SearchFilter": ""
+						}]
+					},
+					"toApprover": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeApproverDefault"
+							},
+							"EmployeeNumber": "00000000",
+							"Infotype": "",
+							"AbsenceTypeCode": "",
+							"Pernr": "00026972",
+							"Seqnr": "001",
+							"Status": "",
+							"Name": "Dr. Gerhard Henig",
+							"DefaultFlag": false
+						}]
+					}
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0345')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0345')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceType"
+					},
+					"EmployeeID": "00048098",
+					"InfoType": "2001",
+					"AbsenceTypeCode": "0345",
+					"AbsenceTypeName": "Trust-Based Working Hours",
+					"AbsenceDescription": " Trust-Based Working Hours: Used for absences which will start at least 2 weeks after request date.",
+					"ActionCreate": true,
+					"ActionDelete": true,
+					"ActionModify": true,
+					"IsApproverReadOnly": false,
+					"IsApproverVisible": true,
+					"AllowEmptyApprover": false,
+					"IsAllowedDurationPartialDay": false,
+					"IsAllowedDurationSingleDay": true,
+					"IsAllowedDurationMultipleDay": true,
+					"IsNoteVisible": true,
+					"DefaultType": false,
+					"AttachmentEnabled": false,
+					"AttachmentMandatory": false,
+					"AttachMaxSize": 0,
+					"AttachRestrictFileType": false,
+					"AttachSupportFileType": "",
+					"TimeUnitCode": "",
+					"TimeUnitName": "",
+					"ApproverLevel": 0,
+					"IsMultiLevelApproval": true,
+					"AddDelApprovers": false,
+					"ActionApprove": "W",
+					"DefaultStartDate": "/Date(1570492800000)/",
+					"DefaultEndDate": "/Date(1570492800000)/",
+					"IsRecordInClockHoursAllowed": true,
+					"IsRecordInClockTimesAllowed": false,
+					"IsQuotaUsed": false,
+					"toAdditionalFieldsDefinition": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0345',Fieldname='PayrDays')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0345',Fieldname='PayrDays')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeAdditionalFieldDefinition"
+							},
+							"EmployeeID": "00048098",
+							"InfoType": "2001",
+							"AbsenceTypeCode": "0345",
+							"Fieldname": "PayrDays",
+							"Required": false,
+							"Readonly": true,
+							"FieldLabel": "Absence days",
+							"ShowInitValue": false,
+							"Length": "000006",
+							"Decimals": "000002",
+							"Type_Kind": "P",
+							"Name": "PayrDays",
+							"HasF4": false,
+							"F4EntityName": "",
+							"F4KeyProperty": "",
+							"F4TitleProperty": "",
+							"F4DescriptionProperty": "",
+							"F4SearchFilter": ""
+						}]
+					},
+					"toApprover": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeApproverDefault"
+							},
+							"EmployeeNumber": "00000000",
+							"Infotype": "",
+							"AbsenceTypeCode": "",
+							"Pernr": "00026972",
+							"Seqnr": "001",
+							"Status": "",
+							"Name": "Dr. Gerhard Henig",
+							"DefaultFlag": false
+						}]
+					}
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0346')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AbsenceTypeSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0346')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceType"
+					},
+					"EmployeeID": "00048098",
+					"InfoType": "2001",
+					"AbsenceTypeCode": "0346",
+					"AbsenceTypeName": "Trust-Based Work Hours SN",
+					"AbsenceDescription": " Trust-Based Working Hours at Short Notice (SN): Used for absences which will start already within the following 2 weeks.",
+					"ActionCreate": true,
+					"ActionDelete": true,
+					"ActionModify": true,
+					"IsApproverReadOnly": false,
+					"IsApproverVisible": true,
+					"AllowEmptyApprover": false,
+					"IsAllowedDurationPartialDay": false,
+					"IsAllowedDurationSingleDay": true,
+					"IsAllowedDurationMultipleDay": true,
+					"IsNoteVisible": true,
+					"DefaultType": false,
+					"AttachmentEnabled": false,
+					"AttachmentMandatory": false,
+					"AttachMaxSize": 0,
+					"AttachRestrictFileType": false,
+					"AttachSupportFileType": "",
+					"TimeUnitCode": "",
+					"TimeUnitName": "",
+					"ApproverLevel": 0,
+					"IsMultiLevelApproval": true,
+					"AddDelApprovers": false,
+					"ActionApprove": "W",
+					"DefaultStartDate": "/Date(1570492800000)/",
+					"DefaultEndDate": "/Date(1570492800000)/",
+					"IsRecordInClockHoursAllowed": true,
+					"IsRecordInClockTimesAllowed": false,
+					"IsQuotaUsed": false,
+					"toAdditionalFieldsDefinition": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0346',Fieldname='PayrDays')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/AdditionalFieldSet(EmployeeID='00048098',InfoType='2001',AbsenceTypeCode='0346',Fieldname='PayrDays')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeAdditionalFieldDefinition"
+							},
+							"EmployeeID": "00048098",
+							"InfoType": "2001",
+							"AbsenceTypeCode": "0346",
+							"Fieldname": "PayrDays",
+							"Required": false,
+							"Readonly": true,
+							"FieldLabel": "Absence days",
+							"ShowInitValue": false,
+							"Length": "000006",
+							"Decimals": "000002",
+							"Type_Kind": "P",
+							"Name": "PayrDays",
+							"HasF4": false,
+							"F4EntityName": "",
+							"F4KeyProperty": "",
+							"F4TitleProperty": "",
+							"F4DescriptionProperty": "",
+							"F4SearchFilter": ""
+						}]
+					},
+					"toApprover": {
+						"results": [{
+							"__metadata": {
+								"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/MultipleApproverSet(EmployeeNumber='00000000',Infotype='',AbsenceTypeCode='',Pernr='00026972')",
+								"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.AbsenceTypeApproverDefault"
+							},
+							"EmployeeNumber": "00000000",
+							"Infotype": "",
+							"AbsenceTypeCode": "",
+							"Pernr": "00026972",
+							"Seqnr": "001",
+							"Status": "",
+							"Name": "Dr. Gerhard Henig",
+							"DefaultFlag": false
+						}]
+					}
+				}]
+			}
+		}
+	}, {
+		"resourceIdentifier": "/sap/fiori/hcmfabmyleavrequestext/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet?$select=BalancePlannedQuantity,BalanceAvailableQuantity,BalanceUsedQuantity,TimeUnitName,TimeAccountTypeName",
+		"data": {
+			"d": {
+				"results": [{
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2010-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2010-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.TimeAccount"
+					},
+					"TimeAccountTypeName": "Annual leave",
+					"TimeUnitName": "Days",
+					"BalanceUsedQuantity": "16.00000",
+					"BalanceAvailableQuantity": "14.00000",
+					"BalancePlannedQuantity": "0.00000"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2012-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2012-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.TimeAccount"
+					},
+					"TimeAccountTypeName": "Annual leave",
+					"TimeUnitName": "Days",
+					"BalanceUsedQuantity": "25.00000",
+					"BalanceAvailableQuantity": "5.00000",
+					"BalancePlannedQuantity": "0.00000"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2013-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2013-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.TimeAccount"
+					},
+					"TimeAccountTypeName": "Annual leave",
+					"TimeUnitName": "Days",
+					"BalanceUsedQuantity": "5.00000",
+					"BalanceAvailableQuantity": "20.00000",
+					"BalancePlannedQuantity": "0.00000"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2016-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2016-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.TimeAccount"
+					},
+					"TimeAccountTypeName": "Annual leave",
+					"TimeUnitName": "Days",
+					"BalanceUsedQuantity": "22.00000",
+					"BalanceAvailableQuantity": "10.00000",
+					"BalancePlannedQuantity": "0.00000"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2017-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2017-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.TimeAccount"
+					},
+					"TimeAccountTypeName": "Annual leave",
+					"TimeUnitName": "Days",
+					"BalanceUsedQuantity": "16.00000",
+					"BalanceAvailableQuantity": "16.00000",
+					"BalancePlannedQuantity": "0.00000"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2018-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2018-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.TimeAccount"
+					},
+					"TimeAccountTypeName": "Annual leave",
+					"TimeUnitName": "Days",
+					"BalanceUsedQuantity": "27.00000",
+					"BalanceAvailableQuantity": "5.00000",
+					"BalancePlannedQuantity": "0.00000"
+				}, {
+					"__metadata": {
+						"id": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2019-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"uri": "https://pgpmain.wdf.sap.corp:443/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/TimeAccountSet(EmployeeID='00048098',TimeAccountTypeCode='40',DeductionStartDate=datetime'2019-01-01T00%3A00%3A00',DeductionEndDate=datetime'9999-12-31T00%3A00%3A00')",
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.TimeAccount"
+					},
+					"TimeAccountTypeName": "Annual leave",
+					"TimeUnitName": "Days",
+					"BalanceUsedQuantity": "30.00000",
+					"BalanceAvailableQuantity": "2.00000",
+					"BalancePlannedQuantity": "0.00000"
+				}]
+			}
+		}
+	}, {
+		"resourceIdentifier": "/sap/fiori/hcmfabmyleavrequestext/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/CalculateQuotaAvailable?AbsenceTypeCode=%270110%27&EmployeeID=%2700048098%27&InfoType=%272001%27",
+		"data": {
+			"d": {
+				"CalculateQuotaAvailable": {
+					"__metadata": {
+						"type": "HCMFAB_LEAVE_REQUEST_CR_SRV.QuotaAvailable"
+					},
+					"TimeTypeText": "Annual leave",
+					"TimeUnitText": "Days",
+					"BalanceQuantityRestPosted": "5.00000",
+					"BalanceRestPostedRequested": "58.00000"
+				}
+			}
+		}
+	}]
+}

@@ -1,0 +1,115 @@
+Handlebars.registerHelper("formatDetails", function(value) {
+    
+        let DATE_REGEX = /\/Date\(([0-9]+)\)\//;
+        var startDate ;
+        var endDate;
+        var out = this.AbsenceTypeName;
+    if(value == "0100" ){
+        let stupidODataV2sDate = this.StartDate;
+        startDate = new Date(parseInt(stupidODataV2sDate.match(DATE_REGEX)[1], 10));
+        let stupidODataV2eDate = this.EndDate;
+        endDate = new Date(parseInt(stupidODataV2eDate.match(DATE_REGEX)[1], 10));
+        out = startDate.toLocaleDateString() + " - " + endDate.toLocaleDateString() + " (" + this.TimeUnit.replace(/^0+(?!\.|$)/, '') + this.TimeUnitCode + ")" ; 
+    }
+    if(value == "0200" ){
+        let stupidODataV2sDate = this.StartDate;
+        startDate = new Date(parseInt(stupidODataV2sDate.match(DATE_REGEX)[1], 10));
+        let stupidODataV2eDate = this.EndDate;
+        endDate = new Date(parseInt(stupidODataV2eDate.match(DATE_REGEX)[1], 10));
+        out = startDate.toLocaleDateString() + " - " + endDate.toLocaleDateString() + " (" + this.TimeUnit.replace(/^0+(?!\.|$)/, '') + this.TimeUnitCode + ")" ; 
+    }
+    return new Handlebars.SafeString(out);
+});
+
+Handlebars.registerHelper("formatImages", function(value) {
+    var out = new Handlebars.SafeString( "<img src=\"assets/special.png\" style=' width: 42px; height: 42px;'>");
+
+    if(value.includes("011")){
+        out = new Handlebars.SafeString( "<img src=\"assets/vacation.png\" style=' width: 42px; height: 42px;'>");
+    }
+    
+    if(value.includes("0350") ){
+        out = new Handlebars.SafeString( "<img src=\"assets/holiday.png\" style=' width: 42px; height: 42px;'>");
+    }
+    
+    if(value.includes("02") ){
+        out = new Handlebars.SafeString( "<img src=\"assets/sick.png\" style=' width: 42px; height: 42px;'>");
+    }
+    
+    return out;
+});
+
+Handlebars.registerHelper("formatStatus", function(value) {
+    var out = new Handlebars.SafeString( "<span style='color:blue'>Pending</span>");
+
+    if(value == "SENT" ){
+        out = new Handlebars.SafeString( "<span style='color:orange'>Sent</span>");
+    }
+    
+    if(value == "POSTED" ){
+        out = new Handlebars.SafeString( "<span style='color:white'>Posted</span>");
+    }
+    
+    
+    return out;
+});
+
+Handlebars.registerHelper('formatDateTime', function (format, dateStr) {
+       var rDateRE = /^\/Date\((-?\d+)(\+|-)?(\d+)?\)\/$/;
+
+       try {
+           var aArr = dateStr && rDateRE.exec(dateStr);
+           if (aArr) {
+               // 0 - complete results; 1 - ticks; 2 - sign; 3 - minutes
+               var oDate = new Date(parseInt(aArr[1], 10));
+
+               if (!isNaN(oDate.valueOf())) {
+                   var oDateFormat = sap.ui.core.format.DateFormat.getDateTimeInstance({
+                       pattern : format,
+                       UTC : true
+                   });
+                   return oDateFormat.format(oDate);
+               }
+           }
+
+           // the date str is not a valid JSON formatted date, just return the value
+           return dateStr;
+       } catch (e) {
+           // some error ... just return what was supplied
+           return dateStr;
+       }
+   });
+
+Handlebars.registerHelper("calculateAvailableDays", function(value) {
+    var total = 0;
+    for(var i=0, j=value.length; i<j; i++) {
+        total = total + parseFloat(value[i].BalanceAvailableQuantity);
+    }
+
+    var number = Number(total);
+    var outpoutString = number.toFixed(1);
+    return new Handlebars.SafeString(outpoutString );
+});
+
+Handlebars.registerHelper("simplifyFloat", function(value, afterMath) {
+
+    var newStr = value.replace(/'.'g/, ',');
+
+    var number = Number(newStr);
+
+    var outpoutString = number.toFixed(afterMath);
+
+    return new Handlebars.SafeString(outpoutString);
+});
+
+Handlebars.registerHelper("debug", function(optionalValue) {
+  console.log("Current Context");
+  console.log("====================");
+  console.log(this);
+ 
+  if (optionalValue) {
+    console.log("Value");
+    console.log("====================");
+    console.log(optionalValue);
+  }
+});

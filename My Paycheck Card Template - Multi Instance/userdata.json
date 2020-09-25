@@ -1,0 +1,27 @@
+{
+	"d": {
+		"__metadata": {
+			"id": "https://pgtmain.wdf.sap.corp:443/sap/opu/odata/sap/HCM_MY_PAYSTUBS_SRV/Paystubs(SEQUENCENUMBER=652,PersonnelAssignment='00048098')",
+			"uri": "https://pgtmain.wdf.sap.corp:443/sap/opu/odata/sap/HCM_MY_PAYSTUBS_SRV/Paystubs(SEQUENCENUMBER=652,PersonnelAssignment='00048098')",
+			"type": "HCM_MY_PAYSTUBS_SRV.Paystub"
+		},
+		"SEQUENCENUMBER": 652,
+		"StartDate": "\/Date(1519862400000)\/",
+		"EndDate": "\/Date(1522454400000)\/",
+		"PayrollType": "",
+		"Reason": "Regular payroll run",
+		"Amount": "298.03",
+		"Currency": "EUR",
+		"BonusDate": null,
+		"PayDate": "\/Date(1522281600000)\/",
+		"Period": "201803",
+		"GroupName": "",
+		"PersonnelAssignment": "00048098",
+		"PersonnelAssignmentText": "",
+		"GrossPay": "560.89",
+		"Deduction": "0.00",
+		"Position": "Chief Product Guru",
+		"PersonId": ""
+	}
+}
+

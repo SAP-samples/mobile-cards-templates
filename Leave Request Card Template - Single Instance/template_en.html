@@ -1,0 +1,57 @@
+<div id="mySimpleTemplate" class="myTemplate" data-type="text/x-handlebars-template">
+
+    <div class="header">
+    <div >
+        <div>
+            <div style="float: left;">
+                <img src="assets/logo.png" alt="" width="34px" height="34px">
+            </div>
+            <div style="font-weight: bold; font-size: 20px; float: left; margin-top: 7px;">
+                Leave Overview
+            </div>
+        </div>
+        <div style="float: right;">
+            <div style="float: right; display: inline; font-size: 18px; padding-top: 4px; text-align: right; ">
+               {{dataSets.[1].data.d.results.[0].TimeUnitName}}
+           </div>
+            <div style="float: right; display: inline; font-size: 20px; padding-top: 4px;padding-right:8px; text-align: right;">
+             {{simplifyFloat dataSets.[5].data.d.CalculateQuotaAvailable.BalanceRestPostedRequested 1}} 
+            </div>
+            <div style="float: right; clear: right; display: inline; font-size: 12px; padding-top: 4px; text-align: right;">
+            available
+            </div>                
+        </div>
+    </div>
+</div>
+<div class="card-content">
+
+    <div id="requestList">
+    </div>
+    <table style="width:100%; border-collapse:collapse;">
+        <tbody>
+            {{#each dataSets.[2].data.d.results}}
+            <tr>
+                <td class="icon">
+                    {{formatImages AbsenceTypeCode}}
+                </td>
+                <td>
+                    <span class="title">
+                    {{AbsenceTypeName}}
+                    </span>
+                    <br>
+                    <span class="date">
+                    {{formatDateTime "dd-MMM-yyyy" StartDate}} <b>to</b> {{formatDateTime "dd-MMM-yyyy" EndDate}}
+                    </span>
+                </td>
+                <td align="right">
+                    <span class="status">
+                    {{formatStatus StatusID}}
+                    </span>
+                </td>
+            </tr>
+            {{/each}}
+        </tbody>
+    </table>
+</div>
+
+</div>

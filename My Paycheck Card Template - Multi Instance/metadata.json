@@ -1,0 +1,72 @@
+{
+    "TemplateName": "User defined template",
+    "GatekeeperConfiguration": null,
+    "CardClass": "HtmlTemplate",
+    "QueryURL": "/sap/fiori/hcmmypaystubsextension/sap/opu/odata/sap/HCM_MY_PAYSTUBS_SRV/Paystubs?$top=3&$select=StartDate,Position,EndDate,SEQUENCENUMBER,Currency,GrossPay,Amount",
+    "CustomType": "Query",
+    "UrlMatch": null,
+    "SortCardsWith": {
+        "ParameterName": "SEQUENCENUMBER",
+        "Operation": "ASC",
+        "Type": "Numeric",
+        "Format": null
+    },
+    "AppLaunchUrl": null,
+    "APNSEnabled": true,
+    "QueryReturnsEntityCollection": true,
+    "Descriptions": [
+        {
+            "language": "EN",
+            "text": ""
+        }
+    ],
+    "Parameters": {
+        "Parameters": [
+            {
+                "Name": "SEQUENCENUMBER",
+                "Propagate": false,
+                "ResourceOrderNumber": 0,
+                "Value": "$.d.SEQUENCENUMBER",
+                "displayName": "SEQUENCENUMBER"
+            }
+        ]
+    },
+    "SubscriptionParameters": [],
+    "useHtmlAsMapping": true,
+    "CollectionType": "useCollection",
+    "QueryConfiguration": {
+        "QueryURLCollectionRoot": "$.d.results",
+        "QueryEntityKeyPaths": [
+            "$.d.__metadata.uri"
+        ],
+        "CacheQueryResult": false
+    },
+    "SubscribableTo": {
+        "Users": []
+    },
+    "NewsEnabled": false,
+    "AutoSubscribe": true,
+    "HiddenSubscription": false,
+    "NotificationMessages": {
+        "Messages": [
+            {
+                "language": "EN",
+                "text": "new Payslip available",
+                "notificationType": "NEW"
+            }
+        ]
+    },
+    "NotificationRules": [],
+    "ResourceIdentifiers": [
+        {
+            "ImagePaths": "",
+            "Order": 0,
+            "Uri": "",
+            "Shared": false
+        }
+    ],
+    "Connection": "com.sap.it.flp",
+    "Name": "Paystubs - Overview",
+    "Uri": "",
+    "Shared": false
+}

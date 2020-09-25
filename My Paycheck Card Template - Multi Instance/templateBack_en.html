@@ -1,0 +1,35 @@
+<div id="mySimpleTemplate" class="myTemplate" data-type="text/x-handlebars-template">
+    <div class="header">
+        <img src="assets/logo.png" alt="" width="36px" height="32px" style="padding-right:16px; padding-top:8px;">
+        <h1>
+            My Paystubs
+        </h1>
+
+        <span class="name">
+            Payslip# {{d.SEQUENCENUMBER}}
+        </span>
+    </div>
+    <div class="card-content">
+        <div class="all">
+            <div class="title-content">
+                <br>
+                <span class="title">
+                    GrossPay
+                </span>
+                <br>
+                <span class="content">
+                    {{d.GrossPay}} {{d.Currency}}
+                </span>
+            </div>
+            <div class="title-content">
+                <span class="title">
+                    Amount
+                </span>
+                <br>
+                <span class="content">
+                    {{d.Amount}} {{d.Currency}}
+                </span>
+            </div>
+        </div>
+    </div>
+</div>

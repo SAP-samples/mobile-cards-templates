@@ -14,6 +14,11 @@ Current list of templates:
 | 2. | [SalesOrderHeader Card](/SalesOrderHeaders-Card-Template) | Multi Instance|
 | 3. | [Product Card](/Product%20Card%20Template%20-%20Single%20Instance) | Single Instance |
 | 4. | [My To Do Card](/My%20To%20Dos%20Card%20Template%20-%20Multi%20Instance) | Multi Instance |
+| 5. | [Leave Request Card]() | Single Instance |
+| 6. | [Approve Leave Request Card]() | Multi Instance |
+| 7. | [My PayCheck Card]() | Multi Instance |
+| 8. | [My Time Sheet Card]() | Single Instance |
+| 9. | [Lunch Menu Card]() | Single Instance |
 
 ## Requirements
 

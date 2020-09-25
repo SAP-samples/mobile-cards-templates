@@ -1,0 +1,55 @@
+{
+    "TemplateName": "User defined template",
+    "GatekeeperConfiguration": null,
+    "CardClass": "HtmlTemplate",
+    "QueryInterval": "P1DT0H0M",
+    "QueryURL": null,
+    "CustomType": "SingleInstance",
+    "UrlMatch": null,
+    "SortCardsWith": null,
+    "AppLaunchUrl": null,
+    "APNSEnabled": true,
+    "QueryReturnsEntityCollection": false,
+    "DescriptionEnglish": "My hours",
+    "Descriptions": [
+        {
+            "language": "EN",
+            "text": "My hours"
+        }
+    ],
+    "Parameters": {
+        "Parameters": [
+            {
+                "Name": "sfGroupName",
+                "Propagate": false,
+                "ResourceOrderNumber": 0,
+                "Value": "sf",
+                "displayName": "sfGroupName"
+            }
+        ]
+    },
+    "SubscriptionParameters": [],
+    "useHtmlAsMapping": true,
+    "SubscribableTo": {
+        "Users": []
+    },
+    "NewsEnabled": false,
+    "AutoSubscribe": false,
+    "HiddenSubscription": false,
+    "NotificationMessages": {
+        "Messages": []
+    },
+    "NotificationRules": [],
+    "ResourceIdentifiers": [
+        {
+            "ImagePaths": "",
+            "Uri": "/odata/v2/EmployeeTime?$format=json&$filter=userIdNav/username%20eq%20'${userId}'%20and%20timeType%20eq%20'WORK'&$expand=userIdNav&$orderby=startDate%20desc",
+            "Order": 0,
+            "Shared": true
+        }
+    ],
+    "Connection": "com.sap.edm.sampleservice.v2",
+    "Name": "TimeSheet",
+    "Uri": "/odata/v2/EmployeeTime?$format=json&$filter=userIdNav/username%20eq%20'${userId}'%20and%20timeType%20eq%20'WORK'&$expand=userIdNav&$orderby=startDate%20desc",
+    "Shared": true
+}

@@ -1,0 +1,61 @@
+{
+    "d": {
+        "__metadata": {
+            "id": "https://pgtmain.wdf.sap.corp:443/sap/opu/odata/sap/HCM_LEAVE_REQ_APPROVE_SRV/LeaveRequestSet(RequestId='005056946CF61ED88CCFA601BDFD36A4',RequesterName='Sami%20Lechner',RequesterNumber='00048098',StartDate=datetime'2018-05-02T00%3A00%3A00',EndDate=datetime'2018-05-18T00%3A00%3A00')",
+            "uri": "https://pgtmain.wdf.sap.corp:443/sap/opu/odata/sap/HCM_LEAVE_REQ_APPROVE_SRV/LeaveRequestSet(RequestId='005056946CF61ED88CCFA601BDFD36A4',RequesterName='Sami%20Lechner',RequesterNumber='00048098',StartDate=datetime'2018-05-02T00%3A00%3A00',EndDate=datetime'2018-05-18T00%3A00%3A00')",
+            "type": "HCM_LEAVE_REQ_APPROVE_SRV.LeaveRequest"
+        },
+        "RequestId": "005056946CF61ED88CCFA601BDFD36A4",
+        "ApproverName": "van Cutsem Michael",
+        "ApproverNumber": "01063866",
+        "RequesterName": "Sami Lechner",
+        "RequesterNumber": "00048098",
+        "FirstSubmDate": "/Date(1522195200000)/",
+        "FirstSubmTime": "134311",
+        "InfoType": "2001",
+        "LeaveType": "0110",
+        "LeaveTypeDesc": "Vacation",
+        "StartDate": "/Date(1525219200000)/",
+        "EndDate": "/Date(1526601600000)/",
+        "BeginTime": "000000",
+        "EndTime": "000000",
+        "AbsenceHours": "96.00",
+        "AllDayFlag": true,
+        "AbsenceDays": "12.00",
+        "CalendarDays": "17.00",
+        "Deduction": "12.00000",
+        "Note": "",
+        "Version": 1,
+        "StatusCode": "SENT",
+        "StatusName": "Sent",
+        "ChangeDate": "/Date(1522195200000)/",
+        "ChangeTime": "134311",
+        "ChangePersName": "",
+        "FilterGetAllRequests": "",
+        "LeaveRequestType": 0,
+        "Overlaps": 0,
+        "OverlapList": "",
+        "NotesCounter": 0,
+        "TaskDefinitionID": "",
+        "CurrentBalance": "83.00000",
+        "CurrentBalanceTimeUnit": "Days",
+        "CurrentBalTimeUnitCode": "010",
+        "CurrentBalanceWarning": "",
+        "CalculateOverlaps": "X",
+        "WorkitemID": "000000000000",
+        "AttachmentsCounter": 0,
+        "Fileattachments": "",
+        "ActionCode": "",
+        "ActionText": "",
+        "LeaveRequestFileAttachment": {
+            "__deferred": {
+                "uri": "https://pgtmain.wdf.sap.corp:443/sap/opu/odata/sap/HCM_LEAVE_REQ_APPROVE_SRV/LeaveRequestSet(RequestId='005056946CF61ED88CCFA601BDFD36A4',RequesterName='Sami%20Lechner',RequesterNumber='00048098',StartDate=datetime'2018-05-02T00%3A00%3A00',EndDate=datetime'2018-05-18T00%3A00%3A00')/LeaveRequestFileAttachment"
+            }
+        },
+        "TeamCalendar": {
+            "__deferred": {
+                "uri": "https://pgtmain.wdf.sap.corp:443/sap/opu/odata/sap/HCM_LEAVE_REQ_APPROVE_SRV/LeaveRequestSet(RequestId='005056946CF61ED88CCFA601BDFD36A4',RequesterName='Sami%20Lechner',RequesterNumber='00048098',StartDate=datetime'2018-05-02T00%3A00%3A00',EndDate=datetime'2018-05-18T00%3A00%3A00')/TeamCalendar"
+            }
+        }
+    }
+}

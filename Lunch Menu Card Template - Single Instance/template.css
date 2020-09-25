@@ -1,0 +1,161 @@
+.lunch-menu {
+    background-image: url("assets/lunchX.jpg");
+    background-repeat: no-repeat;
+    background-size: 415px auto;
+    background-attachment: fixed;
+    color: #000000;
+    height: 100vh;
+    font-family:-apple-system, Helvetica;
+}
+ 
+.header {
+    display: flex;
+    padding: 1rem;
+    max-height:4rem;
+    margin-bottom:0;
+}
+ 
+.header img {
+    margin-right: 0.5rem;
+}
+ 
+.header h1 {
+    font-size: 1.25rem;
+    color: #333;
+    flex: 1 1;
+    white-space: normal;
+    margin: 0;
+    line-height: 2.5rem;
+}
+ 
+.header .day-and-place {
+    color: #666;
+    margin-left: 1rem;
+}
+ 
+.header .day {
+    font-size: 0.875rem;
+    display: block;
+    text-align: right;
+    line-height: 1rem;
+}
+
+.header .place {
+    font-size: 1rem;
+    display: block;
+    text-align: right;
+    padding-top:0.5rem;
+}
+ 
+ 
+.menu {
+margin:0;
+}
+
+
+.menu h3 {
+    font-size: 1.75rem;
+    font-weight: 200;
+    line-height: 1rem;
+    color: #333;
+    margin-top: 0.5rem;
+    margin-bottom: 1.25rem;
+    z-index: 100;
+
+}
+
+.dish{
+    padding: 1rem;
+    color: #333;
+    line-height:1.5rem;
+    background-color: rgba(255, 255, 255,0.7);
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px); 
+}
+
+.menu .type{
+    display: flex;
+    color:#646C69;
+    background-color: rgba(243, 241, 240,0.5);
+}
+
+.menu .icon{
+    height: 1.25rem;
+}
+ 
+.menu ul {
+    margin: 0;
+    padding-left: 1rem ;
+    padding-right: 1rem;
+    list-style-type: none;
+}
+ 
+.menu ul li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+    color: #333;
+}
+
+.menu ul li img {
+    height: 1.25rem;
+    margin-left:0.5rem;
+}
+
+.table {
+    border-collapse: collapse;
+    width:100%;
+}
+
+h2 {
+    font-size: 1rem;
+    font-weight:bold;
+    padding-left:1rem;
+    line-height: 1rem;
+    margin-right: 0.5rem;
+    margin-top: 1rem;
+}
+
+.table .table-data-items{
+    height: 2rem;
+}
+
+.table tr:nth-child(even){
+    background-color: rgba(243, 241, 240,0.5);
+}
+
+.table .table-title{
+    text-align: left;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+.table .table-content{
+    text-align: right;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+}
+
+.contain-allergens{
+    border-collapse: collapse;
+    width:100%;
+}
+
+.contain-allergens img{
+    height: 2rem;
+}
+
+.contain-allergens .allergens-data-items{
+    height: 2rem;
+}
+
+.contain-allergens tr:nth-child(odd){
+    background-color: rgba(243, 241, 240,0.5);
+}
+
+.contain-allergens .allergens-title{
+    text-align: left;
+    padding: 0.5rem 0.5rem 0.5rem 1rem;
+}
+
+.contain-allergens .allergens-content{
+    text-align: right;
+    padding: 0.5rem 1rem 0.5rem 0.5rem;
+}
