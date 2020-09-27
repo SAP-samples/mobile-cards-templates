@@ -16,7 +16,7 @@ Alternatively, you can change the life cycle status of the card to Prototype Mod
 
 ### Making The Card A Prototype Card on Mobile Services Cockpit 
 
-![ToDo Card Android Screenshot](screens/mobile-services-cockpit-prototype.png)
+![ToDo Card Android Screenshot](screens/deploy-prototype-mobile-services-cockpit.png)
 
 ## Screenshot
 
@@ -24,7 +24,7 @@ Alternatively, you can change the life cycle status of the card to Prototype Mod
 
 #### Front
 
-![ToDo Card Android Front Screenshot](screens/android.png)
+![ToDo Card Android Front Screenshot](screens/android_front.png)
 
 #### Back
 
@@ -35,7 +35,7 @@ Alternatively, you can change the life cycle status of the card to Prototype Mod
 
 #### Front
 
-![ToDo Card iOS Front Screenshot](screens/ios.png)
+![ToDo Card iOS Front Screenshot](screens/ios_front.png)
 
 #### Back
 

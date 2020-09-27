@@ -16,7 +16,7 @@ You can change the lifecycle status of your card to Prototype Mode to visualize 
 
 ### Making The Card A Prototype Card on Mobile Services Cockpit 
 
-![Leave Request Card Mobile Services Cockpit Screenshot](screens/mobile-services-cockpit-prototype.png)
+![Leave Request Card Mobile Services Cockpit Screenshot](screens/deploy-prototype-mobile-services-cockpit.png)
 
 ## Screenshot
 
@@ -24,7 +24,7 @@ You can change the lifecycle status of your card to Prototype Mode to visualize 
 
 #### Front
 
-![Leave Request Card Android Front Screenshot](screens/android.png)
+![Leave Request Card Android Front Screenshot](screens/android_front.png)
 
 #### Back
 
@@ -34,7 +34,7 @@ You can change the lifecycle status of your card to Prototype Mode to visualize 
 
 #### Front
 
-![Leave Request Card iOS Front Screenshot](screens/ios.png)
+![Leave Request Card iOS Front Screenshot](screens/ios_front.png)
 
 #### Back
 
