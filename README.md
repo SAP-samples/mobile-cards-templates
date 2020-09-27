@@ -11,7 +11,7 @@ Current list of templates:
 |S No: | Template Name| Instance Type |
 |---|---|---|
 | 1. | [Welcome Card](/Welcome%20Card%20Template%20-%20Single%20Instance) | Single Instance |
-| 2. | [SalesOrderHeader Card](/SalesOrderHeaders-Card-Template) | Multi Instance|
+| 2. | [SalesOrderHeader Card](/SalesOrderHeaders%20Card%20Template%20-%20Multi%20Instance) | Multi Instance|
 | 3. | [Product Card](/Product%20Card%20Template%20-%20Single%20Instance) | Single Instance |
 | 4. | [My To Do Card](/My%20To%20Dos%20Card%20Template%20-%20Multi%20Instance) | Multi Instance |
 | 5. | [Leave Request Card](/Leave%20Request%20Card%20Template%20-%20Single%20Instance) | Single Instance |

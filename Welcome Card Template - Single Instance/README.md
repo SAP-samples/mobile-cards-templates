@@ -12,7 +12,7 @@ It creates one card for each user.
 
 #### Front
 
-![Welcome Card Android Front Screenshot](screens/android.png)
+![Welcome Card Android Front Screenshot](screens/android_front.png)
 
 #### Back
 
@@ -22,7 +22,7 @@ It creates one card for each user.
 
 #### Front
 
-![Welcome Card iOS Front Screenshot](screens/ios.png)
+![Welcome Card iOS Front Screenshot](screens/ios_front.png)
 
 #### Back
 
