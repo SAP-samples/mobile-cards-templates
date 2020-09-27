@@ -14,7 +14,7 @@ We define a URL to show a card for a specific product present in the [Sample ODa
 
 #### Front
 
-![Product Card Android Front Screenshot](screens/android.png)
+![Product Card Android Front Screenshot](screens/android_front.png)
 
 #### Back
 
@@ -24,7 +24,7 @@ We define a URL to show a card for a specific product present in the [Sample ODa
 
 #### Front
 
-![Product Card iOS Front Screenshot](screens/ios.png)
+![Product Card iOS Front Screenshot](screens/ios_front.png)
 
 #### Back
 
