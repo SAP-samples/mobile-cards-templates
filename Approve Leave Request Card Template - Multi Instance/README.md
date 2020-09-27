@@ -16,14 +16,14 @@ You can change the lifecycle status of your card to Prototype Mode to visualize 
 
 ### Making The Card A Prototype Card on Mobile Services Cockpit 
 
-![Approve Leave Request Card Mobile Services Cockpit Screenshot](screens/mobile-services-cockpit-prototype.png)
+![Approve Leave Request Card Mobile Services Cockpit Screenshot](screens/deploy-prototype-mobile-services-cockpit.png)
 
 ## Screenshot
 
 ### Android
 
 #### Front
-![Approve Leave Request Card Android Front Screenshot](screens/android.png)
+![Approve Leave Request Card Android Front Screenshot](screens/android_front.png)
 
 #### Back
 Approve Leave Request Card does not have template_back_en.html. Therefore, you cannot see the flip option to view back side of the Card in Android. 
@@ -31,7 +31,7 @@ Approve Leave Request Card does not have template_back_en.html. Therefore, you c
 ### iOS
 
 #### Front
-![Approve Leave Request Card iOS Front Screenshot](screens/ios.png)
+![Approve Leave Request Card iOS Front Screenshot](screens/ios_front.png)
 
 #### Back
 

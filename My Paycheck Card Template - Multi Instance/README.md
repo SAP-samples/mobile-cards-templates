@@ -15,7 +15,7 @@ You can change the lifecycle status of your card to Prototype Mode to visualize 
 
 ### Making The Card A Prototype Card on Mobile Services Cockpit 
 
-![My Paycheck Card Mobile Services Cockpit Screenshot](screens/mobile-services-cockpit-prototype.png)
+![My Paycheck Card Mobile Services Cockpit Screenshot](screens/deploy-prototype-mobile-services-cockpit.png)
 
 ## Screenshot
 
@@ -23,7 +23,7 @@ You can change the lifecycle status of your card to Prototype Mode to visualize 
 
 #### Front
 
-![My Paycheck Card Android Front Screenshot](screens/android.png)
+![My Paycheck Card Android Front Screenshot](screens/android_front.png)
 
 #### Back
 
@@ -33,7 +33,7 @@ You can change the lifecycle status of your card to Prototype Mode to visualize 
 
 #### Front
 
-![My Paycheck Card iOS Front Screenshot](screens/ios.png)
+![My Paycheck Card iOS Front Screenshot](screens/ios_front.png)
 
 #### Back
 
