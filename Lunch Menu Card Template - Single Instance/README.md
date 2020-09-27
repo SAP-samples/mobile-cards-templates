@@ -15,7 +15,7 @@ You can change the lifecycle status of your card to Prototype Mode to visualize 
 
 ### Making The Card A Prototype Card on Mobile Services Cockpit 
 
-![Lunch Menu Card Mobile Services Cockpit Screenshot](screens/mobile-services-cockpit-prototype.png)
+![Lunch Menu Card Mobile Services Cockpit Screenshot](screens/deploy-prototype-mobile-services-cockpit.png)
 
 ## Screenshot
 
@@ -23,7 +23,7 @@ You can change the lifecycle status of your card to Prototype Mode to visualize 
 
 #### Front
 
-![Lunch Menu Card Android Front Screenshot](screens/android.png)
+![Lunch Menu Card Android Front Screenshot](screens/android_front.png)
 
 #### Back
 
@@ -33,7 +33,7 @@ You can change the lifecycle status of your card to Prototype Mode to visualize 
 
 #### Front
 
-![Lunch Menu Card iOS Front Screenshot](screens/ios.png)
+![Lunch Menu Card iOS Front Screenshot](screens/ios_front.png)
 
 #### Back
 
