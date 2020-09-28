@@ -2,7 +2,7 @@
 
 ## Description
 
-My Paycheck Card gives you the details of the Payroll run. You can view Pay Date, Position, the GrossPay and Amount for a particular month.
+My Paycheck Card gives you the details of the Payroll run. You can view the Pay Date, Position (Job Title), the GrossPay and Amount for a particular month.
 
 ## URL
 
