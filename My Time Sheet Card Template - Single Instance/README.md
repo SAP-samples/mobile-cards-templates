@@ -2,7 +2,7 @@
 
 ## Description
 
-Time Sheet Card is a card that displays you your time sheet entries and status. You can see the Name, Date, Number of Hours and the status of your time sheet request.
+Time Sheet Card keeps a record of your work activity. You can see the Name, Date, Number of Hours and the status of your timesheet request.
 
 ## URL
 
