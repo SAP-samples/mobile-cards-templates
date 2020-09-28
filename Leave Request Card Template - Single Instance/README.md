@@ -3,7 +3,7 @@
 ## Description
 
 Leave Request Card gives the status of the leaves requested in the past and an overview of the number of leaves currently available to the employee.
-You can see the Leave Type, Leave Date, Available Leaves and Status of Leave requested among other details. You can also create leave request.
+You can see the Leave Type, Leave Date, Available Leaves and Status of Leave requested among other details. You can also create a leave request.
 
 ## URL
 
