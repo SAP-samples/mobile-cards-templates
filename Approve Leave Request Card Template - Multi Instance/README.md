@@ -2,7 +2,7 @@
 
 ## Description
 
-Approve Leave Request Card gives you the details of the requested- leave request by an employee.
+Approve Leave Request Card gives you the details of the leaves requested by an employee.
 You can see the Employee Name, Leave Type, Leave Date, Number of Days and you can either Accept or Reject the leave requested.
 
 ## URL
