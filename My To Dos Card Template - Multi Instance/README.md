@@ -2,7 +2,7 @@
 
 ## Description
 
-To Do card is a card that let's you put your action items in your pocket. Each To Do appears as a different card. On each card you can see the action item, date the action item was created and date when you are due to complete your action. 
+To Do card let's you put your action items in your pocket. Each To Do appears as a different card. On each card you can see the action item, date the action item was created and date when you are due to complete your action. 
 
 ## URL
 
