@@ -2,7 +2,7 @@
 
 ## Description
 
-Welcome Card Template shows a card explaining the basics of the SAP Mobile Cards client. It is an automatically subscribed card. Users can unsubscribe from it.
+Welcome Card shows a card explaining the basics of the SAP Mobile Cards client. It is an automatically subscribed card. Users can unsubscribe from it.
 
 It creates one card for each user.
 
