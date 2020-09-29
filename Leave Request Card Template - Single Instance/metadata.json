@@ -166,7 +166,6 @@
     },
     "SubscriptionParameters": [],
     "useHtmlAsMapping": true,
-    "CollectionType": "useCollection",
     "SubscribableTo": {
         "Users": []
     },
