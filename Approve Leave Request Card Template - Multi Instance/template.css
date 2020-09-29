@@ -1,85 +1,84 @@
 .myTemplate {
-background: linear-gradient(to right bottom,#F28802,#FFA635);
-min-height: 100vh;
-color: #fff;
-    font-family:-apple-system, Helvetica;
-}
-
-.header { 
-padding: 1rem; 
-text-align:left; 
-display:flex; 
-}
-
-.header h1 {
-font-size: 1.25rem;
-color: #fff;
-flex: 1 1;
-white-space: normal;
-margin-top:8px;
-
-margin-bottom: 0;
-line-height: 1rem;
-font-weight: bold;
-}
-
-h2 {
-font-size: 1rem;
-color: #fff;
-white-space: normal;
-margin-top: 1rem;
-margin-bottom:0.5rem;
-font-weight: bold;
-margin-left: 1rem;
-}
-
-h3 {
-font-size: 1rem;
-color: #fff;
-white-space: normal;
-margin-top: 0;
-margin-bottom: 3rem;
-font-weight: 400;
-margin-left: 1rem;
-}
-
-.card-content { 
-background-color: rgba(255,255,255,0.62);
-padding: 1rem;
-margin-bottom: 2.25rem;
-margin-right: 1rem;
-margin-left: 1rem;
-margin-top: 1rem;
-border-radius: 16px;
-color: #000;
-} 
-
-.card-content h2{
-font-size: 1rem;
-font-weight: normal;
-color: #fafafa;
-}
-
-.content{
-margin-right: 1rem;
-margin-left: 1rem;
-margin-top: 2rem;
-}
-
-.card-content .name-and-day{
-margin-bottom: 1rem;
-font-size: 1rem;
-}
-
-.arrow{
-margin-bottom: 1rem;
-font-weight
-}
-
-.date{
-margin-bottom: 0.5rem;
-margin-top: 2rem;
-font-size: 2.5rem;
-font-weight: 200;
-}
-
+    background: linear-gradient(to right bottom,#F28802,#FFA635);
+    min-height: 100vh;
+    color: #fff;
+        font-family:-apple-system, Helvetica;
+    }
+    
+    .header { 
+    padding: 1rem; 
+    text-align:left; 
+    display:flex; 
+    }
+    
+    .header h1 {
+    font-size: 1.25rem;
+    color: #fff;
+    flex: 1 1;
+    white-space: normal;
+    margin-top:8px;
+    
+    margin-bottom: 0;
+    line-height: 1rem;
+    font-weight: bold;
+    }
+    
+    h2 {
+    font-size: 1rem;
+    color: #fff;
+    white-space: normal;
+    margin-top: 1rem;
+    margin-bottom:0.5rem;
+    font-weight: bold;
+    margin-left: 1rem;
+    }
+    
+    h3 {
+    font-size: 1rem;
+    color: #fff;
+    white-space: normal;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-weight: 400;
+    margin-left: 1rem;
+    }
+    
+    .card-content { 
+    background-color: rgba(255,255,255,0.62);
+    padding: 1rem;
+    margin-bottom: 2.25rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    border-radius: 16px;
+    color: #000;
+    } 
+    
+    .card-content h2{
+    font-size: 1rem;
+    font-weight: normal;
+    color: #fafafa;
+    }
+    
+    .content{
+    margin-right: 1rem;
+    margin-left: 1rem;
+    margin-top: 2rem;
+    }
+    
+    .card-content .name-and-day{
+    margin-bottom: 1rem;
+    font-size: 1rem;
+    }
+    
+    .arrow{
+    margin-bottom: 1rem;
+    font-weight: 5;
+    }
+    
+    .date{
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+    font-size: 2.5rem;
+    font-weight: 200;
+    }    

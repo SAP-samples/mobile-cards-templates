@@ -1,13 +1,13 @@
 .lunch-menu {
     background-image: url("assets/lunchX.jpg");
     background-repeat: no-repeat;
-    background-size: 415px auto;
+    background-size: cover;
     background-attachment: fixed;
     color: #000000;
     height: 100vh;
     font-family:-apple-system, Helvetica;
 }
- 
+
 .header {
     display: flex;
     padding: 1rem;
@@ -143,7 +143,7 @@ h2 {
 }
 
 .contain-allergens .allergens-data-items{
-    height: 2rem;
+    height: 3rem;
 }
 
 .contain-allergens tr:nth-child(odd){
@@ -152,7 +152,7 @@ h2 {
 
 .contain-allergens .allergens-title{
     text-align: left;
-    padding: 0.5rem 0.5rem 0.5rem 1rem;
+    padding: 0.5rem 1rem 1rem 1rem;
 }
 
 .contain-allergens .allergens-content{
