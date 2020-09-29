@@ -1,0 +1,60 @@
+{
+	"$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "type": "AdaptiveCard",
+    "style": "emphasis",
+    "bleed": true,
+	"version": "1.0",
+	"body": [{
+		"type": "Container",
+		"style": "emphasis",
+		"bleed": true,
+		"items": [{
+			"type": "TextBlock",
+			"text": "Leave Request",
+			"weight": "bolder",
+			"size": "medium"
+		}, {
+			"type": "TextBlock",
+			"text": "Please provide your leave request details",
+			"wrap": true
+		}, {
+			"type": "TextBlock",
+			"text": "Leave Request Type"
+		}, {
+			"type": "Input.ChoiceSet",
+			"id": "absenceTypeCode",
+			"style": "compact",
+			"value": "{dataSets[3].data.d.results[0].AbsenceTypeCode}",
+			"choices": [{
+				"$data": "{dataSets[3].data.d.results}",
+				"title": "{AbsenceTypeName}",
+				"value": "{AbsenceTypeCode}"
+			}]
+		}, {
+			"type": "TextBlock",
+			"text": "Start Date",
+			"wrap": true
+		}, {
+			"type": "Input.Date",
+			"id": "startDate",
+			"value": "{currentDate( )}"
+		}, {
+			"type": "TextBlock",
+            "text": "End Date",
+            "wrap": true
+		}, {
+			"type": "Input.Date",
+			"id": "endDate",
+			"value": "{currentDate( )}"
+		}]
+	}],
+	"actions": [{
+		"type": "Action.Submit",
+		"id": "success",
+		"title": "Submit"
+	}, {
+		"type": "Action.Submit",
+		"id": "cancel",
+		"title": "Cancel"
+	}]
+}

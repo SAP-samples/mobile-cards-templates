@@ -12,8 +12,20 @@ We define a URL to show 3 sales orders each of which is presented as a card pres
 
 ### Android
 
-![SalesOrder Card iOS Screenshot](screens/android.png)
+#### Front
+
+![SalesOrder Card Android Front Screenshot](screens/android_front.png)
+
+#### Back
+
+![SalesOrder Card Android Back Screenshot](screens/android_back.png)
 
 ### iOS
 
-![SalesOrder Card iOS Screenshot](screens/ios.png)
+#### Front
+
+![SalesOrder Card iOS Front Screenshot](screens/ios_front.png)
+
+#### Back
+
+![SalesOrder Card iOS Back Screenshot](screens/ios_back.png)

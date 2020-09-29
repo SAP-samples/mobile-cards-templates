@@ -1,0 +1,56 @@
+registerHelper("formatTimeAccountType", function(timeAccountType) {
+	try{
+		if(timeAccountType === "GBR-ANNL"){
+			return "Annual Leave (GBR)";
+		} else if(timeAccountType === "GBR-SICK"){
+			return "Sick Leave (GBR)";
+		} else if(timeAccountType === "VACATION_HRS"){
+			return "Vacation Leave";
+		} else if(timeAccountType === "SICK_DAYS"){
+			return "Sick Days";
+		} else if(timeAccountType === "VAC_DAYS"){
+			return "Vacation Days";
+		}
+	} catch(e){
+		return timeAccountType;
+	}
+});
+
+registerHelper("formatToLowerCase", function(timeUnit) {
+ return timeUnit.toLowerCase();
+});
+
+Handlebars.registerHelper('formatDateTime', function (format, dateStr) {
+       var rDateRE = /^\/Date\((-?\d+)(\+|-)?(\d+)?\)\/$/;
+
+       try {
+           var aArr = dateStr && rDateRE.exec(dateStr);
+           if (aArr) {
+               // 0 - complete results; 1 - ticks; 2 - sign; 3 - minutes
+               var oDate = new Date(parseInt(aArr[1], 10));
+               if (aArr[2]) {
+                   // we have an offset: check for + or -
+                   var mins = parseInt(aArr[3], 10);
+                   if (aArr[2] === "-") {
+                       mins = -mins;
+                   }
+
+                   // reset the UTC mins based on the offset adjustment
+                   var curMins = oDate.getUTCMinutes();
+                   oDate.setUTCMinutes(curMins - mins);
+               }
+               if (!isNaN(oDate.valueOf())) {
+                   var oDateFormat = sap.ui.core.format.DateFormat.getDateTimeInstance({
+                       pattern : format
+                   });
+                   return oDateFormat.format(oDate);
+               }
+           }
+
+           // the date str is not a valid JSON formatted date, just return the value
+           return dateStr;
+       } catch (e) {
+           // some error ... just return what was supplied
+           return dateStr;
+       }
+   });

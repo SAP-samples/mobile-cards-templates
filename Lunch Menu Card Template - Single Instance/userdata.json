@@ -1,0 +1,1301 @@
+[ {
+  "day" : "2018-12-04",
+  "menuitems" : [ {
+    "dish" : {
+      "id" : 2849,
+      "names" : {
+        "DE" : "Zwiebelsuppe ",
+        "EN" : "Onion soup"
+      },
+      "localName" : "Zwiebelsuppe ",
+      "caterer" : {
+        "id" : 10
+      },
+      "dishCategory" : {
+        "id" : "SOUP",
+        "names" : {
+          "EN" : "Soup",
+          "DE" : "Suppe"
+        },
+        "localName" : "Suppe",
+        "sorting" : 1
+      },
+      "meatCategories" : [ ],
+      "labels" : [ ],
+      "additives" : [ {
+        "id" : "COLORANT",
+        "names" : {
+          "EN" : "contains food colouring",
+          "DE" : "mit Farbstoff"
+        },
+        "abbreviation" : "2",
+        "localName" : "mit Farbstoff"
+      }, {
+        "id" : "ANTIOX",
+        "names" : {
+          "EN" : "contains antioxidants",
+          "DE" : "mit Antioxidationsmittel"
+        },
+        "abbreviation" : "3",
+        "localName" : "mit Antioxidationsmittel"
+      }, {
+        "id" : "SULFURATED",
+        "names" : {
+          "EN" : "sulphurised",
+          "DE" : "geschwefelt"
+        },
+        "abbreviation" : "8",
+        "localName" : "geschwefelt"
+      } ],
+      "allergens" : [ {
+        "id" : "WHEAT",
+        "names" : {
+          "EN" : "Wheat",
+          "DE" : "Weizen"
+        },
+        "abbreviation" : "Aa",
+        "localName" : "Weizen"
+      }, {
+        "id" : "SULPHOR",
+        "names" : {
+          "EN" : "Sulphur dioxide and sulphites",
+          "DE" : "Schwefeldioxid und Sulphite"
+        },
+        "abbreviation" : "L",
+        "localName" : "Schwefeldioxid und Sulphite"
+      } ],
+      "nutritionFacts" : [ {
+        "nutrient" : {
+          "id" : "ENERGY_KJ",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kJ",
+          "localName" : "Energie"
+        },
+        "value" : "113"
+      }, {
+        "nutrient" : {
+          "id" : "ENERGY_CAL",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kcal",
+          "localName" : "Energie"
+        },
+        "value" : "27"
+      }, {
+        "nutrient" : {
+          "id" : "FAT_TOTAL",
+          "names" : {
+            "EN" : "Total fat",
+            "DE" : "Fett gesamt"
+          },
+          "unit" : "g",
+          "localName" : "Fett gesamt"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "FAT_SATURATED",
+          "names" : {
+            "EN" : "of which saturated fat",
+            "DE" : "davon gesÃ¤ttigte FettsÃ¤uren"
+          },
+          "unit" : "g",
+          "localName" : "davon gesÃ¤ttigte FettsÃ¤uren"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "CARBOHYDRATE",
+          "names" : {
+            "EN" : "Carbohydrate",
+            "DE" : "Kohlenhydrate"
+          },
+          "unit" : "g",
+          "localName" : "Kohlenhydrate"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SUGARS",
+          "names" : {
+            "EN" : "of which sugar",
+            "DE" : "davon Zucker"
+          },
+          "unit" : "g",
+          "localName" : "davon Zucker"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "PROTEIN",
+          "names" : {
+            "EN" : "Protein",
+            "DE" : "EiweiÃŸ"
+          },
+          "unit" : "g",
+          "localName" : "EiweiÃŸ"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SODIUM",
+          "names" : {
+            "EN" : "Sodium",
+            "DE" : "Natrium"
+          },
+          "unit" : "g",
+          "localName" : "Natrium"
+        }
+      } ],
+      "vegetarian" : false,
+      "vegan" : true,
+      "meat" : false,
+      "fish" : false
+    },
+    "day" : "2018-12-04",
+    "screenNumber" : "",
+    "onlyForCanteens" : [ ]
+  }, {
+    "dish" : {
+      "id" : 2851,
+      "names" : {
+        "DE" : "Penne in KÃ¤sesauce mit WurzelgemÃ¼se und KrÃ¤utern",
+        "EN" : "Penne with root vegetables in cheese sauce with herbs"
+      },
+      "localName" : "Penne in KÃ¤sesauce mit WurzelgemÃ¼se und KrÃ¤utern",
+      "caterer" : {
+        "id" : 10
+      },
+      "dishCategory" : {
+        "id" : "MAIN_DISH",
+        "names" : {
+          "EN" : "Main dish",
+          "DE" : "Hauptspeise"
+        },
+        "localName" : "Hauptspeise",
+        "sorting" : 2
+      },
+      "meatCategories" : [ ],
+      "labels" : [ ],
+      "additives" : [ ],
+      "allergens" : [ {
+        "id" : "WHEAT",
+        "names" : {
+          "EN" : "Wheat",
+          "DE" : "Weizen"
+        },
+        "abbreviation" : "Aa",
+        "localName" : "Weizen"
+      }, {
+        "id" : "MILK",
+        "names" : {
+          "EN" : "Milk (including lactose)",
+          "DE" : "Milch (einschlieÃŸlich Laktose)"
+        },
+        "abbreviation" : "G",
+        "localName" : "Milch (einschlieÃŸlich Laktose)"
+      }, {
+        "id" : "CELERY",
+        "names" : {
+          "EN" : "Celery",
+          "DE" : "Sellerie"
+        },
+        "abbreviation" : "I",
+        "localName" : "Sellerie"
+      } ],
+      "nutritionFacts" : [ {
+        "nutrient" : {
+          "id" : "ENERGY_KJ",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kJ",
+          "localName" : "Energie"
+        },
+        "value" : "2318"
+      }, {
+        "nutrient" : {
+          "id" : "ENERGY_CAL",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kcal",
+          "localName" : "Energie"
+        },
+        "value" : "552"
+      }, {
+        "nutrient" : {
+          "id" : "FAT_TOTAL",
+          "names" : {
+            "EN" : "Total fat",
+            "DE" : "Fett gesamt"
+          },
+          "unit" : "g",
+          "localName" : "Fett gesamt"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "FAT_SATURATED",
+          "names" : {
+            "EN" : "of which saturated fat",
+            "DE" : "davon gesÃ¤ttigte FettsÃ¤uren"
+          },
+          "unit" : "g",
+          "localName" : "davon gesÃ¤ttigte FettsÃ¤uren"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "CARBOHYDRATE",
+          "names" : {
+            "EN" : "Carbohydrate",
+            "DE" : "Kohlenhydrate"
+          },
+          "unit" : "g",
+          "localName" : "Kohlenhydrate"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SUGARS",
+          "names" : {
+            "EN" : "of which sugar",
+            "DE" : "davon Zucker"
+          },
+          "unit" : "g",
+          "localName" : "davon Zucker"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "PROTEIN",
+          "names" : {
+            "EN" : "Protein",
+            "DE" : "EiweiÃŸ"
+          },
+          "unit" : "g",
+          "localName" : "EiweiÃŸ"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SODIUM",
+          "names" : {
+            "EN" : "Sodium",
+            "DE" : "Natrium"
+          },
+          "unit" : "g",
+          "localName" : "Natrium"
+        }
+      } ],
+      "vegetarian" : true,
+      "vegan" : false,
+      "meat" : false,
+      "fish" : false
+    },
+    "day" : "2018-12-04",
+    "onlyForCanteens" : [ ]
+  }, {
+    "dish" : {
+      "id" : 2856,
+      "names" : {
+        "EN" : "Yellow pea stew with vegetables and diced Kasseler pork",
+        "DE" : "Gelber Erbseneintopf mit GemÃ¼se und Schweine-KasselerwÃ¼rfeln"
+      },
+      "localName" : "Gelber Erbseneintopf mit GemÃ¼se und Schweine-KasselerwÃ¼rfeln",
+      "caterer" : {
+        "id" : 10
+      },
+      "dishCategory" : {
+        "id" : "MAIN_DISH",
+        "names" : {
+          "EN" : "Main dish",
+          "DE" : "Hauptspeise"
+        },
+        "localName" : "Hauptspeise",
+        "sorting" : 2
+      },
+      "meatCategories" : [ {
+        "id" : "PORK",
+        "names" : {
+          "EN" : "Pork",
+          "DE" : "Schweinefleisch"
+        },
+        "localName" : "Schweinefleisch"
+      } ],
+      "labels" : [ {
+        "id" : 16,
+        "name" : "IS_REGIONAL_MEAT",
+        "displayNames" : {
+          "DE" : "BÃ¤uerliche Erzeugergemeinschaft SchwÃ¤bisch Hall",
+          "EN" : "Meat from the BÃ¤uerliche Erzeugergemeinschaft SchwÃ¤bisch Hall"
+        },
+        "localDisplayName" : "BÃ¤uerliche Erzeugergemeinschaft SchwÃ¤bisch Hall"
+      } ],
+      "additives" : [ ],
+      "allergens" : [ {
+        "id" : "CELERY",
+        "names" : {
+          "EN" : "Celery",
+          "DE" : "Sellerie"
+        },
+        "abbreviation" : "I",
+        "localName" : "Sellerie"
+      }, {
+        "id" : "GARLIC",
+        "names" : {
+          "EN" : "Garlic",
+          "DE" : "Knoblauch"
+        },
+        "abbreviation" : "x",
+        "localName" : "Knoblauch"
+      } ],
+      "nutritionFacts" : [ {
+        "nutrient" : {
+          "id" : "ENERGY_KJ",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kJ",
+          "localName" : "Energie"
+        },
+        "value" : "4074"
+      }, {
+        "nutrient" : {
+          "id" : "ENERGY_CAL",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kcal",
+          "localName" : "Energie"
+        },
+        "value" : "970"
+      }, {
+        "nutrient" : {
+          "id" : "FAT_TOTAL",
+          "names" : {
+            "EN" : "Total fat",
+            "DE" : "Fett gesamt"
+          },
+          "unit" : "g",
+          "localName" : "Fett gesamt"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "FAT_SATURATED",
+          "names" : {
+            "EN" : "of which saturated fat",
+            "DE" : "davon gesÃ¤ttigte FettsÃ¤uren"
+          },
+          "unit" : "g",
+          "localName" : "davon gesÃ¤ttigte FettsÃ¤uren"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "CARBOHYDRATE",
+          "names" : {
+            "EN" : "Carbohydrate",
+            "DE" : "Kohlenhydrate"
+          },
+          "unit" : "g",
+          "localName" : "Kohlenhydrate"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SUGARS",
+          "names" : {
+            "EN" : "of which sugar",
+            "DE" : "davon Zucker"
+          },
+          "unit" : "g",
+          "localName" : "davon Zucker"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "PROTEIN",
+          "names" : {
+            "EN" : "Protein",
+            "DE" : "EiweiÃŸ"
+          },
+          "unit" : "g",
+          "localName" : "EiweiÃŸ"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SODIUM",
+          "names" : {
+            "EN" : "Sodium",
+            "DE" : "Natrium"
+          },
+          "unit" : "g",
+          "localName" : "Natrium"
+        }
+      } ],
+      "vegetarian" : false,
+      "vegan" : false,
+      "meat" : true,
+      "fish" : false
+    },
+    "day" : "2018-12-04",
+    "onlyForCanteens" : [ ]
+  }, {
+    "dish" : {
+      "id" : 2857,
+      "names" : {
+        "DE" : "Tandoori Chicken mit Basmatireis, Karottenraita und Kaiserschoten",
+        "EN" : "Tandoori chicken with basmati rice, carrot raita, and snow peas"
+      },
+      "localName" : "Tandoori Chicken mit Basmatireis, Karottenraita und Kaiserschoten",
+      "caterer" : {
+        "id" : 10
+      },
+      "dishCategory" : {
+        "id" : "MAIN_DISH",
+        "names" : {
+          "EN" : "Main dish",
+          "DE" : "Hauptspeise"
+        },
+        "localName" : "Hauptspeise",
+        "sorting" : 2
+      },
+      "meatCategories" : [ ],
+      "labels" : [ ],
+      "additives" : [ ],
+      "allergens" : [ {
+        "id" : "MILK",
+        "names" : {
+          "EN" : "Milk (including lactose)",
+          "DE" : "Milch (einschlieÃŸlich Laktose)"
+        },
+        "abbreviation" : "G",
+        "localName" : "Milch (einschlieÃŸlich Laktose)"
+      }, {
+        "id" : "GARLIC",
+        "names" : {
+          "EN" : "Garlic",
+          "DE" : "Knoblauch"
+        },
+        "abbreviation" : "x",
+        "localName" : "Knoblauch"
+      } ],
+      "nutritionFacts" : [ {
+        "nutrient" : {
+          "id" : "ENERGY_KJ",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kJ",
+          "localName" : "Energie"
+        },
+        "value" : "1810"
+      }, {
+        "nutrient" : {
+          "id" : "ENERGY_CAL",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kcal",
+          "localName" : "Energie"
+        },
+        "value" : "431"
+      }, {
+        "nutrient" : {
+          "id" : "FAT_TOTAL",
+          "names" : {
+            "EN" : "Total fat",
+            "DE" : "Fett gesamt"
+          },
+          "unit" : "g",
+          "localName" : "Fett gesamt"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "FAT_SATURATED",
+          "names" : {
+            "EN" : "of which saturated fat",
+            "DE" : "davon gesÃ¤ttigte FettsÃ¤uren"
+          },
+          "unit" : "g",
+          "localName" : "davon gesÃ¤ttigte FettsÃ¤uren"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "CARBOHYDRATE",
+          "names" : {
+            "EN" : "Carbohydrate",
+            "DE" : "Kohlenhydrate"
+          },
+          "unit" : "g",
+          "localName" : "Kohlenhydrate"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SUGARS",
+          "names" : {
+            "EN" : "of which sugar",
+            "DE" : "davon Zucker"
+          },
+          "unit" : "g",
+          "localName" : "davon Zucker"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "PROTEIN",
+          "names" : {
+            "EN" : "Protein",
+            "DE" : "EiweiÃŸ"
+          },
+          "unit" : "g",
+          "localName" : "EiweiÃŸ"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SODIUM",
+          "names" : {
+            "EN" : "Sodium",
+            "DE" : "Natrium"
+          },
+          "unit" : "g",
+          "localName" : "Natrium"
+        }
+      } ],
+      "vegetarian" : false,
+      "vegan" : false,
+      "meat" : true,
+      "fish" : false
+    },
+    "day" : "2018-12-04",
+    "onlyForCanteens" : [ ]
+  }, {
+    "dish" : {
+      "id" : 2858,
+      "names" : {
+        "DE" : "Basmatireis",
+        "EN" : "Basmati rice"
+      },
+      "localName" : "Basmatireis",
+      "caterer" : {
+        "id" : 10
+      },
+      "dishCategory" : {
+        "id" : "SIDE_DISH",
+        "names" : {
+          "EN" : "Side dish",
+          "DE" : "Beilage"
+        },
+        "localName" : "Beilage",
+        "sorting" : 3
+      },
+      "meatCategories" : [ ],
+      "labels" : [ ],
+      "additives" : [ ],
+      "allergens" : [ ],
+      "nutritionFacts" : [ {
+        "nutrient" : {
+          "id" : "ENERGY_KJ",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kJ",
+          "localName" : "Energie"
+        },
+        "value" : "827"
+      }, {
+        "nutrient" : {
+          "id" : "ENERGY_CAL",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kcal",
+          "localName" : "Energie"
+        },
+        "value" : "197"
+      }, {
+        "nutrient" : {
+          "id" : "FAT_TOTAL",
+          "names" : {
+            "EN" : "Total fat",
+            "DE" : "Fett gesamt"
+          },
+          "unit" : "g",
+          "localName" : "Fett gesamt"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "FAT_SATURATED",
+          "names" : {
+            "EN" : "of which saturated fat",
+            "DE" : "davon gesÃ¤ttigte FettsÃ¤uren"
+          },
+          "unit" : "g",
+          "localName" : "davon gesÃ¤ttigte FettsÃ¤uren"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "CARBOHYDRATE",
+          "names" : {
+            "EN" : "Carbohydrate",
+            "DE" : "Kohlenhydrate"
+          },
+          "unit" : "g",
+          "localName" : "Kohlenhydrate"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SUGARS",
+          "names" : {
+            "EN" : "of which sugar",
+            "DE" : "davon Zucker"
+          },
+          "unit" : "g",
+          "localName" : "davon Zucker"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "PROTEIN",
+          "names" : {
+            "EN" : "Protein",
+            "DE" : "EiweiÃŸ"
+          },
+          "unit" : "g",
+          "localName" : "EiweiÃŸ"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SODIUM",
+          "names" : {
+            "EN" : "Sodium",
+            "DE" : "Natrium"
+          },
+          "unit" : "g",
+          "localName" : "Natrium"
+        }
+      } ],
+      "vegetarian" : false,
+      "vegan" : true,
+      "meat" : false,
+      "fish" : false
+    },
+    "day" : "2018-12-04",
+    "screenNumber" : "",
+    "onlyForCanteens" : [ ]
+  }, {
+    "dish" : {
+      "id" : 2859,
+      "names" : {
+        "DE" : "Holzofenbrot ",
+        "EN" : "Sourdough bread "
+      },
+      "localName" : "Holzofenbrot ",
+      "caterer" : {
+        "id" : 10
+      },
+      "dishCategory" : {
+        "id" : "SIDE_DISH",
+        "names" : {
+          "EN" : "Side dish",
+          "DE" : "Beilage"
+        },
+        "localName" : "Beilage",
+        "sorting" : 3
+      },
+      "meatCategories" : [ ],
+      "labels" : [ ],
+      "additives" : [ ],
+      "allergens" : [ {
+        "id" : "WHEAT",
+        "names" : {
+          "EN" : "Wheat",
+          "DE" : "Weizen"
+        },
+        "abbreviation" : "Aa",
+        "localName" : "Weizen"
+      }, {
+        "id" : "RYE",
+        "names" : {
+          "EN" : "Rye",
+          "DE" : "Roggen"
+        },
+        "abbreviation" : "Ab",
+        "localName" : "Roggen"
+      } ],
+      "nutritionFacts" : [ {
+        "nutrient" : {
+          "id" : "ENERGY_KJ",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kJ",
+          "localName" : "Energie"
+        },
+        "value" : "458"
+      }, {
+        "nutrient" : {
+          "id" : "ENERGY_CAL",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kcal",
+          "localName" : "Energie"
+        },
+        "value" : "109"
+      }, {
+        "nutrient" : {
+          "id" : "FAT_TOTAL",
+          "names" : {
+            "EN" : "Total fat",
+            "DE" : "Fett gesamt"
+          },
+          "unit" : "g",
+          "localName" : "Fett gesamt"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "FAT_SATURATED",
+          "names" : {
+            "EN" : "of which saturated fat",
+            "DE" : "davon gesÃ¤ttigte FettsÃ¤uren"
+          },
+          "unit" : "g",
+          "localName" : "davon gesÃ¤ttigte FettsÃ¤uren"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "CARBOHYDRATE",
+          "names" : {
+            "EN" : "Carbohydrate",
+            "DE" : "Kohlenhydrate"
+          },
+          "unit" : "g",
+          "localName" : "Kohlenhydrate"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SUGARS",
+          "names" : {
+            "EN" : "of which sugar",
+            "DE" : "davon Zucker"
+          },
+          "unit" : "g",
+          "localName" : "davon Zucker"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "PROTEIN",
+          "names" : {
+            "EN" : "Protein",
+            "DE" : "EiweiÃŸ"
+          },
+          "unit" : "g",
+          "localName" : "EiweiÃŸ"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SODIUM",
+          "names" : {
+            "EN" : "Sodium",
+            "DE" : "Natrium"
+          },
+          "unit" : "g",
+          "localName" : "Natrium"
+        }
+      } ],
+      "vegetarian" : false,
+      "vegan" : true,
+      "meat" : false,
+      "fish" : false
+    },
+    "day" : "2018-12-04",
+    "screenNumber" : "",
+    "onlyForCanteens" : [ ]
+  }, {
+    "dish" : {
+      "id" : 2860,
+      "names" : {
+        "EN" : "Chickpeas",
+        "DE" : "Kichererbsen"
+      },
+      "localName" : "Kichererbsen",
+      "caterer" : {
+        "id" : 10
+      },
+      "dishCategory" : {
+        "id" : "SIDE_DISH",
+        "names" : {
+          "EN" : "Side dish",
+          "DE" : "Beilage"
+        },
+        "localName" : "Beilage",
+        "sorting" : 3
+      },
+      "meatCategories" : [ ],
+      "labels" : [ ],
+      "additives" : [ ],
+      "allergens" : [ {
+        "id" : "CELERY",
+        "names" : {
+          "EN" : "Celery",
+          "DE" : "Sellerie"
+        },
+        "abbreviation" : "I",
+        "localName" : "Sellerie"
+      } ],
+      "nutritionFacts" : [ {
+        "nutrient" : {
+          "id" : "ENERGY_KJ",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kJ",
+          "localName" : "Energie"
+        },
+        "value" : "840"
+      }, {
+        "nutrient" : {
+          "id" : "ENERGY_CAL",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kcal",
+          "localName" : "Energie"
+        },
+        "value" : "200"
+      }, {
+        "nutrient" : {
+          "id" : "FAT_TOTAL",
+          "names" : {
+            "EN" : "Total fat",
+            "DE" : "Fett gesamt"
+          },
+          "unit" : "g",
+          "localName" : "Fett gesamt"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "FAT_SATURATED",
+          "names" : {
+            "EN" : "of which saturated fat",
+            "DE" : "davon gesÃ¤ttigte FettsÃ¤uren"
+          },
+          "unit" : "g",
+          "localName" : "davon gesÃ¤ttigte FettsÃ¤uren"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "CARBOHYDRATE",
+          "names" : {
+            "EN" : "Carbohydrate",
+            "DE" : "Kohlenhydrate"
+          },
+          "unit" : "g",
+          "localName" : "Kohlenhydrate"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SUGARS",
+          "names" : {
+            "EN" : "of which sugar",
+            "DE" : "davon Zucker"
+          },
+          "unit" : "g",
+          "localName" : "davon Zucker"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "PROTEIN",
+          "names" : {
+            "EN" : "Protein",
+            "DE" : "EiweiÃŸ"
+          },
+          "unit" : "g",
+          "localName" : "EiweiÃŸ"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SODIUM",
+          "names" : {
+            "EN" : "Sodium",
+            "DE" : "Natrium"
+          },
+          "unit" : "g",
+          "localName" : "Natrium"
+        }
+      } ],
+      "vegetarian" : false,
+      "vegan" : true,
+      "meat" : false,
+      "fish" : false
+    },
+    "day" : "2018-12-04",
+    "screenNumber" : "",
+    "onlyForCanteens" : [ ]
+  }, {
+    "dish" : {
+      "id" : 2865,
+      "names" : {
+        "DE" : "Kaiserschoten",
+        "EN" : "Snow peas"
+      },
+      "localName" : "Kaiserschoten",
+      "caterer" : {
+        "id" : 10
+      },
+      "dishCategory" : {
+        "id" : "SIDE_DISH",
+        "names" : {
+          "EN" : "Side dish",
+          "DE" : "Beilage"
+        },
+        "localName" : "Beilage",
+        "sorting" : 3
+      },
+      "meatCategories" : [ ],
+      "labels" : [ ],
+      "additives" : [ ],
+      "allergens" : [ {
+        "id" : "CELERY",
+        "names" : {
+          "EN" : "Celery",
+          "DE" : "Sellerie"
+        },
+        "abbreviation" : "I",
+        "localName" : "Sellerie"
+      } ],
+      "nutritionFacts" : [ {
+        "nutrient" : {
+          "id" : "ENERGY_KJ",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kJ",
+          "localName" : "Energie"
+        },
+        "value" : "445"
+      }, {
+        "nutrient" : {
+          "id" : "ENERGY_CAL",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kcal",
+          "localName" : "Energie"
+        },
+        "value" : "106"
+      }, {
+        "nutrient" : {
+          "id" : "FAT_TOTAL",
+          "names" : {
+            "EN" : "Total fat",
+            "DE" : "Fett gesamt"
+          },
+          "unit" : "g",
+          "localName" : "Fett gesamt"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "FAT_SATURATED",
+          "names" : {
+            "EN" : "of which saturated fat",
+            "DE" : "davon gesÃ¤ttigte FettsÃ¤uren"
+          },
+          "unit" : "g",
+          "localName" : "davon gesÃ¤ttigte FettsÃ¤uren"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "CARBOHYDRATE",
+          "names" : {
+            "EN" : "Carbohydrate",
+            "DE" : "Kohlenhydrate"
+          },
+          "unit" : "g",
+          "localName" : "Kohlenhydrate"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SUGARS",
+          "names" : {
+            "EN" : "of which sugar",
+            "DE" : "davon Zucker"
+          },
+          "unit" : "g",
+          "localName" : "davon Zucker"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "PROTEIN",
+          "names" : {
+            "EN" : "Protein",
+            "DE" : "EiweiÃŸ"
+          },
+          "unit" : "g",
+          "localName" : "EiweiÃŸ"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SODIUM",
+          "names" : {
+            "EN" : "Sodium",
+            "DE" : "Natrium"
+          },
+          "unit" : "g",
+          "localName" : "Natrium"
+        }
+      } ],
+      "vegetarian" : false,
+      "vegan" : true,
+      "meat" : false,
+      "fish" : false
+    },
+    "day" : "2018-12-04",
+    "onlyForCanteens" : [ ]
+  }, {
+    "dish" : {
+      "id" : 2867,
+      "names" : {
+        "DE" : "Milchreis mit Zimt-Zucker ",
+        "EN" : "Rice pudding with cinnamon sugar "
+      },
+      "localName" : "Milchreis mit Zimt-Zucker ",
+      "caterer" : {
+        "id" : 10
+      },
+      "dishCategory" : {
+        "id" : "DESSERT",
+        "names" : {
+          "EN" : "Dessert",
+          "DE" : "Dessert"
+        },
+        "localName" : "Dessert",
+        "sorting" : 10
+      },
+      "meatCategories" : [ ],
+      "labels" : [ ],
+      "additives" : [ ],
+      "allergens" : [ {
+        "id" : "MILK",
+        "names" : {
+          "EN" : "Milk (including lactose)",
+          "DE" : "Milch (einschlieÃŸlich Laktose)"
+        },
+        "abbreviation" : "G",
+        "localName" : "Milch (einschlieÃŸlich Laktose)"
+      } ],
+      "nutritionFacts" : [ {
+        "nutrient" : {
+          "id" : "ENERGY_KJ",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kJ",
+          "localName" : "Energie"
+        },
+        "value" : "853"
+      }, {
+        "nutrient" : {
+          "id" : "ENERGY_CAL",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kcal",
+          "localName" : "Energie"
+        },
+        "value" : "203"
+      }, {
+        "nutrient" : {
+          "id" : "FAT_TOTAL",
+          "names" : {
+            "EN" : "Total fat",
+            "DE" : "Fett gesamt"
+          },
+          "unit" : "g",
+          "localName" : "Fett gesamt"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "FAT_SATURATED",
+          "names" : {
+            "EN" : "of which saturated fat",
+            "DE" : "davon gesÃ¤ttigte FettsÃ¤uren"
+          },
+          "unit" : "g",
+          "localName" : "davon gesÃ¤ttigte FettsÃ¤uren"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "CARBOHYDRATE",
+          "names" : {
+            "EN" : "Carbohydrate",
+            "DE" : "Kohlenhydrate"
+          },
+          "unit" : "g",
+          "localName" : "Kohlenhydrate"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SUGARS",
+          "names" : {
+            "EN" : "of which sugar",
+            "DE" : "davon Zucker"
+          },
+          "unit" : "g",
+          "localName" : "davon Zucker"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "PROTEIN",
+          "names" : {
+            "EN" : "Protein",
+            "DE" : "EiweiÃŸ"
+          },
+          "unit" : "g",
+          "localName" : "EiweiÃŸ"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SODIUM",
+          "names" : {
+            "EN" : "Sodium",
+            "DE" : "Natrium"
+          },
+          "unit" : "g",
+          "localName" : "Natrium"
+        }
+      } ],
+      "vegetarian" : true,
+      "vegan" : false,
+      "meat" : false,
+      "fish" : false
+    },
+    "day" : "2018-12-04",
+    "screenNumber" : "",
+    "onlyForCanteens" : [ ]
+  }, {
+    "dish" : {
+      "id" : 2870,
+      "names" : {
+        "DE" : "Rote GrÃ¼tze",
+        "EN" : "Red berry compote"
+      },
+      "localName" : "Rote GrÃ¼tze",
+      "caterer" : {
+        "id" : 10
+      },
+      "dishCategory" : {
+        "id" : "DESSERT",
+        "names" : {
+          "EN" : "Dessert",
+          "DE" : "Dessert"
+        },
+        "localName" : "Dessert",
+        "sorting" : 10
+      },
+      "meatCategories" : [ ],
+      "labels" : [ ],
+      "additives" : [ ],
+      "allergens" : [ ],
+      "nutritionFacts" : [ {
+        "nutrient" : {
+          "id" : "ENERGY_KJ",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kJ",
+          "localName" : "Energie"
+        },
+        "value" : "386"
+      }, {
+        "nutrient" : {
+          "id" : "ENERGY_CAL",
+          "names" : {
+            "EN" : "Energy",
+            "DE" : "Energie"
+          },
+          "unit" : "kcal",
+          "localName" : "Energie"
+        },
+        "value" : "92"
+      }, {
+        "nutrient" : {
+          "id" : "FAT_TOTAL",
+          "names" : {
+            "EN" : "Total fat",
+            "DE" : "Fett gesamt"
+          },
+          "unit" : "g",
+          "localName" : "Fett gesamt"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "FAT_SATURATED",
+          "names" : {
+            "EN" : "of which saturated fat",
+            "DE" : "davon gesÃ¤ttigte FettsÃ¤uren"
+          },
+          "unit" : "g",
+          "localName" : "davon gesÃ¤ttigte FettsÃ¤uren"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "CARBOHYDRATE",
+          "names" : {
+            "EN" : "Carbohydrate",
+            "DE" : "Kohlenhydrate"
+          },
+          "unit" : "g",
+          "localName" : "Kohlenhydrate"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SUGARS",
+          "names" : {
+            "EN" : "of which sugar",
+            "DE" : "davon Zucker"
+          },
+          "unit" : "g",
+          "localName" : "davon Zucker"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "PROTEIN",
+          "names" : {
+            "EN" : "Protein",
+            "DE" : "EiweiÃŸ"
+          },
+          "unit" : "g",
+          "localName" : "EiweiÃŸ"
+        }
+      }, {
+        "nutrient" : {
+          "id" : "SODIUM",
+          "names" : {
+            "EN" : "Sodium",
+            "DE" : "Natrium"
+          },
+          "unit" : "g",
+          "localName" : "Natrium"
+        }
+      } ],
+      "vegetarian" : false,
+      "vegan" : true,
+      "meat" : false,
+      "fish" : false
+    },
+    "day" : "2018-12-04",
+    "onlyForCanteens" : [ ]
+  } ],
+  "notes" : [ ]
+} ]

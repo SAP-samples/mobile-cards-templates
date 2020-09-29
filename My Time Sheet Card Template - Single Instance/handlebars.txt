@@ -1,0 +1,18 @@
+registerHelper('c2gEdmDateTime', function(format, dateStr) {
+    try {
+        var a = /\/Date\((d|.*)\)\//.exec(dateStr);
+        if (a) {
+            var b = a[1].split(/[-+,.]/);
+            var jsDate = new Date(+b[0]);
+            var oDateFormat = sap.ui.core.format.DateFormat.getDateTimeInstance({
+                pattern: format
+            });
+            return oDateFormat.format(jsDate);
+        }
+        // the date str is not a valid JSON formatted date, just return the value
+        return dateStr;
+    } catch (e) {
+        // some error ... just return what was supplied
+        return dateStr;
+    }
+});

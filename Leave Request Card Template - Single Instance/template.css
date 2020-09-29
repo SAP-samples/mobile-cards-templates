@@ -1,0 +1,88 @@
+.myTemplate {
+    background-color: #0b9150;
+    min-height: 100vh;
+    color: #FFF;
+    font-family: -apple-system, Helvetica;
+    }
+    
+    
+    .header { 
+        padding: 1rem; 
+        height: 4rem;
+        text-align:left; 
+    }
+    
+    .header h1 {
+        font-size: 1.25rem;
+        margin-top: 0.5rem;
+        color: #fff;
+        font-weight: bold;
+        line-height: 2.5rem;
+        flex: 1 1;
+        white-space: nowrap;
+    }
+    
+    
+    .header h2 {
+        font-size: 1.0rem;
+        color: #fff;
+        font-weight: 400;
+    
+    }
+    
+    .header .name{
+    color: #fff;
+    font-weight: normal;
+    margin-top: 1.25rem;
+    font-size: 1rem;
+    display: block;
+    text-align: right;
+    white-space: normal;
+    }
+    
+    .card-content h2{
+        padding-left: 1rem;
+        font-size: 0.75rem;
+        font-weight: normal;
+        color: #fff;
+    }
+    
+    .card-content .content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 2rem;
+    }
+    
+    .card-content .icon {
+    padding: 0.75rem 0.5rem 0.75rem 1rem;
+    margin-right: 1rem;
+    font-size: 14px;
+    max-width: 3rem;
+    color:#FFF;
+    } 
+    
+    .card-content .title-date{
+    padding-left: 0;
+    }
+    
+    .card-content .title { 
+    font-size: 1rem;
+    line-height: 1.6rem;
+    font-weight: bold;
+    } 
+    
+    .card-content .date { 
+    font-size: 14px;
+    font-weight: normal;
+    color: #FFF;
+    } 
+    
+    .card-content .status{
+    color:#FFF; 
+    float: right;
+    font-size: 14px;
+    padding-right: 1rem;
+    }
+    
+    
+    

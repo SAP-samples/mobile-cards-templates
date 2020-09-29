@@ -1,0 +1,11 @@
+#adaptiveCardsContent{
+    background-color: #90A955;
+    margin: 100px 50px 50px 50px;
+    padding: 10px;
+    border-radius: 20px;
+    border: solid 2px black
+}
+
+#adaptiveCardsContent > .ac-container{
+    background-color: #90A955!important
+}

@@ -1,0 +1,42 @@
+<div id="mySimpleTemplate" class="myTemplate" data-type="text/x-handlebars-template">
+    <div class="header">
+        <img src="assets/logo.png" alt="" width="36px" height="32px" style="padding-right:16px; padding-top:8px;">
+
+        <h1>
+            My Paystubs
+        </h1>
+
+        <span class="name">
+            {{formatDateTime "MMM" d.EndDate}}
+        </span>
+    </div>
+    <div class="card-content">
+        <div class="all">
+            <h2>
+                Regular Payroll run
+            </h2>
+            <div class="title-content">
+                <span class="content">
+                    {{formatDateTime "dd-MMM-YYYY" d.StartDate}} - {{formatDateTime "dd-MMM-YYYY" d.EndDate}}
+                </span>
+                <br>
+                <span class="title">
+                    Pay Date
+                </span>
+            </div>
+            <div class="title-content">
+                <span class="content">
+                    {{d.Position}}
+                </span>
+                 <br>
+                <span class="title">
+                    Position
+                </span>
+            </div>
+        </div>
+    </div>
+
+    <div class="desciprtion">
+            <h3> To see the details for this month, flip the card by pressing the icon in the lower right corner of this card. <h3>
+    </div>
+</div>

@@ -5,7 +5,7 @@
 	"GatekeeperConfiguration": null,
 	"Connection": null,
 	"RefreshType": "upToDate",
-	"CustomType": "Welcome",
+	"CustomType": "SingleInstance",
 	"AppLaunchUrl": null,
 	"UrlMatch": null,
 	"Descriptions": [

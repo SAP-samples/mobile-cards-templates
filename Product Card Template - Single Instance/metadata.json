@@ -4,7 +4,7 @@
 	"GatekeeperConfiguration": null,
 	"Connection": "com.sap.edm.sampleservice.v2",
 	"RefreshType": "upToDate",
-	"CustomType": "Welcome",
+	"CustomType": "SingleInstance",
 	"AppLaunchUrl": null,
 	"UrlMatch": null,
 	"Descriptions": [

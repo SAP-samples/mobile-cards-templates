@@ -1,0 +1,78 @@
+.myTemplate {
+    background: linear-gradient(to right bottom, #144B7F, #3373B1);
+    color: #fafafa;
+    font-family: -apple-system, Helvetica;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    padding: 1rem;
+}
+
+.header h1 {
+    font-size: 1.25rem;
+    margin-top: 0.25rem;
+    color: #fff;
+    font-weight: bold;
+    line-height: 2.5rem;
+    flex: 1 1;
+    white-space: nowrap;
+}
+
+.header .name {
+    font-weight: normal;
+    margin-top: 1rem;
+    font-size: 1rem;
+    display: block;
+    text-align: right;
+    white-space: normal;
+}
+
+.card-content {
+    background-image: url("background.png");
+    background-repeat: no-repeat;
+    background-origin: content-box;
+    background-size: 100% auto;
+    display: flex;
+    padding: 1rem 1rem 0rem 1rem;
+    height: 15rem;
+    justify-content: space-between;
+}
+
+.card-content h2 {
+    font-size: 1rem;
+    padding: 1rem 1rem 0 1rem;
+    color: #e7d9d9;
+    font-weight: 400;
+}
+
+.card-content .title-content {
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.card-content .title {
+    font-size: 0.75rem;
+    color: rgb(185, 185, 204);
+    font-weight: 400;
+}
+
+.card-content .content {
+    font-size: 1.5rem;
+    color: #dce4d5;
+    font-weight: 200;
+}
+
+hr {
+    border-color: #DFDFDF;
+}
+
+.desciprtion {
+    font-weight: 500;
+    padding: 2rem;
+}
+
+.desciprtion .d-title {
+    font-weight: bold;
+}

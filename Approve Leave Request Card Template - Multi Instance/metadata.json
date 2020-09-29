@@ -1,0 +1,142 @@
+{
+    "TemplateName": "User defined template",
+    "GatekeeperConfiguration": null,
+    "CardClass": "HtmlTemplate",
+    "QueryURL": "/sap/fiori/myapprovalinbox/sap/opu/odata/sap/HCM_LEAVE_REQ_APPROVE_SRV/LeaveRequestSet?$select=RequestId,RequesterName,LeaveTypeDesc,StartDate,EndDate,AbsenceDays,AbsenceHours",
+    "CustomType": "Query",
+    "UrlMatch": null,
+    "GroupName": "None",
+    "AppLaunchUrl": null,
+    "APNSEnabled": true,
+    "QueryReturnsEntityCollection": true,
+    "Descriptions": [
+        {
+            "language": "EN",
+            "text": "Approve Leave Requests"
+        }
+    ],
+    "ActionConfiguration": {
+        "Category": "400691D5-8ABC-49E9-9F93-D4BC49CEB908",
+        "BehaviorAfterAction": "INACTIVE",
+        "XCSRFTokenUrl": "/sap/fiori/myapprovalinbox/sap/opu/odata/sap/HCM_LEAVE_REQ_APPROVE_SRV/",
+        "Actions": [
+            {
+                "ActionName": "ACCEPT",
+                "ActionUrl": "/sap/fiori/myapprovalinbox/sap/opu/odata/sap/HCM_LEAVE_REQ_APPROVE_SRV/ApplyLeaveRequestDecision?SAP__Origin='undefined'&RequestId='${reqId}'&Version=1&Comment=''&Decision='PREPARE_APPROVE'",
+                "HttpMethod": "POST",
+                "EnabledForDeviceNotification": true,
+                "ActionBody": "",
+                "ActionParameters": [],
+                "ActionHeaders": [
+                    {
+                        "HeaderName": "X-Requested-With",
+                        "HeaderValue": "XMLHttpRequest"
+                    }
+                ],
+                "Labels": [
+                    {
+                        "language": "EN",
+                        "text": "Accept"
+                    }
+                ]
+            },
+            {
+                "ActionName": "REJECT",
+                "ActionUrl": "/sap/fiori/myapprovalinbox/sap/opu/odata/sap/HCM_LEAVE_REQ_APPROVE_SRV/ApplyLeaveRequestDecision?SAP__Origin='undefined'&RequestId='${reqId}'&Version=1&Comment='${comments}'&Decision='PREPARE_REJECT'",
+                "HttpMethod": "POST",
+                "EnabledForDeviceNotification": true,
+                "ActionBody": "",
+                "ActionParameters": [
+                    {
+                        "name": "comments",
+                        "type": "Edm.String",
+                        "maxLength": 255,
+                        "enabledForDeviceNotification": false,
+                        "isKey": false,
+                        "nullable": true,
+                        "label": [
+                            {
+                                "language": "EN",
+                                "text": "Comments"
+                            }
+                        ]
+                    }
+                ],
+                "ActionHeaders": [
+                    {
+                        "HeaderName": "X-Requested-With",
+                        "HeaderValue": "XMLHttpRequest"
+                    }
+                ],
+                "Labels": [
+                    {
+                        "language": "EN",
+                        "text": "Reject"
+                    }
+                ]
+            }
+        ]
+    },
+    "Parameters": {
+        "Parameters": [
+            {
+                "Name": "requesterName",
+                "Propagate": true,
+                "ResourceOrderNumber": 0,
+                "Value": "$.d.RequesterName",
+                "displayName": "requesterName"
+            },
+            {
+                "Name": "reqId",
+                "Propagate": true,
+                "ResourceOrderNumber": 0,
+                "Value": "$.d.RequestId",
+                "displayName": "reqId"
+            },
+            {
+                "Name": "GENERATED_GROUP_NAME",
+                "Propagate": false,
+                "ResourceOrderNumber": 0,
+                "Value": "Leave Request Approvals",
+                "displayName": "GENERATED_GROUP_NAME"
+            }
+        ]
+    },
+    "useHtmlAsMapping": true,
+    "CollectionType": "useCollection",
+    "QueryConfiguration": {
+        "CacheQueryResult": false,
+        "QueryEntityKeyPaths": [
+            "$.d.__metadata.uri"
+        ],
+        "QueryURLCollectionRoot": "$.d.results"
+    },
+    "SubscribableTo": {
+        "Users": []
+    },
+    "NewsEnabled": false,
+    "AutoSubscribe": false,
+    "HiddenSubscription": false,
+    "NotificationMessages": {
+        "Messages": [
+            {
+                "language": "EN",
+                "text": "A new leave request has been submitted by ${requesterName}",
+                "notificationType": "NEW"
+            }
+        ]
+    },
+    "NotificationRules": [],
+    "ResourceIdentifiers": [
+        {
+            "ImagePaths": "",
+            "Uri": "",
+            "Order": 0,
+            "Shared": false
+        }
+    ],
+    "Connection": "com.sap.it.flp",
+    "Name": "Approve Leave Request",
+    "Uri": "",
+    "Shared": false
+}
