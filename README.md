@@ -35,15 +35,15 @@ Current list of templates:
 
 SAP Mobile Card Templates are directly available for consumption to a developer developing cards in SAP Business Application Studio. Please click here to [set-up your Business Application Studio](https://developers.sap.com/tutorials/appstudio-onboarding.html).
 
+## Known Issues
+
+There are no known issues or bugs. If you encounter any, please refer to the [support section](#how-to-obtain-support).
+
 ## How to obtain support
 
 [Create an issue](https://github.com/SAP-samples/mobile-cards-templates/issues) in this repository if you find a bug or have questions about the content.
 
 For additional support, [ask a question in SAP Community](https://answers.sap.com/tags/73555000100700000761).
-
-## Known Issues
-
-There are no known issues or bugs. If you encounter any, please refer to the [support section](#how-to-obtain-support).
 
 ## Contributing
 
@@ -55,4 +55,6 @@ The development team will actively publish new templates to the repository.
 
 ## License
 
-Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved. This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](/LICENSE) file.
+This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](/LICENSES/Apache-2.0.txt) file.
+
+Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved.
