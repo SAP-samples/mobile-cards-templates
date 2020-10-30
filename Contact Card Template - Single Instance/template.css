@@ -1,0 +1,55 @@
+.myTemplate {
+    height: 100vh;
+    background: linear-gradient(to bottom,rgb(153, 217, 234),rgb(153, 217, 245));
+    color: #303030;
+    font-family: Helvetica;
+}
+
+.header {
+    background-color: none;
+    height: 40px;
+    padding: 16px;
+}
+
+.name{
+    font-size: 12px;
+    font-weight: normal;
+    display: block;
+    margin-top: -25px;
+    text-align: right;
+    white-space: normal;
+}
+
+.card-content{
+    background-color: rgb(207, 238, 245);
+    padding: 16px;
+    width:80%;
+    margin-left: 6%;
+    border-radius: 10px;
+}
+
+.backCard-content{
+    background-color: rgb(207, 238, 245);
+    padding: 16px;
+    width:80%;
+    margin-left: 6%;
+    border-radius: 10px;
+}
+
+.listitem {
+    font-size: 13px;
+    height: 50px;
+}
+
+.listitem-label{
+    margin-top: -22px;
+    margin-left: 28px;
+}
+
+.listitem-value {
+    color: #000000;
+    font-size: 17px;
+    float: left;
+    margin-top: -8px;
+    padding-right: 16px;
+}

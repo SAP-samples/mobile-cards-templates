@@ -1,0 +1,14 @@
+Handlebars.registerHelper('iconLoad', function (passedStr) {
+    if(passedStr=='contactSupplier'){
+        return new Handlebars.SafeString('<img src="assets/contacts.png" style="height: 25px; width: auto;">');
+    }
+    if(passedStr=='emailSupplier'){
+        return new Handlebars.SafeString('<img src="assets/email.png" style="height: 21px; width: auto;">');
+    }
+    if(passedStr=='phoneSupplier'){
+        return new Handlebars.SafeString('<img src="assets/phone.png" style="height: 21px; width: auto;">');
+    }
+    if(passedStr=='addressSupplier'){
+        return new Handlebars.SafeString('<img src="assets/address.png" style="height: 21px; width: auto;">');
+    }
+});

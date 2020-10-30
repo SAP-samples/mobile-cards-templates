@@ -1,0 +1,75 @@
+
+<body>
+    <div id="mySimpleTemplate" class="myTemplate" data-type="text/x-handlebars-template">
+        <br>
+        <div class="header">
+            <span style="font-weight: bold; font-size: xx-large;">
+                {{iconLoad "contactSupplier"}} {{d.results.[0].SupplierDetails.SupplierName}}
+            </span>
+            <span class="name">
+                {{d.results.0.SupplierDetails.SupplierId}}
+            </span>
+        </div>
+        <br>
+        <div style="margin-left: 8%; font-size:medium;color: #000000;">
+            <b>Category of products supplied:</b>
+            <br>
+            {{d.results.[0].Category}}
+        </div>
+        <br>        
+        <br>
+        <div class="card-content">
+            <div style="font-size: large; color: #000000;">
+                <b>Contact Details:</b>
+            </div>
+            <br>
+            <div class="listitem">
+                <span>
+                    {{iconLoad "emailSupplier"}}
+                </span>
+                <div class="listitem-label">
+                    Supplier Email Address 
+                </div>
+                <br>
+                <div class="listitem-value">
+                    <span class="c2g_email">
+                        {{d.results.[0].SupplierDetails.EmailAddress}}
+                    </span>
+                </div>
+            </div>
+            <br>
+            <div class="listitem">
+                <span>
+                    {{iconLoad "phoneSupplier"}}
+                </span>
+                <div class="listitem-label">
+                    Supplier Phone Number 
+                </div>
+                <br>
+                <div class="listitem-value">
+                    <span class="c2g_phoneNumber">
+                        {{d.results.[0].SupplierDetails.PhoneNumber}}
+                    </span>
+                </div>
+            </div>
+            <br>
+            <div class="listitem">
+                <span>
+                    {{iconLoad "addressSupplier"}}
+                </span>
+                <div class="listitem-label">
+                    Supplier Address 
+                </div>
+                <br>
+                <div class="listitem-value">
+                    <span class="c2g_address">
+                        {{d.results.[0].SupplierDetails.HouseNumber}}, {{d.results.[0].SupplierDetails.Street}}
+                        <br>
+                        {{d.results.[0].SupplierDetails.City}} - {{d.results.[0].SupplierDetails.PostalCode}}, {{d.results.[0].SupplierDetails.Country}}
+                    </span>
+                </div>
+            </div>
+            <br>
+        </div>
+    </div>
+</body>
