@@ -22,18 +22,18 @@ Handlebars.registerHelper("formatDetails", function(value) {
 });
 
 Handlebars.registerHelper("formatImages", function(value) {
-    var out = new Handlebars.SafeString( "<img src=\"assets/special.png\" style=' width: 42px; height: 42px;'>");
+    var out = new Handlebars.SafeString( "<img src=\"special.png\" style=' width: 42px; height: 42px;'>");
 
     if(value.includes("011")){
-        out = new Handlebars.SafeString( "<img src=\"assets/vacation.png\" style=' width: 42px; height: 42px;'>");
+        out = new Handlebars.SafeString( "<img src=\"vacation.png\" style=' width: 42px; height: 42px;'>");
     }
     
     if(value.includes("0350") ){
-        out = new Handlebars.SafeString( "<img src=\"assets/holiday.png\" style=' width: 42px; height: 42px;'>");
+        out = new Handlebars.SafeString( "<img src=\"holiday.png\" style=' width: 42px; height: 42px;'>");
     }
     
     if(value.includes("02") ){
-        out = new Handlebars.SafeString( "<img src=\"assets/sick.png\" style=' width: 42px; height: 42px;'>");
+        out = new Handlebars.SafeString( "<img src=\"sick.png\" style=' width: 42px; height: 42px;'>");
     }
     
     return out;

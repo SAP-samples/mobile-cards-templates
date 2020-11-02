@@ -10,15 +10,15 @@ Current list of templates:
 
 |S No: | Template Name| Instance Type |
 |---|---|---|
-| 1. | [Welcome Card](/Welcome%20Card%20Template%20-%20Single%20Instance) | Single Instance |
-| 2. | [SalesOrderHeader Card](/SalesOrderHeaders%20Card%20Template%20-%20Multi%20Instance) | Multi Instance|
-| 3. | [Product Card](/Product%20Card%20Template%20-%20Single%20Instance) | Single Instance |
-| 4. | [My To Do Card](/My%20To%20Dos%20Card%20Template%20-%20Multi%20Instance) | Multi Instance |
-| 5. | [Leave Request Card](/Leave%20Request%20Card%20Template%20-%20Single%20Instance) | Single Instance |
-| 6. | [Approve Leave Request Card](/Approve%20Leave%20Request%20Card%20Template%20-%20Multi%20Instance) | Multi Instance |
-| 7. | [My PayCheck Card](/My%20Paycheck%20Card%20Template%20-%20Multi%20Instance) | Multi Instance |
-| 8. | [My Time Sheet Card](/My%20Time%20Sheet%20Card%20Template%20-%20Single%20Instance) | Single Instance |
-| 9. | [Lunch Menu Card](/Lunch%20Menu%20Card%20Template%20-%20Single%20Instance) | Single Instance |
+| 1. | [Approve Leave Request Card](/Approve%20Leave%20Request%20Card%20Template%20-%20Multi%20Instance) | Multi Instance |
+| 2. | [Leave Request Card](/Leave%20Request%20Card%20Template%20-%20Single%20Instance) | Single Instance |
+| 3. | [Lunch Menu Card](/Lunch%20Menu%20Card%20Template%20-%20Single%20Instance) | Single Instance |
+| 4. | [My PayCheck Card](/My%20Paycheck%20Card%20Template%20-%20Multi%20Instance) | Multi Instance |
+| 5. | [My Time Sheet Card](/My%20Time%20Sheet%20Card%20Template%20-%20Single%20Instance) | Single Instance |
+| 6. | [My To Do Card](/My%20To%20Dos%20Card%20Template%20-%20Multi%20Instance) | Multi Instance |
+| 7. | [Product Card](/Product%20Card%20Template%20-%20Single%20Instance) | Single Instance |
+| 8. | [Sales Order Card](/Sales%20Order%20Card%20Template%20-%20Multi%20Instance) | Multi Instance|
+| 9. | [Welcome Card](/Welcome%20Card%20Template%20-%20Single%20Instance) | Single Instance |
 
 ## Requirements
 
@@ -40,7 +40,7 @@ SAP Mobile Card Templates are directly available for consumption to a developer 
 [Create an issue](https://github.com/SAP-samples/mobile-cards-templates/issues) in this repository if you find a bug or have questions about the content.
 
 For additional support, [ask a question in SAP Community](https://answers.sap.com/tags/73555000100700000761).
- 
+
 ## Known Issues
 
 There are no known issues or bugs. If you encounter any, please refer to the [support section](#how-to-obtain-support).
