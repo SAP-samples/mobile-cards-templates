@@ -1,0 +1,82 @@
+<div id="mySimpleTemplate" class="myTemplate" data-type="text/x-handlebars-template">
+         <div class="header">
+             <h1>
+                 SalesOrder
+             </h1>
+             <span class="name">
+                 {{dataSets.[0].data.d.SalesOrderId}}
+             </span>
+         </div>
+         <div class="card-content">
+             <div class="all">
+                 <div class="title-content">
+                     <span class="title">
+                         Order Created At
+                     </span>
+                     <br>
+                     <span class="content">
+                         {{c2gEdmDateTime "M/d/yyyy" dataSets.[0].data.d.CreatedAt}}
+                     </span>
+                 </div>
+                 <div class="title-content">
+                     <span class="title">
+                         LifeCycleStatus
+                     </span>
+                     <br>
+                     <span class="content">
+                         {{dataSets.[0].data.d.LifeCycleStatusName}}
+                     </span>
+                 </div>
+                 <div class="title-content">
+                     <span class="title">
+                         Customer
+                     </span>
+                     <br>
+                     <span class="content">
+                         {{dataSets.[0].data.d.CustomerDetails.FirstName}} {{dataSets.[0].data.d.CustomerDetails.LastName}}
+                     </span>
+                 </div>
+             </div>
+             <img src="SalesOrder.png" alt="" >
+          </div>
+          <div class="desciprtion">
+              <div>
+                 <span class="d-title">
+                     Quantity
+                 </span>
+                 <span class="d-title">
+                     Product ID
+                 </span>
+                 <span class="d-title-a">
+                     Amount
+                 </span>
+                 </div>
+            <div>
+                 <hr>
+                 {{#each dataSets.[1].data.d.results}}
+                 <span>
+                     {{Quantity}}
+                 </span>
+                 <span>
+                     {{ProductDetails.Name}}
+                </span>
+                 <span style="float:right;">
+                     {{GrossAmount}}
+                         {{CurrencyCode}}
+                 </span>
+                <div style="clear:both; height: 10px;">
+                </div>
+                 {{/each}}
+         </div>
+         <div>
+             <hr/>
+             <span class="d-title">
+                     Total Gross Amount:
+                 </span>
+                 <span class="d-title-a">
+                     {{dataSets.[0].data.d.GrossAmount}} {{dataSets.[0].data.d.CurrencyCode}}
+                 </span>
+
+         </div>
+     </div>
+</div>
