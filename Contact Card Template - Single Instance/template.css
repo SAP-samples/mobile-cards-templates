@@ -1,8 +1,8 @@
 .myTemplate {
     height: 100vh;
-    background: linear-gradient(to bottom,rgb(153, 217, 234),rgb(153, 217, 245));
-    color: #303030;
-    font-family: Helvetica;
+    background-color: #91C8F6;
+    color: #32363A;
+    font-family: -apple-system, Helvetica;
 }
 
 .header {
@@ -12,16 +12,19 @@
 }
 
 .name{
-    font-size: 12px;
+    width: 30vw;
+    float: right;
+    font-size: 11px;
     font-weight: normal;
     display: block;
-    margin-top: -25px;
+    margin-top: -47px;
     text-align: right;
+    word-wrap: break-word;
     white-space: normal;
 }
 
 .card-content{
-    background-color: rgb(207, 238, 245);
+    background-color: #D1E8FF;
     padding: 16px;
     width:80%;
     margin-left: 6%;
@@ -29,7 +32,7 @@
 }
 
 .backCard-content{
-    background-color: rgb(207, 238, 245);
+    background-color: #D1E8FF;
     padding: 16px;
     width:80%;
     margin-left: 6%;

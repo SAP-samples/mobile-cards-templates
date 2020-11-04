@@ -3,9 +3,10 @@
     <div id="mySimpleTemplate" class="myTemplate" data-type="text/x-handlebars-template">
         <br>
         <div class="header">
-            <span style="font-weight: bold; font-size: xx-large;">
-                {{iconLoad "contactSupplier"}} {{d.results.[0].SupplierDetails.SupplierName}}
-            </span>
+            {{iconLoad "contactSupplier"}} 
+            <h1 style="font-weight: bold; font-size: xx-large; margin-top:-39px; margin-left: 49px;">
+                {{d.results.[0].SupplierDetails.SupplierName}}
+            </h1>
             <span class="name">
                 {{d.results.0.SupplierDetails.SupplierId}}
             </span>
