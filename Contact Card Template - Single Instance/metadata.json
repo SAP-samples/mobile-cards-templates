@@ -1,1 +1,51 @@
-{"TemplateName":"Sample Template Product","GatekeeperConfiguration":null,"CardClass":"HtmlTemplate","QueryInterval":"P1DT0H0M","CustomType":"SingleInstance","UrlMatch":null,"SortCardsWith":null,"AppLaunchUrl":null,"APNSEnabled":true,"QueryReturnsEntityCollection":false,"DescriptionEnglish":"Show Supplier Contact Details","Descriptions":[{"language":"EN","text":"Show Supplier Contact Details"}],"CustomRequestProperties":{"RequestHttpMethod":"GET","RequestBody":"","RequestHeaders":[]},"Parameters":{"Parameters":[]},"SubscriptionParameters":[],"useHtmlAsMapping":true,"SubscribableTo":{"Users":[]},"NewsEnabled":false,"AutoSubscribe":false,"HiddenSubscription":false,"NotificationMessages":{"Messages":[]},"NotificationRules":[],"ResourceIdentifiers":[{"ImagePaths":"$.d.results.[0].PictureUrl","Order":0,"Shared":true,"Uri":"/Products?$filter=Name%20eq%20%27Notebook%20Basic%2015%27&$expand=SupplierDetails,StockDetails&$format=json"}],"Connection":"com.sap.edm.sampleservice.v2","Name":"Contact Card","Uri":"/Products?$filter=Name%20eq%20%27Notebook%20Basic%2015%27&$expand=SupplierDetails,StockDetails&$format=json","Shared":true}
+{
+  "TemplateName": "Sample Template Product",
+  "GatekeeperConfiguration": null,
+  "CardClass": "HtmlTemplate",
+  "QueryInterval": "P1DT0H0M",
+  "CustomType": "SingleInstance",
+  "UrlMatch": null,
+  "SortCardsWith": null,
+  "AppLaunchUrl": null,
+  "APNSEnabled": true,
+  "QueryReturnsEntityCollection": false,
+  "DescriptionEnglish": "Show Supplier Contact Details",
+  "Descriptions": [
+    {
+      "language": "EN",
+      "text": "Show Supplier Contact Details"
+    }
+  ],
+  "CustomRequestProperties": {
+    "RequestHttpMethod": "GET",
+    "RequestBody": "",
+    "RequestHeaders": []
+  },
+  "Parameters": {
+    "Parameters": []
+  },
+  "SubscriptionParameters": [],
+  "useHtmlAsMapping": true,
+  "SubscribableTo": {
+    "Users": []
+  },
+  "NewsEnabled": false,
+  "AutoSubscribe": false,
+  "HiddenSubscription": false,
+  "NotificationMessages": {
+    "Messages": []
+  },
+  "NotificationRules": [],
+  "ResourceIdentifiers": [
+    {
+      "ImagePaths": "$.d.results.[0].PictureUrl",
+      "Order": 0,
+      "Shared": true,
+      "Uri": "/Products?$filter=Name%20eq%20%27Notebook%20Basic%2015%27&$expand=SupplierDetails,StockDetails&$format=json"
+    }
+  ],
+  "Connection": "com.sap.edm.sampleservice.v2",
+  "Name": "Contact Card",
+  "Uri": "/Products?$filter=Name%20eq%20%27Notebook%20Basic%2015%27&$expand=SupplierDetails,StockDetails&$format=json",
+  "Shared": true
+}
