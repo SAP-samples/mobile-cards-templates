@@ -2,8 +2,8 @@
 
 ## Description
 
-Contact Card gives you the contact details of the suppliers.
-You can call the supplier, text the supplier, email them, open maps. You can see the category of products they supply.
+Contact Card makes it easy for you to contact your suppliers, without having to feed the details in the contacts app on your phone. 
+You simply open the card of the supplier whom you wish to contact and use the actions provided by the card to call them, send a text/e-mail message or navigate to their location.
 
 ## URL
 
