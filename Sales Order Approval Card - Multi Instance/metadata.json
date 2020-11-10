@@ -1,22 +1,61 @@
 {
-	"TemplateName": "User defined template",
-	"GatekeeperConfiguration": null,
-	"CardClass": "HtmlTemplate",
-	"QueryInterval": "P1D",
-	"QueryURL": "/SalesOrderHeaders?$top=3&$expand=CustomerDetails",
-	"CustomType": "Query",
-	"UrlMatch": null,
+	"Name": "Sales Order Approval Card",
 	"SortCardsWith": null,
+	"GatekeeperConfiguration": null,
+	"Connection": "com.sap.edm.sampleservice.v2",
+	"CustomType": "Query",
 	"AppLaunchUrl": null,
-	"APNSEnabled": true,
-	"QueryReturnsEntityCollection": true,
-	"DescriptionEnglish": "Show orders",
 	"Descriptions": [
 		{
 			"language": "EN",
-			"text": "Show orders"
+			"text": "Sales Orders Created for Approval"
 		}
 	],
+	"UrlMatch": null,
+	"QueryInterval": "P1D",
+	"QueryURL": "/SalesOrderHeaders?$top=3&$expand=CustomerDetails",
+	"QueryConfiguration": {
+		"QueryURLCollectionRoot": "$.d.results",
+		"QueryEntityKeyPaths": [
+			"$.d.__metadata.uri"
+		],
+		"CacheQueryResult": false
+	},
+	"QueryReturnsEntityCollection": true,
+	"NewsEnabled": false,
+	"AutoSubscribe": false,
+	"HiddenSubscription": false,
+	"SubscriptionParameters": [],
+	"ResourceIdentifiers": [
+		{
+			"ImagePaths": "",
+			"Uri": "",
+			"Order": 0,
+			"Shared": false
+		},
+		{
+			"Order": 1,
+			"ImagePaths": null,
+			"Uri": "/SalesOrderItems?$filter=SalesOrderId%20eq%20%27${SalesOrderId}%27&$expand=ProductDetails",
+			"Shared": false
+		}
+	],
+	"Parameters": {
+		"Parameters": [
+			{
+				"Name": "SalesOrderId",
+				"Propagate": false,
+				"ResourceOrderNumber": 0,
+				"Value": "$.d.SalesOrderId",
+				"displayName": "SalesOrderId"
+			}
+		]
+	},
+	"APNSEnabled": true,
+	"NotificationMessages": {
+		"Messages": []
+	},
+	"NotificationRules": [],
 	"ActionConfiguration": {
 		"Category": "0978089F-655F-42BF-AA23-956B4AC99D18",
 		"XCSRFTokenUrl": "",
@@ -80,52 +119,13 @@
 		"RequestBody": "",
 		"RequestHeaders": []
 	},
-	"Parameters": {
-		"Parameters": [
-			{
-				"Name": "SalesOrderId",
-				"Propagate": false,
-				"ResourceOrderNumber": 0,
-				"Value": "$.d.SalesOrderId",
-				"displayName": "SalesOrderId"
-			}
-		]
-	},
-	"SubscriptionParameters": [],
+	"TemplateName": "User defined template",
+	"CardClass": "HtmlTemplate",
 	"useHtmlAsMapping": true,
-	"QueryConfiguration": {
-		"QueryURLCollectionRoot": "$.d.results",
-		"QueryEntityKeyPaths": [
-			"$.d.__metadata.uri"
-		],
-		"CacheQueryResult": false
-	},
 	"SubscribableTo": {
 		"Users": []
 	},
-	"NewsEnabled": false,
-	"AutoSubscribe": false,
-	"HiddenSubscription": false,
-	"NotificationMessages": {
-		"Messages": []
-	},
-	"NotificationRules": [],
-	"ResourceIdentifiers": [
-		{
-			"ImagePaths": "",
-			"Uri": "",
-			"Order": 0,
-			"Shared": false
-		},
-		{
-			"Order": 1,
-			"ImagePaths": null,
-			"Uri": "/SalesOrderItems?$filter=SalesOrderId%20eq%20%27${SalesOrderId}%27&$expand=ProductDetails",
-			"Shared": false
-		}
-	],
-	"Connection": "com.sap.edm.sampleservice.v2",
-	"Name": "Sales Order Approval",
 	"Uri": "",
-	"Shared": false
+	"Shared": false,
+	"DescriptionEnglish": "Sales Orders Created for Approval"
 }
