@@ -1,0 +1,131 @@
+{
+	"TemplateName": "User defined template",
+	"GatekeeperConfiguration": null,
+	"CardClass": "HtmlTemplate",
+	"QueryInterval": "P1D",
+	"QueryURL": "/SalesOrderHeaders?$top=3&$expand=CustomerDetails",
+	"CustomType": "Query",
+	"UrlMatch": null,
+	"SortCardsWith": null,
+	"AppLaunchUrl": null,
+	"APNSEnabled": true,
+	"QueryReturnsEntityCollection": true,
+	"DescriptionEnglish": "Show orders",
+	"Descriptions": [
+		{
+			"language": "EN",
+			"text": "Show orders"
+		}
+	],
+	"ActionConfiguration": {
+		"Category": "0978089F-655F-42BF-AA23-956B4AC99D18",
+		"XCSRFTokenUrl": "",
+		"Actions": [
+			{
+				"ActionName": "accept",
+				"ActionUrl": "/SalesOrderHeaders('${SalesOrderId}')",
+				"BehaviorAfterAction": "ACTIVE",
+				"HttpMethod": "PATCH",
+				"Nature": "Positive",
+				"EnabledForDeviceNotification": false,
+				"ActionBody": "{\"LifeCycleStatusName\": \"Accepted\", \"LifeCycleStatus\": \"A\"}",
+				"AddCarriageReturn": false,
+				"ActionHeaders": [],
+				"ActionParameters": [],
+				"Labels": [
+					{
+						"language": "EN",
+						"text": "Approve Order"
+					}
+				]
+			},
+			{
+				"ActionName": "reject",
+				"ActionUrl": "/SalesOrderHeaders('${SalesOrderId}')",
+				"BehaviorAfterAction": "ACTIVE",
+				"HttpMethod": "PATCH",
+				"Nature": "Negative",
+				"EnabledForDeviceNotification": false,
+				"ActionBody": "{\"LifeCycleStatusName\": \"Rejected: ${reasonForRejection}\", \"LifeCycleStatus\": \"R\"}",
+				"AddCarriageReturn": false,
+				"ActionHeaders": [],
+				"ActionParameters": [
+					{
+						"name": "reasonForRejection",
+						"type": "Edm.String",
+						"maxLength": 255,
+						"defaultValue": "",
+						"enabledForDeviceNotification": false,
+						"isKey": false,
+						"nullable": false,
+						"label": [
+							{
+								"language": "EN",
+								"text": "Reason"
+							}
+						]
+					}
+				],
+				"Labels": [
+					{
+						"language": "EN",
+						"text": "Reject Order"
+					}
+				]
+			}
+		]
+	},
+	"CustomRequestProperties": {
+		"RequestHttpMethod": "GET",
+		"RequestBody": "",
+		"RequestHeaders": []
+	},
+	"Parameters": {
+		"Parameters": [
+			{
+				"Name": "SalesOrderId",
+				"Propagate": false,
+				"ResourceOrderNumber": 0,
+				"Value": "$.d.SalesOrderId",
+				"displayName": "SalesOrderId"
+			}
+		]
+	},
+	"SubscriptionParameters": [],
+	"useHtmlAsMapping": true,
+	"QueryConfiguration": {
+		"QueryURLCollectionRoot": "$.d.results",
+		"QueryEntityKeyPaths": [
+			"$.d.__metadata.uri"
+		],
+		"CacheQueryResult": false
+	},
+	"SubscribableTo": {
+		"Users": []
+	},
+	"NewsEnabled": false,
+	"AutoSubscribe": false,
+	"HiddenSubscription": false,
+	"NotificationMessages": {
+		"Messages": []
+	},
+	"NotificationRules": [],
+	"ResourceIdentifiers": [
+		{
+			"ImagePaths": "",
+			"Uri": "",
+			"Order": 0,
+			"Shared": false
+		},
+		{
+			"Order": 1,
+			"ImagePaths": null,
+			"Uri": "/SalesOrderItems?$filter=SalesOrderId%20eq%20%27${SalesOrderId}%27&$expand=ProductDetails",
+			"Shared": false
+		}
+	],
+	"Connection": "com.sap.edm.sampleservice.v2",
+	"Name": "Sales Order Approval",
+	"Uri": "",
+	"Shared": false
+}
