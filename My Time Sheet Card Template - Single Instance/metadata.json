@@ -48,7 +48,7 @@
             "Shared": true
         }
     ],
-    "Connection": "com.sap.edm.sampleservice.v2",
+    "Connection": "SFDEMO_APIHUB",
     "Name": "TimeSheet",
     "Uri": "/odata/v2/EmployeeTime?$format=json&$filter=userIdNav/username%20eq%20'${userId}'%20and%20timeType%20eq%20'WORK'&$expand=userIdNav&$orderby=startDate%20desc",
     "Shared": true

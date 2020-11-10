@@ -13,7 +13,7 @@ You can change the lifecycle status of your card to Prototype Mode to visualize 
 
 ![My Paycheck Card Business Application Studio Screenshot](screens/deploy-prototype-BAS.png)
 
-### Making The Card A Prototype Card on Mobile Services Cockpit 
+### Making The Card A Prototype Card on Mobile Services Cockpit
 
 ![My Paycheck Card Mobile Services Cockpit Screenshot](screens/deploy-prototype-mobile-services-cockpit.png)
 
@@ -26,6 +26,7 @@ You can change the lifecycle status of your card to Prototype Mode to visualize 
 ![Time Sheet Card Android Front Screenshot](screens/android_front.png)
 
 #### Back
+
 Time Sheet Card does not have template_back_en.html. Therefore, you cannot see the flip option to view back side of the Card in Android.
 
 ### iOS
