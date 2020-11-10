@@ -27,3 +27,9 @@ It creates one card for each user.
 #### Back
 
 ![Welcome Card iOS Back Screenshot](screens/ios_back.png)
+
+## License
+
+This project is licensed under the Apache Software License, version 2.0 except as noted otherwise in the [LICENSE](../LICENSES/Apache-2.0.txt) file.
+
+Copyright (c) 2020 SAP SE or an SAP affiliate company. All rights reserved.
