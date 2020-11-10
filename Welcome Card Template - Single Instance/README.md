@@ -6,6 +6,10 @@ Welcome Card shows a card explaining the basics of the SAP Mobile Cards client. 
 
 It creates one card for each user.
 
+## URL
+
+Welcome cards are static cards that don't need a URL connection.
+
 ## Screenshot
 
 ### Android

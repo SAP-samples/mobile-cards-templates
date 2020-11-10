@@ -2,19 +2,20 @@
 
 ## Description
 
-To Do card let's you put your action items in your pocket. Each To Do appears as a different card. On each card you can see the action item, date the action item was created and date when you are due to complete your action. 
+To Do card let's you put your action items in your pocket. Each To Do appears as a different card. On each card you can see the action item, date the action item was created and date when you are due to complete your action.
 
 ## URL
 
-The default URL used by the card is a SuccessFactors demo API. Please [click here](https://api.sap.com/package/SuccessFactorsEmployeeCentral?section=Artifacts) to configure a sample service from API Management service on your Mobile Services account. 
+The default connection of the card template must be configured in Mobile Services Cockpit.
 
-Alternatively, you can change the life cycle status of the card to Prototype Mode to see the card render data from the userdata.json file on your physical mobile device. 
+However, you can still experience how the card would function on your mobile device.
+You can change the lifecycle status of your card to [Prototype Mode](https://help.sap.com/doc/f53c64b93e5140918d676b927a3cd65b/Cloud/en-US/docs-en/guides/getting-started/mck/mck-managing-cards.html#prototype) to visualize the data from `userdata.json` file.
 
 ### Deploying The Card As A Prototype Card From Business Application Studio
 
 ![ToDo Card Android Screenshot](screens/deploy-prototype-BAS.png)
 
-### Making The Card A Prototype Card on Mobile Services Cockpit 
+### Making The Card A Prototype Card on Mobile Services Cockpit
 
 ![ToDo Card Android Screenshot](screens/deploy-prototype-mobile-services-cockpit.png)
 
@@ -29,7 +30,6 @@ Alternatively, you can change the life cycle status of the card to Prototype Mod
 #### Back
 
 ![ToDo Card Android Back Screenshot](screens/android_back.png)
-
 
 ### iOS
 
