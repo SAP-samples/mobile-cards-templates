@@ -1,0 +1,58 @@
+.myTemplate {
+    height: 100vh;
+    background-color: #91C8F6;
+    color: #32363A;
+    font-family: -apple-system, Helvetica;
+}
+
+.header {
+    background-color: none;
+    height: 40px;
+    padding: 16px;
+}
+
+.name{
+    width: 30vw;
+    float: right;
+    font-size: 11px;
+    font-weight: normal;
+    display: block;
+    margin-top: -47px;
+    text-align: right;
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+.card-content{
+    background-color: #D1E8FF;
+    padding: 16px;
+    width:80%;
+    margin-left: 6%;
+    border-radius: 10px;
+}
+
+.backCard-content{
+    background-color: #D1E8FF;
+    padding: 16px;
+    width:80%;
+    margin-left: 6%;
+    border-radius: 10px;
+}
+
+.listitem {
+    font-size: 13px;
+    height: 50px;
+}
+
+.listitem-label{
+    margin-top: -22px;
+    margin-left: 28px;
+}
+
+.listitem-value {
+    color: #000000;
+    font-size: 17px;
+    float: left;
+    margin-top: -8px;
+    padding-right: 16px;
+}
