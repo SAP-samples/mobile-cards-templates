@@ -5,18 +5,13 @@
         <div class="header">
             {{iconLoad "contactSupplier"}} 
             <h1 style="font-weight: bold; font-size: xx-large; margin-top:-39px; margin-left: 49px;">
-                {{d.results.[0].SupplierDetails.SupplierName}}
+                {{dataSets.[0].data.d.SupplierName}}
             </h1>
             <span class="name">
-                {{d.results.0.SupplierDetails.SupplierId}}
+                {{dataSets.[0].data.d.SupplierId}}
             </span>
         </div>
         <br>
-        <div style="margin-left: 8%; font-size:medium;color: #000000;">
-            <b>Category of products supplied:</b>
-            <br>
-            {{d.results.[0].Category}}
-        </div>
         <br>        
         <br>
         <div class="card-content">
@@ -34,7 +29,7 @@
                 <br>
                 <div class="listitem-value">
                     <span class="c2g_email">
-                        {{d.results.[0].SupplierDetails.EmailAddress}}
+                        {{dataSets.[0].data.d.EmailAddress}}
                     </span>
                 </div>
             </div>
@@ -49,7 +44,7 @@
                 <br>
                 <div class="listitem-value">
                     <span class="c2g_phoneNumber">
-                        {{d.results.[0].SupplierDetails.PhoneNumber}}
+                        {{dataSets.[0].data.d.PhoneNumber}}
                     </span>
                 </div>
             </div>
@@ -64,15 +59,15 @@
                 <br>
                 <div class="listitem-value">
                     <span class="c2g_address">
-                    {{d.results.[0].SupplierDetails.Street}},
+                    {{dataSets.[0].data.d.Address.HouseNumber}}
                     &nbsp;
-                    {{d.results.[0].SupplierDetails.HouseNumber}}
+                    {{dataSets.[0].data.d.Address.Street}},
                     <br>
-                    {{d.results.[0].SupplierDetails.PostalCode}},
+                    {{dataSets.[0].data.d.Address.City}},
                     &nbsp;
-                    {{d.results.[0].SupplierDetails.City}}
+                    {{dataSets.[0].data.d.Address.PostalCode}}
                     ,
-                    {{d.results.[0].SupplierDetails.Country}}
+                    {{dataSets.[0].data.d.Address.Country}}
                     </span>
                 </div>
             </div>

@@ -1,0 +1,70 @@
+{
+	"Name": "Supplier Contact Card",
+	"SortCardsWith": null,
+	"GatekeeperConfiguration": null,
+	"Connection": "com.sap.edm.sampleservice.v2",
+	"CustomType": "Query",
+	"AppLaunchUrl": null,
+	"Descriptions": [
+		{
+			"language": "EN",
+			"text": "Supplier Contact Details"
+		}
+	],
+	"UrlMatch": null,
+	"QueryInterval": "P1DT0H0M",
+	"QueryURL": "/Suppliers?$filter=SupplierName%20eq%20%27ITelO%27&$format=json",
+	"QueryConfiguration": {
+		"QueryURLCollectionRoot": "$.d.results",
+		"QueryEntityKeyPaths": [
+			"$.d.__metadata.uri"
+		],
+		"EntityRootElement": "d",
+		"CacheQueryResult": false
+	},
+	"QueryReturnsEntityCollection": true,
+	"NewsEnabled": false,
+	"AutoSubscribe": false,
+	"HiddenSubscription": false,
+	"SubscriptionParameters": [],
+	"ResourceIdentifiers": [
+		{
+			"ImagePaths": "$.d.results.[0].PictureUrl",
+			"Order": 0,
+			"Shared": true,
+			"Uri": ""
+		},
+		{
+			"Order": 1,
+			"Uri": "/Suppliers?$filter=SupplierId%20eq%20%27${SupplierId}%27&$expand=Products"
+		}
+	],
+	"Parameters": {
+		"Parameters": [
+			{
+				"Name": "SupplierId",
+				"Value": "$.d.SupplierId",
+				"ResourceOrderNumber": 0,
+				"Propagate": false
+			}
+		]
+	},
+	"APNSEnabled": true,
+	"NotificationMessages": {
+		"Messages": []
+	},
+	"NotificationRules": [],
+	"CustomRequestProperties": {
+		"RequestHttpMethod": "GET",
+		"RequestBody": "",
+		"RequestHeaders": []
+	},
+	"LastModifiedTag": "\"7366bcd8ac054fec949fee280cd0cbd5\"",
+	"TemplateName": "Sample Template Product",
+	"CardClass": "HtmlTemplate",
+	"SubscribableTo": {
+		"Users": []
+	},
+	"Shared": true,
+	"DescriptionEnglish": "Supplier Contact Details"
+}

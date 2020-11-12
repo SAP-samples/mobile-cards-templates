@@ -11,14 +11,15 @@ Current list of templates:
 |S No: | Template Name| Instance Type |
 |---|---|---|
 | 1. | [Approve Leave Request Card](/Approve%20Leave%20Request%20Card%20Template%20-%20Multi%20Instance) | Multi Instance |
-| 2. | [Leave Request Card](/Leave%20Request%20Card%20Template%20-%20Single%20Instance) | Single Instance |
-| 3. | [Lunch Menu Card](/Lunch%20Menu%20Card%20Template%20-%20Single%20Instance) | Single Instance |
-| 4. | [My PayCheck Card](/My%20Paycheck%20Card%20Template%20-%20Multi%20Instance) | Multi Instance |
-| 5. | [My Time Sheet Card](/My%20Time%20Sheet%20Card%20Template%20-%20Single%20Instance) | Single Instance |
-| 6. | [My To Do Card](/My%20To%20Dos%20Card%20Template%20-%20Multi%20Instance) | Multi Instance |
-| 7. | [Product Card](/Product%20Card%20Template%20-%20Single%20Instance) | Single Instance |
-| 8. | [Sales Order Card](/Sales%20Order%20Card%20Template%20-%20Multi%20Instance) | Multi Instance|
-| 9. | [Welcome Card](/Welcome%20Card%20Template%20-%20Single%20Instance) | Single Instance |
+| 2. | [Contact Card](/Contact%20Card%20Template%20-%20Multi%20Instance) | Multi Instance |
+| 3. | [Leave Request Card](/Leave%20Request%20Card%20Template%20-%20Single%20Instance) | Single Instance |
+| 4. | [Lunch Menu Card](/Lunch%20Menu%20Card%20Template%20-%20Single%20Instance) | Single Instance |
+| 5. | [My PayCheck Card](/My%20Paycheck%20Card%20Template%20-%20Multi%20Instance) | Multi Instance |
+| 6. | [My Time Sheet Card](/My%20Time%20Sheet%20Card%20Template%20-%20Single%20Instance) | Single Instance |
+| 7. | [My To Do Card](/My%20To%20Dos%20Card%20Template%20-%20Multi%20Instance) | Multi Instance |
+| 8. | [Product Card](/Product%20Card%20Template%20-%20Single%20Instance) | Single Instance |
+| 9. | [Sales Order Card](/Sales%20Order%20Card%20Template%20-%20Multi%20Instance) | Multi Instance|
+| 10. | [Welcome Card](/Welcome%20Card%20Template%20-%20Single%20Instance) | Single Instance |
 
 ## Requirements
 

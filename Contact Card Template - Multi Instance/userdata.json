@@ -1,0 +1,601 @@
+{
+    "dataSets": [
+        {
+            "resourceIdentifier": "Suppliers('1fc741af-1aba-4bf6-b806-b6a1a5cc0245')",
+            "data": {
+                "d": {
+                    "__metadata": {
+                        "id": "Suppliers('1fc741af-1aba-4bf6-b806-b6a1a5cc0245')",
+                        "uri": "Suppliers('1fc741af-1aba-4bf6-b806-b6a1a5cc0245')"
+                    },
+                    "Address": {
+                        "City": "Rome",
+                        "Country": "IT",
+                        "HouseNumber": "53",
+                        "PostalCode": "00164",
+                        "Street": "Piazza Adriana"
+                    },
+                    "City": "Rome",
+                    "Country": "IT",
+                    "EmailAddress": "sally.spring@itelo.info",
+                    "HouseNumber": "53",
+                    "PhoneNumber": "1029384758",
+                    "PostalCode": "00164",
+                    "Products": {
+                        "__deferred": {
+                            "uri": "Suppliers('1fc741af-1aba-4bf6-b806-b6a1a5cc0245')/Products"
+                        }
+                    },
+                    "PurchaseOrders": {
+                        "__deferred": {
+                            "uri": "Suppliers('1fc741af-1aba-4bf6-b806-b6a1a5cc0245')/PurchaseOrders"
+                        }
+                    },
+                    "Street": "Piazza Adriana",
+                    "SupplierId": "1fc741af-1aba-4bf6-b806-b6a1a5cc0245",
+                    "SupplierName": "ITelO",
+                    "UpdatedTimestamp": null
+                }
+            }
+        },
+        {
+            "resourceIdentifier": "/Suppliers?$filter=SupplierId%20eq%20%271fc741af-1aba-4bf6-b806-b6a1a5cc0245%27&$expand=Products",
+            "data": {
+                "d": {
+                    "results": [
+                        {
+                            "__metadata": {
+                                "id": "Suppliers('1fc741af-1aba-4bf6-b806-b6a1a5cc0245')",
+                                "uri": "Suppliers('1fc741af-1aba-4bf6-b806-b6a1a5cc0245')"
+                            },
+                            "Address": {
+                                "City": "Rome",
+                                "Country": "IT",
+                                "HouseNumber": "53",
+                                "PostalCode": "00164",
+                                "Street": "Piazza Adriana"
+                            },
+                            "City": "Rome",
+                            "Country": "IT",
+                            "EmailAddress": "sally.spring@itelo.info",
+                            "HouseNumber": "53",
+                            "PhoneNumber": "1029384758",
+                            "PostalCode": "00164",
+                            "Street": "Piazza Adriana",
+                            "SupplierId": "1fc741af-1aba-4bf6-b806-b6a1a5cc0245",
+                            "SupplierName": "ITelO",
+                            "UpdatedTimestamp": null,
+                            "Products": {
+                                "results": [
+                                    {
+                                        "__metadata": {
+                                            "content_type": "application/binary",
+                                            "edit_media": "Products('6f325e17-1c78-46f4-896e-aa1cf5a64bc1')/$value",
+                                            "id": "Products('6f325e17-1c78-46f4-896e-aa1cf5a64bc1')",
+                                            "media_src": "Products('6f325e17-1c78-46f4-896e-aa1cf5a64bc1')/$value",
+                                            "uri": "Products('6f325e17-1c78-46f4-896e-aa1cf5a64bc1')"
+                                        },
+                                        "Category": "Notebooks",
+                                        "CategoryName": "Notebooks",
+                                        "CurrencyCode": "EUR",
+                                        "DimensionDepth": "19.0000",
+                                        "DimensionHeight": "2.5000",
+                                        "DimensionUnit": "cm",
+                                        "DimensionWidth": "28.0000",
+                                        "LongDescription": "Notebook Basic 18 with 2,80 GHz quad core, 18\" LCD, 8 GB DDR3 RAM, 1000 GB Hard Disc, Windows 8 Pro",
+                                        "Name": "Notebook Basic 18",
+                                        "PictureUrl": "/imgs/HT-1002.jpg",
+                                        "Price": "1570.000",
+                                        "ProductId": "6f325e17-1c78-46f4-896e-aa1cf5a64bc1",
+                                        "QuantityUnit": "EA",
+                                        "ShortDescription": "Notebook Basic 18 with 2,80 GHz quad core, 18\" LCD, 8 GB DDR3 RAM, 1000 GB Hard Disc, Windows 8 Pro",
+                                        "StockDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('6f325e17-1c78-46f4-896e-aa1cf5a64bc1')/StockDetails"
+                                            }
+                                        },
+                                        "SupplierDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('6f325e17-1c78-46f4-896e-aa1cf5a64bc1')/SupplierDetails"
+                                            }
+                                        },
+                                        "SupplierId": "1fc741af-1aba-4bf6-b806-b6a1a5cc0245",
+                                        "UpdatedTimestamp": null,
+                                        "Weight": "4.200",
+                                        "WeightUnit": "KG"
+                                    },
+                                    {
+                                        "__metadata": {
+                                            "content_type": "application/binary",
+                                            "edit_media": "Products('7d053d02-706d-4b1b-870d-226abe56e6dc')/$value",
+                                            "id": "Products('7d053d02-706d-4b1b-870d-226abe56e6dc')",
+                                            "media_src": "Products('7d053d02-706d-4b1b-870d-226abe56e6dc')/$value",
+                                            "uri": "Products('7d053d02-706d-4b1b-870d-226abe56e6dc')"
+                                        },
+                                        "Category": "Flat Screen Monitors",
+                                        "CategoryName": "Flat Screen Monitors",
+                                        "CurrencyCode": "EUR",
+                                        "DimensionDepth": "12.0000",
+                                        "DimensionHeight": "36.0000",
+                                        "DimensionUnit": "cm",
+                                        "DimensionWidth": "37.0000",
+                                        "LongDescription": "Optimum Hi-Resolution max. 1920 x 1080 @ 85Hz, Dot Pitch: 0.27mm",
+                                        "Name": "Ergo Screen E-I",
+                                        "PictureUrl": "/imgs/HT-1030.jpg",
+                                        "Price": "230.000",
+                                        "ProductId": "7d053d02-706d-4b1b-870d-226abe56e6dc",
+                                        "QuantityUnit": "EA",
+                                        "ShortDescription": "Optimum Hi-Resolution max. 1920 x 1080 @ 85Hz, Dot Pitch: 0.27mm",
+                                        "StockDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('7d053d02-706d-4b1b-870d-226abe56e6dc')/StockDetails"
+                                            }
+                                        },
+                                        "SupplierDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('7d053d02-706d-4b1b-870d-226abe56e6dc')/SupplierDetails"
+                                            }
+                                        },
+                                        "SupplierId": "1fc741af-1aba-4bf6-b806-b6a1a5cc0245",
+                                        "UpdatedTimestamp": null,
+                                        "Weight": "21.000",
+                                        "WeightUnit": "KG"
+                                    },
+                                    {
+                                        "__metadata": {
+                                            "content_type": "application/binary",
+                                            "edit_media": "Products('3a1e8b74-bb2f-4328-a092-f6e034ba6c3f')/$value",
+                                            "id": "Products('3a1e8b74-bb2f-4328-a092-f6e034ba6c3f')",
+                                            "media_src": "Products('3a1e8b74-bb2f-4328-a092-f6e034ba6c3f')/$value",
+                                            "uri": "Products('3a1e8b74-bb2f-4328-a092-f6e034ba6c3f')"
+                                        },
+                                        "Category": "Ink Jet Printers",
+                                        "CategoryName": "Ink Jet Printers",
+                                        "CurrencyCode": "EUR",
+                                        "DimensionDepth": "41.0000",
+                                        "DimensionHeight": "28.0000",
+                                        "DimensionUnit": "cm",
+                                        "DimensionWidth": "41.0000",
+                                        "LongDescription": "4800 dpi x 1200 dpi - up to 35 ppm (mono) / up to 34 ppm (color) - capacity: 250 sheets - Hi-Speed USB, Ethernet",
+                                        "Name": "Ultra Jet Super Color",
+                                        "PictureUrl": "/imgs/HT-1050.jpg",
+                                        "Price": "139.000",
+                                        "ProductId": "3a1e8b74-bb2f-4328-a092-f6e034ba6c3f",
+                                        "QuantityUnit": "EA",
+                                        "ShortDescription": "4800 dpi x 1200 dpi - up to 35 ppm (mono) / up to 34 ppm (color) - capacity: 250 sheets - Hi-Speed USB, Ethernet",
+                                        "StockDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('3a1e8b74-bb2f-4328-a092-f6e034ba6c3f')/StockDetails"
+                                            }
+                                        },
+                                        "SupplierDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('3a1e8b74-bb2f-4328-a092-f6e034ba6c3f')/SupplierDetails"
+                                            }
+                                        },
+                                        "SupplierId": "1fc741af-1aba-4bf6-b806-b6a1a5cc0245",
+                                        "UpdatedTimestamp": null,
+                                        "Weight": "3.000",
+                                        "WeightUnit": "KG"
+                                    },
+                                    {
+                                        "__metadata": {
+                                            "content_type": "application/binary",
+                                            "edit_media": "Products('86fd6f17-5aff-45ca-93d9-dc87cebdae17')/$value",
+                                            "id": "Products('86fd6f17-5aff-45ca-93d9-dc87cebdae17')",
+                                            "media_src": "Products('86fd6f17-5aff-45ca-93d9-dc87cebdae17')/$value",
+                                            "uri": "Products('86fd6f17-5aff-45ca-93d9-dc87cebdae17')"
+                                        },
+                                        "Category": "Keyboards",
+                                        "CategoryName": "Keyboards",
+                                        "CurrencyCode": "EUR",
+                                        "DimensionDepth": "25.0000",
+                                        "DimensionHeight": "3.0000",
+                                        "DimensionUnit": "cm",
+                                        "DimensionWidth": "52.0000",
+                                        "LongDescription": "Corded Keyboard with special keys for Internet Usability, USB",
+                                        "Name": "Internet Keyboard",
+                                        "PictureUrl": "/imgs/HT-1064.jpg",
+                                        "Price": "16.000",
+                                        "ProductId": "86fd6f17-5aff-45ca-93d9-dc87cebdae17",
+                                        "QuantityUnit": "EA",
+                                        "ShortDescription": "Corded Keyboard with special keys for Internet Usability, USB",
+                                        "StockDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('86fd6f17-5aff-45ca-93d9-dc87cebdae17')/StockDetails"
+                                            }
+                                        },
+                                        "SupplierDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('86fd6f17-5aff-45ca-93d9-dc87cebdae17')/SupplierDetails"
+                                            }
+                                        },
+                                        "SupplierId": "1fc741af-1aba-4bf6-b806-b6a1a5cc0245",
+                                        "UpdatedTimestamp": null,
+                                        "Weight": "1.800",
+                                        "WeightUnit": "KG"
+                                    },
+                                    {
+                                        "__metadata": {
+                                            "content_type": "application/binary",
+                                            "edit_media": "Products('a2563925-37d1-47ff-b28d-4748f5a1953c')/$value",
+                                            "id": "Products('a2563925-37d1-47ff-b28d-4748f5a1953c')",
+                                            "media_src": "Products('a2563925-37d1-47ff-b28d-4748f5a1953c')/$value",
+                                            "uri": "Products('a2563925-37d1-47ff-b28d-4748f5a1953c')"
+                                        },
+                                        "Category": "Graphic Cards",
+                                        "CategoryName": "Graphic Cards",
+                                        "CurrencyCode": "EUR",
+                                        "DimensionDepth": "35.0000",
+                                        "DimensionHeight": "17.0000",
+                                        "DimensionUnit": "cm",
+                                        "DimensionWidth": "22.0000",
+                                        "LongDescription": "Hurricane GX/LN: PCI-E 691 GFLOPS game-optimized, low-noise.",
+                                        "Name": "Hurricane GX/LN",
+                                        "PictureUrl": "/imgs/HT-1073.jpg",
+                                        "Price": "139.990",
+                                        "ProductId": "a2563925-37d1-47ff-b28d-4748f5a1953c",
+                                        "QuantityUnit": "EA",
+                                        "ShortDescription": "Hurricane GX/LN: PCI-E 691 GFLOPS game-optimized, low-noise.",
+                                        "StockDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('a2563925-37d1-47ff-b28d-4748f5a1953c')/StockDetails"
+                                            }
+                                        },
+                                        "SupplierDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('a2563925-37d1-47ff-b28d-4748f5a1953c')/SupplierDetails"
+                                            }
+                                        },
+                                        "SupplierId": "1fc741af-1aba-4bf6-b806-b6a1a5cc0245",
+                                        "UpdatedTimestamp": null,
+                                        "Weight": "0.400",
+                                        "WeightUnit": "KG"
+                                    },
+                                    {
+                                        "__metadata": {
+                                            "content_type": "application/binary",
+                                            "edit_media": "Products('fd9333df-f958-4d5b-adab-c7921313d9c1')/$value",
+                                            "id": "Products('fd9333df-f958-4d5b-adab-c7921313d9c1')",
+                                            "media_src": "Products('fd9333df-f958-4d5b-adab-c7921313d9c1')/$value",
+                                            "uri": "Products('fd9333df-f958-4d5b-adab-c7921313d9c1')"
+                                        },
+                                        "Category": "Software",
+                                        "CategoryName": "Software",
+                                        "CurrencyCode": "EUR",
+                                        "DimensionDepth": "6.5000",
+                                        "DimensionHeight": "2.1000",
+                                        "DimensionUnit": "cm",
+                                        "DimensionWidth": "15.0000",
+                                        "LongDescription": "Complete package, 1 User, Office Applications (word processing, spreadsheet, presentations)",
+                                        "Name": "Smart Office",
+                                        "PictureUrl": "/imgs/HT-1100.jpg",
+                                        "Price": "89.900",
+                                        "ProductId": "fd9333df-f958-4d5b-adab-c7921313d9c1",
+                                        "QuantityUnit": "EA",
+                                        "ShortDescription": "Complete package, 1 User, Office Applications (word processing, spreadsheet, presentations)",
+                                        "StockDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('fd9333df-f958-4d5b-adab-c7921313d9c1')/StockDetails"
+                                            }
+                                        },
+                                        "SupplierDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('fd9333df-f958-4d5b-adab-c7921313d9c1')/SupplierDetails"
+                                            }
+                                        },
+                                        "SupplierId": "1fc741af-1aba-4bf6-b806-b6a1a5cc0245",
+                                        "UpdatedTimestamp": null,
+                                        "Weight": "1.200",
+                                        "WeightUnit": "KG"
+                                    },
+                                    {
+                                        "__metadata": {
+                                            "content_type": "application/binary",
+                                            "edit_media": "Products('11131284-7ff1-4b8b-9e8f-c97ac91f5303')/$value",
+                                            "id": "Products('11131284-7ff1-4b8b-9e8f-c97ac91f5303')",
+                                            "media_src": "Products('11131284-7ff1-4b8b-9e8f-c97ac91f5303')/$value",
+                                            "uri": "Products('11131284-7ff1-4b8b-9e8f-c97ac91f5303')"
+                                        },
+                                        "Category": "Computer System Accessories",
+                                        "CategoryName": "Computer System Accessories",
+                                        "CurrencyCode": "EUR",
+                                        "DimensionDepth": "9.0000",
+                                        "DimensionHeight": "7.0000",
+                                        "DimensionUnit": "cm",
+                                        "DimensionWidth": "31.0000",
+                                        "LongDescription": "Robust 1m anti-burglary protection for your desktop computer",
+                                        "Name": "Notebook Lock",
+                                        "PictureUrl": "/imgs/HT-1111.jpg",
+                                        "Price": "6.900",
+                                        "ProductId": "11131284-7ff1-4b8b-9e8f-c97ac91f5303",
+                                        "QuantityUnit": "EA",
+                                        "ShortDescription": "Robust 1m anti-burglary protection for your desktop computer",
+                                        "StockDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('11131284-7ff1-4b8b-9e8f-c97ac91f5303')/StockDetails"
+                                            }
+                                        },
+                                        "SupplierDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('11131284-7ff1-4b8b-9e8f-c97ac91f5303')/SupplierDetails"
+                                            }
+                                        },
+                                        "SupplierId": "1fc741af-1aba-4bf6-b806-b6a1a5cc0245",
+                                        "UpdatedTimestamp": null,
+                                        "Weight": "0.020",
+                                        "WeightUnit": "KG"
+                                    },
+                                    {
+                                        "__metadata": {
+                                            "content_type": "application/binary",
+                                            "edit_media": "Products('54e5d393-648f-42c0-829d-f5cea51f94db')/$value",
+                                            "id": "Products('54e5d393-648f-42c0-829d-f5cea51f94db')",
+                                            "media_src": "Products('54e5d393-648f-42c0-829d-f5cea51f94db')/$value",
+                                            "uri": "Products('54e5d393-648f-42c0-829d-f5cea51f94db')"
+                                        },
+                                        "Category": "Flat Screen Monitors",
+                                        "CategoryName": "Flat Screen Monitors",
+                                        "CurrencyCode": "EUR",
+                                        "DimensionDepth": "22.0000",
+                                        "DimensionHeight": "38.0000",
+                                        "DimensionUnit": "cm",
+                                        "DimensionWidth": "54.0000",
+                                        "LongDescription": "Optimum Hi-Resolution max. 2048 × 1536 @ 85Hz, Dot Pitch: 0.24mm",
+                                        "Name": "Flat XXL",
+                                        "PictureUrl": "/imgs/HT-1137.jpg",
+                                        "Price": "1430.000",
+                                        "ProductId": "54e5d393-648f-42c0-829d-f5cea51f94db",
+                                        "QuantityUnit": "EA",
+                                        "ShortDescription": "Optimum Hi-Resolution max. 2048 × 1536 @ 85Hz, Dot Pitch: 0.24mm",
+                                        "StockDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('54e5d393-648f-42c0-829d-f5cea51f94db')/StockDetails"
+                                            }
+                                        },
+                                        "SupplierDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('54e5d393-648f-42c0-829d-f5cea51f94db')/SupplierDetails"
+                                            }
+                                        },
+                                        "SupplierId": "1fc741af-1aba-4bf6-b806-b6a1a5cc0245",
+                                        "UpdatedTimestamp": null,
+                                        "Weight": "18.000",
+                                        "WeightUnit": "KG"
+                                    },
+                                    {
+                                        "__metadata": {
+                                            "content_type": "application/binary",
+                                            "edit_media": "Products('116ad290-d7a1-4300-8f33-df7eee8ee98e')/$value",
+                                            "id": "Products('116ad290-d7a1-4300-8f33-df7eee8ee98e')",
+                                            "media_src": "Products('116ad290-d7a1-4300-8f33-df7eee8ee98e')/$value",
+                                            "uri": "Products('116ad290-d7a1-4300-8f33-df7eee8ee98e')"
+                                        },
+                                        "Category": "PDAs & Organizers",
+                                        "CategoryName": "PDAs & Organizers",
+                                        "CurrencyCode": "EUR",
+                                        "DimensionDepth": "13.0000",
+                                        "DimensionHeight": "12.1000",
+                                        "DimensionUnit": "cm",
+                                        "DimensionWidth": "8.1000",
+                                        "LongDescription": "Our new multifunctional Handheld with phone function in platinum",
+                                        "Name": "Platinberry",
+                                        "PictureUrl": "/imgs/HT-7030.jpg",
+                                        "Price": "549.000",
+                                        "ProductId": "116ad290-d7a1-4300-8f33-df7eee8ee98e",
+                                        "QuantityUnit": "EA",
+                                        "ShortDescription": "Our new multifunctional Handheld with phone function in platinum",
+                                        "StockDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('116ad290-d7a1-4300-8f33-df7eee8ee98e')/StockDetails"
+                                            }
+                                        },
+                                        "SupplierDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('116ad290-d7a1-4300-8f33-df7eee8ee98e')/SupplierDetails"
+                                            }
+                                        },
+                                        "SupplierId": "1fc741af-1aba-4bf6-b806-b6a1a5cc0245",
+                                        "UpdatedTimestamp": null,
+                                        "Weight": "0.500",
+                                        "WeightUnit": "KG"
+                                    },
+                                    {
+                                        "__metadata": {
+                                            "content_type": "application/binary",
+                                            "edit_media": "Products('0ea731fd-bb51-4ed2-9fed-26f031addbf8')/$value",
+                                            "id": "Products('0ea731fd-bb51-4ed2-9fed-26f031addbf8')",
+                                            "media_src": "Products('0ea731fd-bb51-4ed2-9fed-26f031addbf8')/$value",
+                                            "uri": "Products('0ea731fd-bb51-4ed2-9fed-26f031addbf8')"
+                                        },
+                                        "Category": "MP3 Players",
+                                        "CategoryName": "MP3 Players",
+                                        "CurrencyCode": "EUR",
+                                        "DimensionDepth": "8.0000",
+                                        "DimensionHeight": "9.2000",
+                                        "DimensionUnit": "cm",
+                                        "DimensionWidth": "5.1000",
+                                        "LongDescription": "ITelo Jog-Mate 64 GB HDD and Color Display, can play movies",
+                                        "Name": "ITelo Jog-Mate",
+                                        "PictureUrl": "/imgs/HT-6121.jpg",
+                                        "Price": "63.000",
+                                        "ProductId": "0ea731fd-bb51-4ed2-9fed-26f031addbf8",
+                                        "QuantityUnit": "EA",
+                                        "ShortDescription": "ITelo Jog-Mate 64 GB HDD and Color Display, can play movies",
+                                        "StockDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('0ea731fd-bb51-4ed2-9fed-26f031addbf8')/StockDetails"
+                                            }
+                                        },
+                                        "SupplierDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('0ea731fd-bb51-4ed2-9fed-26f031addbf8')/SupplierDetails"
+                                            }
+                                        },
+                                        "SupplierId": "1fc741af-1aba-4bf6-b806-b6a1a5cc0245",
+                                        "UpdatedTimestamp": null,
+                                        "Weight": "134.000",
+                                        "WeightUnit": "G"
+                                    },
+                                    {
+                                        "__metadata": {
+                                            "content_type": "application/binary",
+                                            "edit_media": "Products('f851ea65-3fd4-4966-b6e1-c6e140c02563')/$value",
+                                            "id": "Products('f851ea65-3fd4-4966-b6e1-c6e140c02563')",
+                                            "media_src": "Products('f851ea65-3fd4-4966-b6e1-c6e140c02563')/$value",
+                                            "uri": "Products('f851ea65-3fd4-4966-b6e1-c6e140c02563')"
+                                        },
+                                        "Category": "Computer System Accessories",
+                                        "CategoryName": "Computer System Accessories",
+                                        "CurrencyCode": "EUR",
+                                        "DimensionDepth": "10.2000",
+                                        "DimensionHeight": "13.0000",
+                                        "DimensionUnit": "cm",
+                                        "DimensionWidth": "21.0000",
+                                        "LongDescription": "Quality cables for notebooks and projectors",
+                                        "Name": "Audio/Video Cable Kit - 4m",
+                                        "PictureUrl": "/imgs/HT-2026.jpg",
+                                        "Price": "29.990",
+                                        "ProductId": "f851ea65-3fd4-4966-b6e1-c6e140c02563",
+                                        "QuantityUnit": "EA",
+                                        "ShortDescription": "Quality cables for notebooks and projectors",
+                                        "StockDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('f851ea65-3fd4-4966-b6e1-c6e140c02563')/StockDetails"
+                                            }
+                                        },
+                                        "SupplierDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('f851ea65-3fd4-4966-b6e1-c6e140c02563')/SupplierDetails"
+                                            }
+                                        },
+                                        "SupplierId": "1fc741af-1aba-4bf6-b806-b6a1a5cc0245",
+                                        "UpdatedTimestamp": null,
+                                        "Weight": "0.200",
+                                        "WeightUnit": "KG"
+                                    },
+                                    {
+                                        "__metadata": {
+                                            "content_type": "application/binary",
+                                            "edit_media": "Products('5b422ff5-4dee-457e-9b4b-5e8c9cb7bbfa')/$value",
+                                            "id": "Products('5b422ff5-4dee-457e-9b4b-5e8c9cb7bbfa')",
+                                            "media_src": "Products('5b422ff5-4dee-457e-9b4b-5e8c9cb7bbfa')/$value",
+                                            "uri": "Products('5b422ff5-4dee-457e-9b4b-5e8c9cb7bbfa')"
+                                        },
+                                        "Category": "Notebooks",
+                                        "CategoryName": "Notebooks",
+                                        "CurrencyCode": "EUR",
+                                        "DimensionDepth": "19.0000",
+                                        "DimensionHeight": "3.1000",
+                                        "DimensionUnit": "cm",
+                                        "DimensionWidth": "31.0000",
+                                        "LongDescription": "Notebook with 2,80 GHz dual core, 4 GB DDR3 SDRAM, 500 GB Hard Disc, Windows 8",
+                                        "Name": "ITelO FlexTop I4000",
+                                        "PictureUrl": "/imgs/HT-8000.jpg",
+                                        "Price": "799.000",
+                                        "ProductId": "5b422ff5-4dee-457e-9b4b-5e8c9cb7bbfa",
+                                        "QuantityUnit": "EA",
+                                        "ShortDescription": "Notebook with 2,80 GHz dual core, 4 GB DDR3 SDRAM, 500 GB Hard Disc, Windows 8",
+                                        "StockDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('5b422ff5-4dee-457e-9b4b-5e8c9cb7bbfa')/StockDetails"
+                                            }
+                                        },
+                                        "SupplierDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('5b422ff5-4dee-457e-9b4b-5e8c9cb7bbfa')/SupplierDetails"
+                                            }
+                                        },
+                                        "SupplierId": "1fc741af-1aba-4bf6-b806-b6a1a5cc0245",
+                                        "UpdatedTimestamp": null,
+                                        "Weight": "4.000",
+                                        "WeightUnit": "KG"
+                                    },
+                                    {
+                                        "__metadata": {
+                                            "content_type": "application/binary",
+                                            "edit_media": "Products('f69d8be6-3d82-499b-b0cc-8371c2c64d10')/$value",
+                                            "id": "Products('f69d8be6-3d82-499b-b0cc-8371c2c64d10')",
+                                            "media_src": "Products('f69d8be6-3d82-499b-b0cc-8371c2c64d10')/$value",
+                                            "uri": "Products('f69d8be6-3d82-499b-b0cc-8371c2c64d10')"
+                                        },
+                                        "Category": "Accessories",
+                                        "CategoryName": "Accessories",
+                                        "CurrencyCode": "EUR",
+                                        "DimensionDepth": "31.0000",
+                                        "DimensionHeight": "4.5000",
+                                        "DimensionUnit": "cm",
+                                        "DimensionWidth": "48.0000",
+                                        "LongDescription": "Durable high quality plastic bump-sleeve, lightweight, protects from scratches, rubber coating, multiple colors available, Accurate design and cut-outs for your device, snap-on design",
+                                        "Name": "Smartphone Cover",
+                                        "PictureUrl": "/imgs/HT-9995.jpg",
+                                        "Price": "15.000",
+                                        "ProductId": "f69d8be6-3d82-499b-b0cc-8371c2c64d10",
+                                        "QuantityUnit": "EA",
+                                        "ShortDescription": "Durable high quality plastic bump-sleeve, lightweight, protects from scratches, rubber coating, multiple colors available, Accurate design and cut-outs for your device, snap-on design",
+                                        "StockDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('f69d8be6-3d82-499b-b0cc-8371c2c64d10')/StockDetails"
+                                            }
+                                        },
+                                        "SupplierDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('f69d8be6-3d82-499b-b0cc-8371c2c64d10')/SupplierDetails"
+                                            }
+                                        },
+                                        "SupplierId": "1fc741af-1aba-4bf6-b806-b6a1a5cc0245",
+                                        "UpdatedTimestamp": null,
+                                        "Weight": "0.020",
+                                        "WeightUnit": "KG"
+                                    },
+                                    {
+                                        "__metadata": {
+                                            "content_type": "application/binary",
+                                            "edit_media": "Products('e023e8aa-b97e-439f-bd88-0609c9579400')/$value",
+                                            "id": "Products('e023e8aa-b97e-439f-bd88-0609c9579400')",
+                                            "media_src": "Products('e023e8aa-b97e-439f-bd88-0609c9579400')/$value",
+                                            "uri": "Products('e023e8aa-b97e-439f-bd88-0609c9579400')"
+                                        },
+                                        "Category": "Flat Screen Monitors",
+                                        "CategoryName": "Flat Screen Monitors",
+                                        "CurrencyCode": "EUR",
+                                        "DimensionDepth": "12.0000",
+                                        "DimensionHeight": "38.0000",
+                                        "DimensionUnit": "cm",
+                                        "DimensionWidth": "39.0000",
+                                        "LongDescription": "Optimum Hi-Resolution Widescreen max. 2048 x 1080 @ 85Hz, Dot Pitch: 0.27mm, HDMI, D-Sub",
+                                        "Name": "Broad Screen 22HD",
+                                        "PictureUrl": "/imgs/HT-1255-RIGHT.jpg",
+                                        "Price": "270.000",
+                                        "ProductId": "e023e8aa-b97e-439f-bd88-0609c9579400",
+                                        "QuantityUnit": "EA",
+                                        "ShortDescription": "Optimum Hi-Resolution Widescreen max. 2048 x 1080 @ 85Hz, Dot Pitch: 0.27mm, HDMI, D-Sub",
+                                        "StockDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('e023e8aa-b97e-439f-bd88-0609c9579400')/StockDetails"
+                                            }
+                                        },
+                                        "SupplierDetails": {
+                                            "__deferred": {
+                                                "uri": "Products('e023e8aa-b97e-439f-bd88-0609c9579400')/SupplierDetails"
+                                            }
+                                        },
+                                        "SupplierId": "1fc741af-1aba-4bf6-b806-b6a1a5cc0245",
+                                        "UpdatedTimestamp": null,
+                                        "Weight": "16.000",
+                                        "WeightUnit": "KG"
+                                    }
+                                ]
+                            },
+                            "PurchaseOrders": {
+                                "__deferred": {
+                                    "uri": "Suppliers('1fc741af-1aba-4bf6-b806-b6a1a5cc0245')/PurchaseOrders"
+                                }
+                            }
+                        }
+                    ]
+                }
+            }
+        }
+    ]
+}

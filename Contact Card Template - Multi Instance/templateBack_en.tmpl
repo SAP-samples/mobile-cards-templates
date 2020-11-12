@@ -1,0 +1,36 @@
+
+<body>
+    <div id="mySimpleTemplate" class="myTemplate" data-type="text/x-handlebars-template">
+        <br><br><br>
+        <div class="backCard-content">
+                        <div style="font-size: large; color: #000000;">
+                <b>Product List</b>
+            </div>
+            <br>
+                <div class="desciprtion">
+              <div>
+                 <span class="d-title">
+                    Name
+                 </span>
+                 <span class="d-title-a">
+                    Amount
+                 </span>
+                 </div>
+            <div>
+                 <hr>
+                 {{#each dataSets.[1].data.d.results.[0].Products.results}}
+                 <span>
+                     {{Name}}
+                 </span>
+                 <span style="float:right;">
+                     {{Price}}
+                         {{CurrencyCode}}
+                 </span>
+                <div style="clear:both; height: 10px;">
+                </div>
+                 {{/each}}
+         </div>
+ 
+        </div>
+    </div>
+</body>

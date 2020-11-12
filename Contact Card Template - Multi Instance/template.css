@@ -56,3 +56,12 @@
     margin-top: -8px;
     padding-right: 16px;
 }
+
+.desciprtion .d-title{
+font-weight: bold;
+}
+
+.desciprtion .d-title-a{
+font-weight: bold;
+float:right;
+}
