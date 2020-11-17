@@ -66,6 +66,5 @@
 	],
 	"Connection": "com.sap.edm.sampleservice.v2",
 	"Name": "Supplier Contact Card",
-	"Uri": "",
 	"Shared": true
 }
