@@ -125,7 +125,6 @@
 	"SubscribableTo": {
 		"Users": []
 	},
-	"Uri": "",
 	"Shared": false,
 	"DescriptionEnglish": "Sales Orders Created for Approval"
 }
