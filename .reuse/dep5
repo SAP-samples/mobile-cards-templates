@@ -1,8 +1,7 @@
 Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: mobile-cards-templates
-Upstream-Contact: Sandeep T D S; Sami Lechner <sandeep.tds@sap.com; sami.lechner@sap.com>
+Upstream-Contact: SANDEEP T D S (sandeep.tds@sap.com)
 Source: https://github.com/SAP-samples/mobile-cards-templates
-
 Disclaimer: The code in this project may include calls to APIs (“API Calls”) of
  SAP or third-party products or services developed outside of this project
  (“External Products”).
@@ -25,6 +24,6 @@ Disclaimer: The code in this project may include calls to APIs (“API Calls”)
  you any rights to use or access any SAP External Product, or provide any third
  parties the right to use of access any SAP External Product, through API Calls.
 
-Files: */*
-Copyright: 2020-Present SAP SE or an SAP affiliate company and mobile-cards-templates
+Files: *
+Copyright: 2020 SAP SE or an SAP affiliate company and mobile-cards-templates
 License: Apache-2.0

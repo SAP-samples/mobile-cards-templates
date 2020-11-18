@@ -49,6 +49,5 @@
     ],
     "Connection": "SFDEMO_APIHUB",
     "Name": "MyToDos",
-    "Uri": "",
     "Shared": false
 }

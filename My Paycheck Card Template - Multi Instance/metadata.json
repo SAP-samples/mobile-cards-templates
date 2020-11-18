@@ -67,6 +67,5 @@
     ],
     "Connection": "com.sap.it.flp",
     "Name": "Paystubs - Overview",
-    "Uri": "",
     "Shared": false
 }

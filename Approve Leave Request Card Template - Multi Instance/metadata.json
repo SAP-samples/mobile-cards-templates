@@ -137,6 +137,5 @@
     ],
     "Connection": "com.sap.it.flp",
     "Name": "Approve Leave Request",
-    "Uri": "",
     "Shared": false
 }
