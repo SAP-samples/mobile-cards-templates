@@ -220,7 +220,7 @@
             "Uri": "/sap/fiori/hcmfabmyleavrequestext/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/CalculateQuotaAvailable?AbsenceTypeCode=%27${absenceTypeCode}%27&EmployeeID=%27${pernr}%27&InfoType=%27${InfoType}%27"
         }
     ],
-    "Connection": "com.sap.it.flp",
+    "Connection": "com.sap.edm.sampleservice.v2",
     "Name": "Leave Request Absence History",
     "Uri": "/sap/fiori/hcmfabmyleavrequestext/sap/opu/odata/sap/HCMFAB_LEAVE_REQUEST_CR_SRV/ConfigurationSet?$select=EmployeeID",
     "Shared": true

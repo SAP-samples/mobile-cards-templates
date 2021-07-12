@@ -54,7 +54,7 @@
             "Uri": "/sap/fiori/lunchmenu/api/client/lunch?catererName=FEILWDF"
         }
     ],
-    "Connection": "com.sap.it.flp",
+    "Connection": "com.sap.edm.sampleservice.v2",
     "Name": "Lunch Menu",
     "Uri": "/sap/fiori/lunchmenu/api/client/lunch?catererName=FEILWDF",
     "Shared": true

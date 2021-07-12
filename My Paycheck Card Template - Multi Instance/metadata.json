@@ -65,7 +65,7 @@
             "Shared": false
         }
     ],
-    "Connection": "com.sap.it.flp",
+    "Connection": "com.sap.edm.sampleservice.v2",
     "Name": "Paystubs - Overview",
     "Shared": false
 }
