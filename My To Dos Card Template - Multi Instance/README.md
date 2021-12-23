@@ -6,16 +6,16 @@ To Do card let's you put your action items in your pocket. Each To Do appears as
 
 ## URL
 
-The default connection of the card template must be configured in Mobile Services Cockpit.
+The default connection of the card template must be configured in SAP Mobile Services Cockpit.
 
 However, you can still experience how the card would function on your mobile device.
 You can change the lifecycle status of your card to [Prototype Mode](https://help.sap.com/doc/f53c64b93e5140918d676b927a3cd65b/Cloud/en-US/docs-en/guides/getting-started/mck/mck-managing-cards.html#prototype) to visualize the data from `userdata.json` file.
 
-### Deploying The Card As A Prototype Card From Business Application Studio
+### Deploying the card as a Prototype Card from SAP Business Application Studio
 
 ![ToDo Card Android Screenshot](screens/deploy-prototype-BAS.png)
 
-### Making The Card A Prototype Card on Mobile Services Cockpit
+### Making the card a Prototype card on SAP Mobile Services Cockpit
 
 ![ToDo Card Android Screenshot](screens/deploy-prototype-mobile-services-cockpit.png)
 

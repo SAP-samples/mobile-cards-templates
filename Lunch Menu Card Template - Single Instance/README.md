@@ -11,11 +11,11 @@ You can change the lifecycle status of your card to Prototype Mode to visualize 
 
 You can also create your own sample service by following the exercises given in the openSAP course '[Build Mobile Applications with SAP Cloud Platform Mobile Services](https://open.sap.com/courses/mobile3/items/4FJCVzyMnrDRsOWJ5MZuIY)'.
 
-### Deploying The Card As A Prototype From Business Application Studio
+### Deploying the card as a Prototype from SAP Business Application Studio
 
 ![Lunch Menu Card Business Application Studio Screenshot](screens/deploy-prototype-BAS.png)
 
-### Making The Card A Prototype Card on Mobile Services Cockpit 
+### Making the card a Prototype card on SAP Mobile Services Cockpit 
 
 ![Lunch Menu Card Mobile Services Cockpit Screenshot](screens/deploy-prototype-mobile-services-cockpit.png)
 

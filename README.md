@@ -2,7 +2,7 @@
 
 ## Description
 
-SAP Mobile Cards is an offering from SAP Cloud Platform Mobile Services that can package key business information into containerized micro apps, allowing end users to access and interact with that information in a responsive, native manner on their mobile devices.
+SAP Mobile Cards is an offering from SAP Mobile Services that can package key business information into containerized micro apps, allowing end users to access and interact with that information in a responsive, native manner on their mobile devices.
 
 Templates provided in this repository help developers realize the power of SAP Mobile Cards and accelerate the development process.
 
@@ -18,23 +18,25 @@ Current list of templates:
 | 6. | [My Time Sheet Card](/My%20Time%20Sheet%20Card%20Template%20-%20Single%20Instance) | Single Instance |
 | 7. | [My To Do Card](/My%20To%20Dos%20Card%20Template%20-%20Multi%20Instance) | Multi Instance |
 | 8. | [Product Card](/Product%20Card%20Template%20-%20Single%20Instance) | Single Instance |
-| 9. | [Sales Order Card](/Sales%20Order%20Card%20Template%20-%20Multi%20Instance) | Multi Instance|
+| 9. | [Sales Order Approval Card](/Sales%20Order%20Approval%20Card%20-%20Multi%20Instance) | Multi Instance |
 | 10. | [Welcome Card](/Welcome%20Card%20Template%20-%20Single%20Instance) | Single Instance |
 
 ## Requirements
 
-* SAP Cloud Platform Account.
-    [Click here to create a trial account.](https://developers.sap.com/tutorials/hcp-create-trial-account.html)
-* Access to SAP Cloud Platform Mobile Services.
-    [Click here to access mobile services on your trial account.](https://developers.sap.com/tutorials/cp-mobile-cards-setup.html)
+* SAP Business Technology Platform (BTP) Free Trial or Free Tier Account.
+    [Click here to get an SAP BTP Account for Tutorials.](https://developers.sap.com/tutorials/btp-cockpit-setup.html)
+* Access to SAP Mobile Services and Setup for SAP Mobile Cards.
+    [Click here to setup SAP Mobile Cards on your SAP BTP Account.](https://developers.sap.com/tutorials/cp-mobile-cards-setup.html)
 * Access to SAP Business Application Studio.
-    [Click here to access application studio on your trial account.](https://developers.sap.com/tutorials/cp-mobile-cards-setup.html)
+    [Click here to access SAP Business Application Studio on your SAP BTP Account.](https://developers.sap.com/tutorials/appstudio-onboarding.html)
+* Setup SAP Business Application Studio for Multi-Channel Development.
+    [Click here to setup SAP Business Application Studio for Multi-Channel Development.](https://developers.sap.com/tutorials/cp-mobile-bas-setup.html)
 * SAP Mobile Cards Client on your Mobile Device.
     [Android](https://play.google.com/store/apps/details?id=com.sap.content2go&hl=en_IN) | [iOS](https://apps.apple.com/us/app/sap-mobile-cards/id1168110623)
 
 ## Download and Installation
 
-SAP Mobile Card Templates are directly available for consumption to a developer developing cards in SAP Business Application Studio. Please click here to [set-up your Business Application Studio](https://developers.sap.com/tutorials/appstudio-onboarding.html).
+SAP Mobile Card Templates are directly available for consumption to a developer developing cards in SAP Mobile Application dev space of SAP Business Application Studio. 
 
 ## Known Issues
 
