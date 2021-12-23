@@ -28,13 +28,15 @@ Current list of templates:
 * Access to SAP Mobile Services and Setup for SAP Mobile Cards.
     [Click here to access mobile services on your trial account.](https://developers.sap.com/tutorials/cp-mobile-cards-setup.html)
 * Access to SAP Business Application Studio.
-    [Click here to access application studio on your trial account.](https://developers.sap.com/tutorials/cp-mobile-bas-setup.html)
+    [Click here to access SAP Business Application Studio on your SAP BTP Account.](https://developers.sap.com/tutorials/appstudio-onboarding.html)
+* Setup SAP Business Application Studio for Multi-Channel Development.
+    [Click here to setup SAP Business Application Studio for Multi-Channel Development.](https://developers.sap.com/tutorials/cp-mobile-bas-setup.html)
 * SAP Mobile Cards Client on your Mobile Device.
     [Android](https://play.google.com/store/apps/details?id=com.sap.content2go&hl=en_IN) | [iOS](https://apps.apple.com/us/app/sap-mobile-cards/id1168110623)
 
 ## Download and Installation
 
-SAP Mobile Card Templates are directly available for consumption to a developer developing cards in SAP Business Application Studio. Please click here to [set-up your Business Application Studio](https://developers.sap.com/tutorials/appstudio-onboarding.html).
+SAP Mobile Card Templates are directly available for consumption to a developer developing cards in SAP Mobile Application dev space of SAP Business Application Studio. 
 
 ## Known Issues
 
