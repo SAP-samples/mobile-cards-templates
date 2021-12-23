@@ -23,10 +23,10 @@ Current list of templates:
 
 ## Requirements
 
-* SAP Business Technology Platform Free Trial or Free Tier Account.
+* SAP Business Technology Platform (BTP) Free Trial or Free Tier Account.
     [Click here to get an SAP BTP Account for Tutorials.](https://developers.sap.com/tutorials/btp-cockpit-setup.html)
 * Access to SAP Mobile Services and Setup for SAP Mobile Cards.
-    [Click here to access mobile services on your trial account.](https://developers.sap.com/tutorials/cp-mobile-cards-setup.html)
+    [Click here to setup SAP Mobile Cards on your SAP BTP Account.](https://developers.sap.com/tutorials/cp-mobile-cards-setup.html)
 * Access to SAP Business Application Studio.
     [Click here to access SAP Business Application Studio on your SAP BTP Account.](https://developers.sap.com/tutorials/appstudio-onboarding.html)
 * Setup SAP Business Application Studio for Multi-Channel Development.
