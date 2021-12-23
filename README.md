@@ -18,7 +18,7 @@ Current list of templates:
 | 6. | [My Time Sheet Card](/My%20Time%20Sheet%20Card%20Template%20-%20Single%20Instance) | Single Instance |
 | 7. | [My To Do Card](/My%20To%20Dos%20Card%20Template%20-%20Multi%20Instance) | Multi Instance |
 | 8. | [Product Card](/Product%20Card%20Template%20-%20Single%20Instance) | Single Instance |
-| 9. | [Sales Order Card](/Sales%20Order%20Card%20Template%20-%20Multi%20Instance) | Multi Instance|
+| 9. | [Sales Order Approval Card](/Sales%20Order%20Approval%20Card%20-%20Multi%20Instance) | Multi Instance |
 | 10. | [Welcome Card](/Welcome%20Card%20Template%20-%20Single%20Instance) | Single Instance |
 
 ## Requirements
