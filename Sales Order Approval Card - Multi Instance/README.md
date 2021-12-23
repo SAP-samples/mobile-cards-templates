@@ -1,4 +1,4 @@
-# SalesOrderHeaders Card
+# Sales Order Approval Card
 
 ## Description
 
