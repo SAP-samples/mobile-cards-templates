@@ -15,7 +15,7 @@ You can change the lifecycle status of your card to [Prototype Mode](https://hel
 
 ![My Paycheck Card Business Application Studio Screenshot](screens/deploy-prototype-BAS.png)
 
-### Making the card a Prototype Card on SAP Mobile Services Cockpit
+### Making the card a Prototype card on SAP Mobile Services Cockpit
 
 ![My Paycheck Card Mobile Services Cockpit Screenshot](screens/deploy-prototype-mobile-services-cockpit.png)
 
