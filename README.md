@@ -1,5 +1,7 @@
 # SAP Mobile Cards Templates
 
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/mobile-cards-templates)](https://api.reuse.software/info/github.com/SAP-samples/mobile-cards-templates)
+
 ## Description
 
 SAP Mobile Cards is an offering from SAP Mobile Services that can package key business information into containerized micro apps, allowing end users to access and interact with that information in a responsive, native manner on their mobile devices.
